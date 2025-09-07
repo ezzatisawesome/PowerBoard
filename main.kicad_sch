@@ -5,4 +5,46 @@
 	(uuid "3ba35cb8-1859-462d-9588-130dc7519363")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 116.84 71.12)
+		(size 15.24 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0cef1f69-ed1d-4f02-ab28-a001d17f862e")
+		(property "Sheetname" "boost_frontend"
+			(at 116.84 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_frontend.kicad_sch"
+			(at 116.84 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "4")
+				)
+			)
+		)
+	)
 )
