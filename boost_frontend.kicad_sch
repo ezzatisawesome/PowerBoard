@@ -2795,6 +2795,10 @@
 					(reference "C8")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2954,6 +2958,10 @@
 					(reference "R1")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "R1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3108,6 +3116,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "C1")
 					(unit 1)
 				)
@@ -3269,6 +3281,10 @@
 					(reference "L3")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "L3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3333,6 +3349,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -3493,6 +3513,10 @@
 					(reference "C14")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C14")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3650,6 +3674,10 @@
 					(reference "FB1")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "FB1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3713,6 +3741,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -3875,6 +3907,10 @@
 					(reference "C2")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3939,6 +3975,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -4008,6 +4048,10 @@
 					(reference "#PWR012")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "#PWR012")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4074,6 +4118,10 @@
 					(reference "#PWR01")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "#PWR01")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4137,6 +4185,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -4297,6 +4349,10 @@
 					(reference "R2")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "R2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4361,6 +4417,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -4524,6 +4584,10 @@
 					(reference "C15")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C15")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4678,6 +4742,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "C16")
 					(unit 1)
 				)
@@ -4840,6 +4908,10 @@
 					(reference "C5")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4999,6 +5071,10 @@
 					(reference "C7")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C7")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5069,6 +5145,10 @@
 					(reference "C9")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C9")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5136,6 +5216,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "C12")
 					(unit 1)
 				)
@@ -5296,6 +5380,10 @@
 					(reference "C6")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5359,6 +5447,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -5519,6 +5611,10 @@
 					(reference "L1")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "L1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5676,6 +5772,10 @@
 					(reference "C3")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5739,6 +5839,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -5809,6 +5913,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "C13")
 					(unit 1)
 				)
@@ -5970,6 +6078,10 @@
 					(reference "R3")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "R3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6037,6 +6149,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "C11")
 					(unit 1)
 				)
@@ -6197,6 +6313,10 @@
 					(reference "C4")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6264,6 +6384,10 @@
 					(reference "#PWR011")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "#PWR011")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6328,6 +6452,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -6401,6 +6529,10 @@
 					(reference "C10")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
+					(reference "C10")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6464,6 +6596,10 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -6693,6 +6829,10 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1"
 					(reference "U1")
 					(unit 1)
 				)

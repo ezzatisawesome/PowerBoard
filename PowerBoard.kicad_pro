@@ -423,11 +423,39 @@
     ],
     [
       "0cef1f69-ed1d-4f02-ab28-a001d17f862e",
-      "boost_frontend"
+      "boost_frontend_a"
     ],
     [
       "09b4163a-819e-413e-b808-030375832f4a",
-      "boost_control"
+      "boost_control_a"
+    ],
+    [
+      "d1c21149-ce86-4764-be81-965c3e4dd332",
+      "mcu"
+    ],
+    [
+      "5ab37dee-300b-447e-9b13-e5d50b13d849",
+      "boost_load_sw_b"
+    ],
+    [
+      "68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1",
+      "boost_frontend_b"
+    ],
+    [
+      "3068c1f6-122c-49ae-9c21-f8ebc0263ff5",
+      "boost_in_sns_b"
+    ],
+    [
+      "84126d6b-9224-455f-9cea-3582a8eebe20",
+      "boost_control_b"
+    ],
+    [
+      "b9213479-bc9a-4fd6-a1a6-404b21448f58",
+      "boost_load_sw_a"
+    ],
+    [
+      "f48ac83e-9a77-49aa-aabc-f4682142862d",
+      "boost_in_sns_a"
     ]
   ],
   "text_variables": {}

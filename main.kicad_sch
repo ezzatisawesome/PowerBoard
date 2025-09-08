@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 142.24 76.2)
-		(size 12.7 7.62)
+		(at 82.55 88.9)
+		(size 12.7 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "09b4163a-819e-413e-b808-030375832f4a")
-		(property "Sheetname" "boost_control"
-			(at 142.24 75.4884 0)
+		(property "Sheetname" "boost_control_a"
+			(at 82.55 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "boost_control.kicad_sch"
-			(at 142.24 84.4046 0)
+			(at 82.55 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 71.12)
-		(size 15.24 17.78)
+		(at 67.31 62.23)
+		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -63,8 +63,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0cef1f69-ed1d-4f02-ab28-a001d17f862e")
-		(property "Sheetname" "boost_frontend"
-			(at 116.84 70.4084 0)
+		(property "Sheetname" "boost_frontend_a"
+			(at 67.31 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "boost_frontend.kicad_sch"
-			(at 116.84 89.4846 0)
+			(at 67.31 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,7 @@
 			)
 		)
 		(pin "PANEL_IN" input
-			(at 116.84 74.93 180)
+			(at 67.31 66.04 180)
 			(uuid "2fa6a300-4fd3-4dd7-b33e-702ed84ea4c8")
 			(effects
 				(font
@@ -92,7 +92,7 @@
 			)
 		)
 		(pin "BOOST_EN" input
-			(at 116.84 78.74 180)
+			(at 67.31 69.85 180)
 			(uuid "d4f39f2c-8f08-44be-8b1b-df3afa95c2eb")
 			(effects
 				(font
@@ -102,7 +102,7 @@
 			)
 		)
 		(pin "BOOST_FB" input
-			(at 116.84 82.55 180)
+			(at 67.31 73.66 180)
 			(uuid "2dce7bbe-6aa4-4442-a349-e995daf7197e")
 			(effects
 				(font
@@ -112,7 +112,7 @@
 			)
 		)
 		(pin "POWER_GOOD" output
-			(at 116.84 86.36 180)
+			(at 67.31 77.47 180)
 			(uuid "278f20dd-5f8a-4524-8c20-2a42eb7f65da")
 			(effects
 				(font
@@ -125,6 +125,300 @@
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 125.73)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3068c1f6-122c-49ae-9c21-f8ebc0263ff5")
+		(property "Sheetname" "boost_in_sns_b"
+			(at 38.1 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_in_sns.kicad_sch"
+			(at 38.1 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 125.73)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ab37dee-300b-447e-9b13-e5d50b13d849")
+		(property "Sheetname" "boost_load_sw_b"
+			(at 114.3 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_load_sw.kicad_sch"
+			(at 114.3 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 120.65)
+		(size 27.94 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1")
+		(property "Sheetname" "boost_frontend_b"
+			(at 67.31 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_frontend.kicad_sch"
+			(at 67.31 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 102.87)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84126d6b-9224-455f-9cea-3582a8eebe20")
+		(property "Sheetname" "boost_control_b"
+			(at 82.55 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_control.kicad_sch"
+			(at 82.55 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 67.31)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9213479-bc9a-4fd6-a1a6-404b21448f58")
+		(property "Sheetname" "boost_load_sw_a"
+			(at 114.3 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_load_sw.kicad_sch"
+			(at 114.3 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1c21149-ce86-4764-be81-965c3e4dd332")
+		(property "Sheetname" "mcu"
+			(at 114.3 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 114.3 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 66.04)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f48ac83e-9a77-49aa-aabc-f4682142862d")
+		(property "Sheetname" "boost_in_sns_a"
+			(at 38.1 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_in_sns.kicad_sch"
+			(at 38.1 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "11")
 				)
 			)
 		)
