@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 142.24 76.2)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09b4163a-819e-413e-b808-030375832f4a")
+		(property "Sheetname" "boost_control"
+			(at 142.24 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_control.kicad_sch"
+			(at 142.24 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 116.84 71.12)
 		(size 15.24 17.78)
 		(exclude_from_sim no)
@@ -37,6 +79,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PANEL_IN" input
+			(at 116.84 74.93 180)
+			(uuid "2fa6a300-4fd3-4dd7-b33e-702ed84ea4c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOST_EN" input
+			(at 116.84 78.74 180)
+			(uuid "d4f39f2c-8f08-44be-8b1b-df3afa95c2eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOST_FB" input
+			(at 116.84 82.55 180)
+			(uuid "2dce7bbe-6aa4-4442-a349-e995daf7197e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_GOOD" output
+			(at 116.84 86.36 180)
+			(uuid "278f20dd-5f8a-4524-8c20-2a42eb7f65da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

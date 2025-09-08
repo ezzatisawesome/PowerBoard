@@ -1,4 +1,4 @@
-26651546199411897
+26653303530096947
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106252,24 +106252,31 @@ Varistor VF
 0
 2
 2
-_LT8342
+_Power_Board
 05-08-7040_ADI
 
 LT8342RV-TRMPBF 
 0
 29
 29
-_LT8342
+_Power_Board
 05-08-7040_ADI-L
 
 LT8342RV-TRMPBF 
 0
 29
 29
-_LT8342
+_Power_Board
 05-08-7040_ADI-M
 
 LT8342RV-TRMPBF 
 0
 29
 29
+_Power_Board
+IND_SER2918H-333KL
+
+
+0
+3
+3

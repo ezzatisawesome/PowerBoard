@@ -424,6 +424,10 @@
     [
       "0cef1f69-ed1d-4f02-ab28-a001d17f862e",
       "boost_frontend"
+    ],
+    [
+      "09b4163a-819e-413e-b808-030375832f4a",
+      "boost_control"
     ]
   ],
   "text_variables": {}
