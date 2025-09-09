@@ -5,14 +5,347 @@
 	(uuid "3ba35cb8-1859-462d-9588-130dc7519363")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 74.93 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030e7812-0a72-4827-8436-2bd5baf1a1a1")
+	)
+	(junction
+		(at 74.93 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7199407c-0ea7-42bd-a8c1-bcbf1348746f")
+	)
+	(junction
+		(at 166.37 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea2d5125-ff43-45c7-af00-5aed6ec28678")
+	)
+	(junction
+		(at 74.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efd3e735-7836-4086-9f10-18891c0c52ab")
+	)
+	(wire
+		(pts
+			(xy 80.01 104.14) (xy 83.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03eb9f74-4b19-4d39-bffa-0346bb907d37")
+	)
+	(bus
+		(pts
+			(xy 72.39 54.61) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcf8440-4055-4066-ab3b-16dcfc61cdb3")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 125.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1971cc28-ed48-4544-91cb-067ec6123772")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 81.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2763443b-3303-414f-8176-5ddda8e6b4b4")
+	)
+	(bus
+		(pts
+			(xy 113.03 109.22) (xy 119.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6df058-8863-48c6-864e-9179ca1b53c0")
+	)
+	(wire
+		(pts
+			(xy 166.37 44.45) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f69b4a6-3a05-41a2-b730-7a76d1c23593")
+	)
+	(wire
+		(pts
+			(xy 34.29 114.3) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bd4c21-bf65-489d-b377-8f4feffe388b")
+	)
+	(bus
+		(pts
+			(xy 74.93 69.85) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46433006-d648-4075-a77e-27d086a5122e")
+	)
+	(wire
+		(pts
+			(xy 113.03 44.45) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483cc16a-9fbb-426f-bbcb-917152e20670")
+	)
+	(bus
+		(pts
+			(xy 74.93 88.9) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502fa219-d130-4c37-88d7-c4e64a9b7ccf")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 83.82 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55997654-10f1-48ce-b9ef-d5f848861b44")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da82f18-e099-4167-bf12-0dce1a2fb59f")
+	)
+	(bus
+		(pts
+			(xy 74.93 88.9) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622d4bc7-52d3-4271-88b8-646cd0d59b4b")
+	)
+	(bus
+		(pts
+			(xy 119.38 54.61) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6affbf6d-241d-4cec-9a0b-3abe7552139a")
+	)
+	(bus
+		(pts
+			(xy 74.93 104.14) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0e7c1e-eea0-4c48-90d9-19a9ff2d7197")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcbc883-68c3-42db-a1ab-194e070dffad")
+	)
+	(wire
+		(pts
+			(xy 154.94 44.45) (xy 166.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8039df51-42d5-4dcc-9ecd-982882b9bd01")
+	)
+	(bus
+		(pts
+			(xy 74.93 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c34643-d69f-4940-af58-8dbd42151616")
+	)
+	(wire
+		(pts
+			(xy 166.37 44.45) (xy 227.33 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97504996-cb63-472b-a8ae-885f76099d46")
+	)
+	(bus
+		(pts
+			(xy 113.03 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1ffa84-d444-4de0-a94b-29fadc6ca18f")
+	)
+	(wire
+		(pts
+			(xy 91.44 92.71) (xy 80.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e36f94b-4f56-4305-a715-ff3c5ba0e942")
+	)
+	(bus
+		(pts
+			(xy 72.39 104.14) (xy 74.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2eefa4f-9e55-4c75-aa57-7c9f2690c988")
+	)
+	(bus
+		(pts
+			(xy 74.93 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb636424-b653-4035-ae97-b7eedb9e75a5")
+	)
+	(bus
+		(pts
+			(xy 125.73 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18949ce-e7bc-41ae-bfdb-64173bf367ba")
+	)
+	(bus
+		(pts
+			(xy 125.73 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ed8100-f1bb-4afd-81cb-c73f60478f25")
+	)
+	(wire
+		(pts
+			(xy 80.01 92.71) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d986bdb1-07c4-4063-8ab4-6981edd76d08")
+	)
+	(wire
+		(pts
+			(xy 81.28 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04b3aad-9eb3-4617-b0b6-5985983759ae")
+	)
+	(bus
+		(pts
+			(xy 74.93 78.74) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3630bed-7c38-464d-b530-32423bcec53e")
+	)
+	(bus
+		(pts
+			(xy 119.38 83.82) (xy 119.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a37cc9-722f-4f9d-8872-390d0db6cadd")
+	)
+	(wire
+		(pts
+			(xy 34.29 44.45) (xy 43.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec11a653-9b03-4a68-87d5-9a71052b18bd")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd9c7e1-1cbc-40d1-a96f-4a9ea86dad17")
+	)
 	(sheet
-		(at 82.55 88.9)
-		(size 12.7 6.35)
+		(at 91.44 63.5)
+		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -22,7 +355,7 @@
 		)
 		(uuid "09b4163a-819e-413e-b808-030375832f4a")
 		(property "Sheetname" "boost_control_a"
-			(at 82.55 88.1884 0)
+			(at 91.44 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +364,33 @@
 			)
 		)
 		(property "Sheetfile" "boost_control.kicad_sch"
-			(at 82.55 95.8346 0)
+			(at 84.582 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FB_OUT" output
+			(at 91.44 66.04 180)
+			(uuid "65547b79-e720-41cb-bec2-340fc1a6bb79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 91.44 69.85 180)
+			(uuid "1d8ac5cc-fc7c-493e-bb26-905f9462a4f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -48,8 +402,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 62.23)
-		(size 27.94 16.51)
+		(at 83.82 41.91)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +418,7 @@
 		)
 		(uuid "0cef1f69-ed1d-4f02-ab28-a001d17f862e")
 		(property "Sheetname" "boost_frontend_a"
-			(at 67.31 61.5184 0)
+			(at 83.82 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +427,7 @@
 			)
 		)
 		(property "Sheetfile" "boost_frontend.kicad_sch"
-			(at 67.31 79.3246 0)
+			(at 83.82 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +436,7 @@
 			)
 		)
 		(pin "PANEL_IN" input
-			(at 67.31 66.04 180)
+			(at 83.82 44.45 180)
 			(uuid "2fa6a300-4fd3-4dd7-b33e-702ed84ea4c8")
 			(effects
 				(font
@@ -91,18 +445,8 @@
 				(justify left)
 			)
 		)
-		(pin "BOOST_EN" input
-			(at 67.31 69.85 180)
-			(uuid "d4f39f2c-8f08-44be-8b1b-df3afa95c2eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BOOST_FB" input
-			(at 67.31 73.66 180)
+			(at 83.82 54.61 180)
 			(uuid "2dce7bbe-6aa4-4442-a349-e995daf7197e")
 			(effects
 				(font
@@ -111,14 +455,24 @@
 				(justify left)
 			)
 		)
-		(pin "POWER_GOOD" output
-			(at 67.31 77.47 180)
-			(uuid "278f20dd-5f8a-4524-8c20-2a42eb7f65da")
+		(pin "BOOST_OUT" input
+			(at 113.03 44.45 0)
+			(uuid "52cae4e5-cf73-4beb-b285-2fee067ad6a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "BOOST_SIG" bidirectional
+			(at 113.03 54.61 0)
+			(uuid "7c54ea00-bcdb-4f40-a02a-28c68b759e77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -130,8 +484,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 125.73)
-		(size 12.7 6.35)
+		(at 43.18 101.6)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -146,7 +500,7 @@
 		)
 		(uuid "3068c1f6-122c-49ae-9c21-f8ebc0263ff5")
 		(property "Sheetname" "boost_in_sns_b"
-			(at 38.1 125.0184 0)
+			(at 43.18 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,12 +509,52 @@
 			)
 		)
 		(property "Sheetfile" "boost_in_sns.kicad_sch"
-			(at 38.1 132.6646 0)
+			(at 43.18 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PANEL_IN_ALERT" input
+			(at 72.39 106.68 0)
+			(uuid "30acb912-093d-4c07-b2ae-1670ea1e5d8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANEL_IN" input
+			(at 43.18 114.3 180)
+			(uuid "356c6548-4757-4aa8-b7f9-ee8ac9acad9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PANEL_DRV" output
+			(at 72.39 114.3 0)
+			(uuid "2f5a2a7d-a93f-416e-bff5-a960c2291abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 72.39 104.14 0)
+			(uuid "3805c3dd-11e9-4ecb-83a9-e8d05be6e8c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -172,8 +566,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 125.73)
-		(size 12.7 6.35)
+		(at 125.73 101.6)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -188,7 +582,7 @@
 		)
 		(uuid "5ab37dee-300b-447e-9b13-e5d50b13d849")
 		(property "Sheetname" "boost_load_sw_b"
-			(at 114.3 125.0184 0)
+			(at 125.73 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,12 +591,32 @@
 			)
 		)
 		(property "Sheetfile" "boost_load_sw.kicad_sch"
-			(at 114.3 132.6646 0)
+			(at 125.73 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BOOST_IN" input
+			(at 125.73 114.3 180)
+			(uuid "56605b73-9c9d-4b57-b123-aa123af343d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" output
+			(at 154.94 114.3 0)
+			(uuid "21c732fc-e498-4e96-881f-a8d563ae4833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -214,8 +628,8 @@
 		)
 	)
 	(sheet
-		(at 67.31 120.65)
-		(size 27.94 16.51)
+		(at 83.82 101.6)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -230,7 +644,7 @@
 		)
 		(uuid "68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1")
 		(property "Sheetname" "boost_frontend_b"
-			(at 67.31 119.9384 0)
+			(at 83.82 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,12 +653,52 @@
 			)
 		)
 		(property "Sheetfile" "boost_frontend.kicad_sch"
-			(at 67.31 137.7446 0)
+			(at 83.82 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BOOST_FB" input
+			(at 83.82 104.14 180)
+			(uuid "96bd22c7-1a21-4d0c-8a3c-d99af07354eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PANEL_IN" input
+			(at 83.82 114.3 180)
+			(uuid "5e7c1132-d68a-40d9-b5b1-54655b46e5aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOST_OUT" input
+			(at 113.03 114.3 0)
+			(uuid "82bf2234-b0c4-4050-a4fe-292a7c661f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOST_SIG" bidirectional
+			(at 113.03 109.22 0)
+			(uuid "91b1a617-610a-43ca-aea3-d6dbfa95cbfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -256,13 +710,12 @@
 		)
 	)
 	(sheet
-		(at 82.55 102.87)
-		(size 12.7 6.35)
+		(at 91.44 86.36)
+		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -272,7 +725,7 @@
 		)
 		(uuid "84126d6b-9224-455f-9cea-3582a8eebe20")
 		(property "Sheetname" "boost_control_b"
-			(at 82.55 102.1584 0)
+			(at 91.44 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,12 +734,33 @@
 			)
 		)
 		(property "Sheetfile" "boost_control.kicad_sch"
-			(at 82.55 109.8046 0)
+			(at 84.582 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "FB_OUT" output
+			(at 91.44 92.71 180)
+			(uuid "e6d08b15-493e-4e7a-8d7b-814eee2b6875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 91.44 88.9 180)
+			(uuid "ac0e40fa-456e-4b9a-883f-df42556e2569")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -298,8 +772,69 @@
 		)
 	)
 	(sheet
-		(at 114.3 67.31)
-		(size 12.7 6.35)
+		(at 19.05 41.91)
+		(size 15.24 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84e96f9f-2d05-4b14-bccc-57bd87440548")
+		(property "Sheetname" "solar_panels"
+			(at 19.05 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar_panels.kicad_sch"
+			(at 13.462 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PANEL_A_DRV" output
+			(at 34.29 44.45 0)
+			(uuid "84f6ecc8-7f90-402a-abd4-e2afe66b5492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANEL_B_DRV" output
+			(at 34.29 114.3 0)
+			(uuid "d2959bf8-e86a-4848-bfed-0f6c1d040123")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 41.91)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -314,7 +849,7 @@
 		)
 		(uuid "b9213479-bc9a-4fd6-a1a6-404b21448f58")
 		(property "Sheetname" "boost_load_sw_a"
-			(at 114.3 66.5984 0)
+			(at 125.73 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,12 +858,32 @@
 			)
 		)
 		(property "Sheetfile" "boost_load_sw.kicad_sch"
-			(at 114.3 74.2446 0)
+			(at 125.73 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BOOST_IN" input
+			(at 125.73 44.45 180)
+			(uuid "ae31bed6-5cd2-4521-8958-5a48e23cfb41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" output
+			(at 154.94 44.45 0)
+			(uuid "beabded9-9609-459e-8f6a-9c3d7284d290")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -340,8 +895,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 88.9)
-		(size 22.86 20.32)
+		(at 125.73 68.58)
+		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -356,7 +911,7 @@
 		)
 		(uuid "d1c21149-ce86-4764-be81-965c3e4dd332")
 		(property "Sheetname" "mcu"
-			(at 114.3 88.1884 0)
+			(at 125.73 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,12 +920,42 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 114.3 109.8046 0)
+			(at 125.73 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 125.73 78.74 180)
+			(uuid "40e4fe12-eb40-4bdb-b955-c6c3c19cd50d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOST_B_SIG" bidirectional
+			(at 125.73 83.82 180)
+			(uuid "c05bcfb6-45fc-48a4-8b05-cc6457e7f514")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOST_A_SIG" bidirectional
+			(at 125.73 73.66 180)
+			(uuid "fc33d665-bf45-46e6-9091-892d635908d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -382,8 +967,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 66.04)
-		(size 12.7 6.35)
+		(at 43.18 41.91)
+		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -398,7 +983,7 @@
 		)
 		(uuid "f48ac83e-9a77-49aa-aabc-f4682142862d")
 		(property "Sheetname" "boost_in_sns_a"
-			(at 38.1 65.3284 0)
+			(at 43.18 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,12 +992,52 @@
 			)
 		)
 		(property "Sheetfile" "boost_in_sns.kicad_sch"
-			(at 38.1 72.9746 0)
+			(at 43.18 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 72.39 54.61 0)
+			(uuid "910db603-ef29-4ab5-9ac6-f6ee49bec800")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANEL_DRV" output
+			(at 72.39 44.45 0)
+			(uuid "cdb4f6cd-4136-4d81-bf23-d02492440687")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANEL_IN" input
+			(at 43.18 44.45 180)
+			(uuid "62d1e5b8-950b-47ee-adba-5d06806dce98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PANEL_IN_ALERT" input
+			(at 72.39 52.07 0)
+			(uuid "0d4f807c-b806-4508-8acb-c1876b82a9f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

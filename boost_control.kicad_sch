@@ -5,4 +5,46 @@
 	(uuid "96304b7b-06b2-48d3-9197-f1f305ccd15e")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182f9790-368d-48ab-ba70-624663b6a8f4")
+	)
+	(bus
+		(pts
+			(xy 124.46 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f161b1-407a-4d86-9273-428d0cf6b44f")
+	)
+	(hierarchical_label "FB_OUT"
+		(shape output)
+		(at 133.35 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e2eb0b9-1980-4ce8-9bac-e603a2f15e58")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 124.46 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa4445e2-4eae-4829-9ead-2f510e761722")
+	)
 )
