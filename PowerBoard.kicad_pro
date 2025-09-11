@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -272,14 +272,55 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "cls_HPBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 20
+      },
+      {
+        "name": "cls_LPBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 20
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "/Main/backup_batt_load_sw/OUT": [
+        "cls_HPBUS"
+      ],
+      "/Main/boost_frontend_a/BOOST_OUT": [
+        "cls_LPBUS"
+      ],
+      "/Main/boost_frontend_a/PANEL_IN": [
+        "cls_LPBUS"
+      ],
+      "/Main/boost_frontend_b/BOOST_OUT": [
+        "cls_LPBUS"
+      ],
+      "/Main/boost_frontend_b/PANEL_IN": [
+        "cls_LPBUS"
+      ],
+      "/Main/boost_in_sns_a/IN": [
+        "cls_LPBUS"
+      ],
+      "/Main/boost_in_sns_b/IN": [
+        "cls_LPBUS"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -458,8 +499,24 @@
       "boost_in_sns_a"
     ],
     [
+      "f2327609-10a0-4227-bf59-7648982e83ec",
+      "batt1_load_sw"
+    ],
+    [
       "84e96f9f-2d05-4b14-bccc-57bd87440548",
       "solar_panels"
+    ],
+    [
+      "aa92e4e1-fc74-44a9-8187-6c9770b466cf",
+      "batt2_load_sw"
+    ],
+    [
+      "70687909-9f63-4b18-b374-bb5d5688a7a1",
+      "backup_batt_load_sw"
+    ],
+    [
+      "5ca9c485-eddf-4b8f-8ea2-4142c873b2df",
+      "output"
     ]
   ],
   "text_variables": {}

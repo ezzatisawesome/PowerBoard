@@ -1,0 +1,33 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7f1e262f-dda6-4031-83b6-03327b87db44")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 134.62 73.66)
+		(uuid "340cae3a-d497-4d9b-81e1-5ac0f1f00014")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 152.4 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdd25f1-23fe-4726-8784-06ceffd3ad44")
+	)
+	(hierarchical_label "ESC"
+		(shape output)
+		(at 152.4 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2774235-8dd2-40cc-a0a3-cccec7f8b3b5")
+	)
+)
