@@ -51,7 +51,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 171.45) (xy 354.33 171.45)
+			(xy 287.02 171.45) (xy 374.65 171.45)
 		)
 		(stroke
 			(width 0)
@@ -61,7 +61,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 106.68) (xy 361.95 106.68)
+			(xy 331.47 106.68) (xy 374.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -76,6 +76,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 194 1)
 		)
 		(uuid "1971cc28-ed48-4544-91cb-067ec6123772")
 	)
@@ -116,12 +117,13 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 194 1)
 		)
 		(uuid "31bd4c21-bf65-489d-b377-8f4feffe388b")
 	)
 	(wire
 		(pts
-			(xy 331.47 166.37) (xy 354.33 166.37)
+			(xy 331.47 166.37) (xy 374.65 166.37)
 		)
 		(stroke
 			(width 0)
@@ -136,6 +138,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 194 0 1)
 		)
 		(uuid "483cc16a-9fbb-426f-bbcb-917152e20670")
 	)
@@ -181,7 +184,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 176.53) (xy 354.33 176.53)
+			(xy 243.84 176.53) (xy 374.65 176.53)
 		)
 		(stroke
 			(width 0)
@@ -346,6 +349,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 194 0 1)
 		)
 		(uuid "eb7e881b-60c4-40d1-8703-0a97d7d9e5d7")
 	)
@@ -356,6 +360,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 194 0 1)
 		)
 		(uuid "ec11a653-9b03-4a68-87d5-9a71052b18bd")
 	)
@@ -366,6 +371,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 194 1)
 		)
 		(uuid "fcd9c7e1-1cbc-40d1-a96f-4a9ea86dad17")
 	)
@@ -467,7 +473,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 204.47 177.8) (xy 204.47 104.14) (xy 212.09 104.14) (xy 212.09 177.8)
+				(xy 353.06 177.8) (xy 353.06 104.14) (xy 356.87 104.14) (xy 356.87 177.8)
 			)
 			(stroke
 				(width 0)
@@ -482,7 +488,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 208.28 104.14 0)
+		(at 355.6 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -492,7 +498,7 @@
 		)
 		(uuid "34adc72a-1f9f-452d-bb03-39ad87da293b")
 		(property "Netclass" "cls_HPBUS"
-			(at 208.9785 101.6 0)
+			(at 356.2985 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -501,7 +507,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 62.23 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,8 +898,8 @@
 		)
 	)
 	(sheet
-		(at 361.95 104.14)
-		(size 15.24 74.93)
+		(at 374.65 104.14)
+		(size 20.32 74.93)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -906,8 +912,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5ca9c485-eddf-4b8f-8ea2-4142c873b2df")
-		(property "Sheetname" "output"
-			(at 361.95 103.4284 0)
+		(property "Sheetname" "connectors"
+			(at 374.65 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,8 +921,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "output_connectors.kicad_sch"
-			(at 356.362 179.578 0)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 369.062 179.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,8 +931,38 @@
 			)
 		)
 		(pin "ESC" output
-			(at 361.95 106.68 180)
+			(at 374.65 106.68 180)
 			(uuid "83edf491-7659-42a2-b98c-8fa31699c540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BACKUP_BATT_DRV" output
+			(at 374.65 166.37 180)
+			(uuid "60a77608-63bb-4d75-be8b-2909691121c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT1_DRV" output
+			(at 374.65 176.53 180)
+			(uuid "dfc76071-e32f-44ac-bbea-111fc28118f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT2_DRV" output
+			(at 374.65 171.45 180)
+			(uuid "d12bfa08-9920-4957-bf04-5f6d52795e69")
 			(effects
 				(font
 					(size 1.27 1.27)

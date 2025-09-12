@@ -33,6 +33,17 @@
 		)
 		(uuid "afdd25f1-23fe-4726-8784-06ceffd3ad44")
 	)
+	(hierarchical_label "PANEL_A_DRV"
+		(shape output)
+		(at 152.4 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e038eaa-a57a-483b-bfc8-3a760f0f1ff3")
+	)
 	(hierarchical_label "PANEL_B_DRV"
 		(shape output)
 		(at 152.4 81.28 0)
@@ -43,16 +54,5 @@
 			(justify left)
 		)
 		(uuid "d8c12fb9-b92e-4a01-ba4c-ef94cec374b0")
-	)
-	(hierarchical_label "PANEL_A_DRV"
-		(shape output)
-		(at 152.4 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2774235-8dd2-40cc-a0a3-cccec7f8b3b5")
 	)
 )
