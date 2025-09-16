@@ -475,25 +475,25 @@
         "wire_width": 6
       },
       {
-        "name": "cls_HPBUS",
+        "name": "cls_HPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 20
       },
       {
-        "name": "cls_LPBUS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(194, 0, 0)",
-        "wire_width": 20
-      },
-      {
-        "name": "cls_sigPWR",
+        "name": "cls_ICPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(194, 0, 0)",
         "wire_width": 6
+      },
+      {
+        "name": "cls_LPWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 20
       }
     ],
     "meta": {
@@ -508,31 +508,58 @@
         "cls_HPBUS"
       ],
       "/Main/batt1_load_sw/IN": [
-        "cls_HPBUS"
+        "cls_HPWR"
+      ],
+      "/Main/batt1_load_sw/OUT": [
+        "cls_HPWR"
       ],
       "/Main/batt2_load_sw/IN": [
-        "cls_HPBUS"
+        "cls_HPWR"
+      ],
+      "/Main/batt3_load_sw/IN": [
+        "cls_HPWR"
+      ],
+      "/Main/boost_a_load_sw/IN": [
+        "cls_LPWR"
+      ],
+      "/Main/boost_b_load_sw/IN": [
+        "cls_LPWR"
       ],
       "/Main/boost_frontend_a/BOOST_OUT": [
         "cls_LPBUS"
       ],
       "/Main/boost_frontend_a/PANEL_IN": [
-        "cls_LPBUS"
+        "cls_LPWR"
       ],
       "/Main/boost_frontend_b/BOOST_OUT": [
         "cls_LPBUS"
       ],
       "/Main/boost_frontend_b/PANEL_IN": [
-        "cls_LPBUS"
+        "cls_LPWR"
       ],
       "/Main/boost_in_sns_a/IN": [
-        "cls_LPBUS"
+        "cls_LPWR"
       ],
       "/Main/boost_in_sns_b/IN": [
-        "cls_LPBUS"
+        "cls_LPWR"
+      ],
+      "Net-(D1-K)": [
+        "cls_HPWR"
+      ],
+      "Net-(D2-K)": [
+        "cls_HPWR"
+      ],
+      "Net-(D3-K)": [
+        "cls_HPWR"
+      ],
+      "Net-(D4-K)": [
+        "cls_HPWR"
+      ],
+      "Net-(D5-K)": [
+        "cls_HPWR"
       ],
       "Net-(NT10-Pad1)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(NT11-Pad2)": [
         "cls_HPBUS"
@@ -550,46 +577,46 @@
         "cls_HPBUS"
       ],
       "Net-(NT6-Pad1)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(NT7-Pad1)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(NT8-Pad1)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(NT9-Pad1)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U10-IN)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U10-OUT)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U11-IN)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U11-OUT)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U12-IN)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U12-OUT)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U5-IN)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U5-OUT)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U9-IN)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ],
       "Net-(U9-OUT)": [
-        "cls_sigPWR"
+        "cls_ICPWR"
       ]
     },
     "netclass_patterns": [
@@ -753,7 +780,7 @@
     ],
     [
       "5ab37dee-300b-447e-9b13-e5d50b13d849",
-      "boost_load_sw_b"
+      "boost_b_load_sw"
     ],
     [
       "68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1",
@@ -769,7 +796,7 @@
     ],
     [
       "b9213479-bc9a-4fd6-a1a6-404b21448f58",
-      "boost_load_sw_a"
+      "boost_a_load_sw"
     ],
     [
       "f48ac83e-9a77-49aa-aabc-f4682142862d",
@@ -789,7 +816,7 @@
     ],
     [
       "70687909-9f63-4b18-b374-bb5d5688a7a1",
-      "backup_batt_load_sw"
+      "batt3_load_sw"
     ],
     [
       "5ca9c485-eddf-4b8f-8ea2-4142c873b2df",
