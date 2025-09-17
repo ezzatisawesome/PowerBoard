@@ -5082,7 +5082,7 @@
 			(uuid "f1c436b9-d86b-4a24-b31f-c11b222c475a")
 		)
 		(instances
-			(project ""
+			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
 					(reference "#PWR015")
 					(unit 1)
@@ -5153,7 +5153,7 @@
 			(uuid "b248f0ed-a570-4b9e-8d77-b7dcc149a1bd")
 		)
 		(instances
-			(project ""
+			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
 					(reference "#PWR013")
 					(unit 1)
@@ -5494,7 +5494,7 @@
 			(uuid "f726f23d-0fd4-4dc2-a146-68d3d2c9693c")
 		)
 		(instances
-			(project ""
+			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
 					(reference "U2")
 					(unit 1)
@@ -5564,7 +5564,7 @@
 			(uuid "8363051b-63b2-4e0f-83d1-b057be45db19")
 		)
 		(instances
-			(project ""
+			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
 					(reference "#PWR017")
 					(unit 1)
