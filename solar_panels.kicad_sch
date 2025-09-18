@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "7f1e262f-dda6-4031-83b6-03327b87db44")
 	(paper "A4")
+	(title_block
+		(title "Solar Panel Connections")
+		(rev "1")
+		(company "Solar Airplane")
+		(comment 1 "Engineer: Ezzat Suhaime")
+		(comment 2 "Reviewer 1: ")
+		(comment 3 "Reviewer 2:")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -350,7 +358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dd29c9f-adcf-41c8-9494-5e0fe5e51d2b")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 119.126 97.282 0)
 			(effects
 				(font
@@ -408,7 +416,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84e96f9f-2d05-4b14-bccc-57bd87440548"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)

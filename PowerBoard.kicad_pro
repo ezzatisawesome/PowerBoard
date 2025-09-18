@@ -570,6 +570,12 @@
       "Net-(C1-Pad1)": [
         "cls_HPWR"
       ],
+      "Net-(C10-Pad1)": [
+        "cls_HPWR"
+      ],
+      "Net-(C37-Pad1)": [
+        "cls_HPWR"
+      ],
       "Net-(C38-Pad1)": [
         "cls_HPWR"
       ],
@@ -579,6 +585,12 @@
       "Net-(D1-K)": [
         "cls_HPWR"
       ],
+      "Net-(D10-A2)": [
+        "cls_HPWR"
+      ],
+      "Net-(D14-A2)": [
+        "cls_HPWR"
+      ],
       "Net-(D17-A2)": [
         "cls_HPWR"
       ],
@@ -586,6 +598,9 @@
         "cls_HPWR"
       ],
       "Net-(D19-A2)": [
+        "cls_HPWR"
+      ],
+      "Net-(D2-A2)": [
         "cls_HPWR"
       ],
       "Net-(D2-K)": [
@@ -603,11 +618,17 @@
       "Net-(D5-K)": [
         "cls_HPWR"
       ],
+      "Net-(D6-A2)": [
+        "cls_HPWR"
+      ],
       "Net-(NT10-Pad1)": [
         "cls_ICPWR"
       ],
       "Net-(NT11-Pad2)": [
         "cls_HPBUS"
+      ],
+      "Net-(NT12-Pad1)": [
+        "cls_ICPWR"
       ],
       "Net-(NT12-Pad2)": [
         "cls_HPBUS"
@@ -618,8 +639,14 @@
       "Net-(NT14-Pad2)": [
         "cls_HPBUS"
       ],
+      "Net-(NT15-Pad1)": [
+        "cls_ICPWR"
+      ],
       "Net-(NT15-Pad2)": [
         "cls_HPBUS"
+      ],
+      "Net-(NT3-Pad1)": [
+        "cls_ICPWR"
       ],
       "Net-(NT6-Pad1)": [
         "cls_ICPWR"
@@ -657,6 +684,24 @@
       "Net-(U12-OUT)": [
         "cls_ICPWR"
       ],
+      "Net-(U13-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U13-OUT)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U15-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U15-OUT)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U17-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U17-OUT)": [
+        "cls_ICPWR"
+      ],
       "Net-(U18-VIN)": [
         "cls_HPWR"
       ],
@@ -668,6 +713,9 @@
       ],
       "Net-(U5-OUT)": [
         "cls_ICPWR"
+      ],
+      "Net-(U6-VIN)": [
+        "cls_HPWR"
       ],
       "Net-(U9-IN)": [
         "cls_ICPWR"

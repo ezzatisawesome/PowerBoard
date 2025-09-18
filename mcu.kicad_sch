@@ -2760,6 +2760,163 @@
 		(uuid "ff18f92f-0843-42ce-9eaa-04dc1be8e3e5")
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 34.29 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b8913b8-fc16-4b7f-a484-00863f402ada")
+		(property "Reference" "R7"
+			(at 34.29 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 34.29 178.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.036 177.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 33K OHM 0.1% 1/10W 0603"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Panasonic Electronic Components"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "ERA-3AEB333V"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P33KDBTR-ND"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 34.29 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0be91d25-ae94-42ca-9c25-a1529ab134a5")
+		)
+		(pin "1"
+			(uuid "5ad48a1a-eaea-4f58-9d01-51774dab44fa")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 181.61 96.52 0)
 		(unit 1)
@@ -2918,40 +3075,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 34.29 176.53 270)
+		(at 34.29 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "45b10dea-efaf-440b-9600-64d00867343b")
-		(property "Reference" "R70"
-			(at 34.29 178.816 90)
+		(uuid "278ec447-2807-466f-9510-d738a057b3f3")
+		(property "Reference" "R6"
+			(at 34.29 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 34.29 181.356 90)
+		(property "Value" "33k"
+			(at 34.29 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.036 177.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 176.53 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.544 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,8 +3107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 34.29 176.53 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at 34.29 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,16 +3116,115 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ff6e7b36-c45c-4a57-a892-46f3cbfba82b")
+		(property "Description" "RES SMD 33K OHM 0.1% 1/10W 0603"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Panasonic Electronic Components"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "ERA-3AEB333V"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "P33KDBTR-ND"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "76fd1927-91a9-4308-90b0-b345bccbde1f")
+			(uuid "2e9ad71c-5a2c-47ec-b20b-6fbed582f0fc")
+		)
+		(pin "1"
+			(uuid "35215cc1-3681-4d2c-93f6-962a68f416c3")
 		)
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "R70")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2993,7 +3240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db71986-0d54-4fc9-a03e-b67679a7d81e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 196.85 92.71 0)
 			(effects
 				(font
@@ -3044,7 +3291,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74c8683f-4c5f-4b35-9c4e-1db38e47dacc")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 148.59 85.09 0)
 			(effects
 				(font
@@ -3369,7 +3616,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3385,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8823279b-5a1e-43cb-81dd-dc16e78417ff")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 181.61 106.68 0)
 			(effects
 				(font
@@ -3435,7 +3682,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3451,7 +3698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8ebf412-a6bc-4ee7-b17f-84ac27a8e00c")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR021"
 			(at 31.75 172.72 0)
 			(effects
 				(font
@@ -3502,7 +3749,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "#PWR0116")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abbe996f-928d-42b2-9968-14788b9f1910")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -3568,74 +3815,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 34.29 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4412d89-60d3-41f2-aa2e-855e1e44b15a")
-		(property "Reference" "R69"
-			(at 34.29 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 34.29 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.544 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 34.29 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93f6c814-8c40-4fb1-a7f8-f88d18538a39")
-		)
-		(pin "2"
-			(uuid "e8ee1c0e-67ec-4292-bc8b-83c20784438b")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "R69")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

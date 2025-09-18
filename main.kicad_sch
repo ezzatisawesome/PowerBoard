@@ -1430,7 +1430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "007b7347-0967-45fb-8f75-a4bb59dd1c6f")
-		(property "Reference" "#FLG014"
+		(property "Reference" "#FLG02"
 			(at 130.81 205.105 0)
 			(effects
 				(font
@@ -1480,7 +1480,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(reference "#FLG014")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1496,7 +1496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b6d8b9-e28e-4a73-a33b-584499853967")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR03"
 			(at 257.81 110.49 0)
 			(effects
 				(font
@@ -1546,7 +1546,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(reference "#PWR0133")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1562,7 +1562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "960b0ac5-ad79-4bb9-9c2b-1ad5fcf46a4a")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR02"
 			(at 130.81 217.17 0)
 			(effects
 				(font
@@ -1612,7 +1612,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(reference "#PWR0135")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1628,7 +1628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d39d9a03-ca66-449c-a9f4-5a41b402dce0")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG01"
 			(at 119.38 205.105 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(reference "#FLG013")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1694,7 +1694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea82f80b-b4bc-4c3c-bc99-0828159747bc")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR01"
 			(at 119.38 207.01 0)
 			(effects
 				(font
@@ -1744,7 +1744,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(reference "#PWR0115")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2153,7 +2153,7 @@
 				(justify left)
 			)
 		)
-		(pin "BACKUP_BATT_DRV" output
+		(pin "BATT3_DRV" output
 			(at 381 166.37 180)
 			(uuid "60a77608-63bb-4d75-be8b-2909691121c1")
 			(effects
