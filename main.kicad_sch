@@ -1507,7 +1507,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "09b4163a-819e-413e-b808-030375832f4a")
-		(property "Sheetname" "boost_control_a"
+		(property "Sheetname" "boost_a_control"
 			(at 119.38 125.0184 0)
 			(effects
 				(font
@@ -1996,7 +1996,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 196.85)
+		(at 58.42 203.2)
 		(size 29.21 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2012,7 +2012,7 @@
 		)
 		(uuid "82ef1b6a-46bf-4ed0-b9a8-2180f415726a")
 		(property "Sheetname" "housekeeping"
-			(at 58.42 196.1384 0)
+			(at 58.42 202.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Sheetfile" "housekeeping.kicad_sch"
-			(at 58.42 212.6746 0)
+			(at 58.42 219.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2052,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "84126d6b-9224-455f-9cea-3582a8eebe20")
-		(property "Sheetname" "boost_control_b"
+		(property "Sheetname" "boost_b_control"
 			(at 119.38 147.8784 0)
 			(effects
 				(font

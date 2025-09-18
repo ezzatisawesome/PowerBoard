@@ -769,7 +769,7 @@
 		(at 102.87 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16a358ab-3f8a-4906-89d9-7a6a975e8f27")
+		(uuid "2c2d3dba-bd32-4351-bdc3-cd9824644bdd")
 	)
 	(junction
 		(at 128.27 76.2)
@@ -863,7 +863,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 129.54 83.82)
+			(xy 95.25 83.82) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -943,16 +943,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 83.82) (xy 102.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d9966d5-7c68-47f1-97f8-fdeebcea57cf")
-	)
-	(wire
-		(pts
 			(xy 128.27 91.44) (xy 128.27 88.9)
 		)
 		(stroke
@@ -1000,6 +990,16 @@
 			(type default)
 		)
 		(uuid "ea131981-1ca9-4a5a-a656-667702da8e44")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf6c3e6-7bb5-4678-b0dc-26b3a9f638a5")
 	)
 	(wire
 		(pts
@@ -5166,167 +5166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 102.87 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41756adb-2117-44b7-b723-a1166a4b4c1c")
-		(property "Reference" "C17"
-			(at 98.044 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 96.774 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 103.8352 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM31C5C1H104FA16-01.pdf"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V C0G/NP0 1206"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" "GCM31C5C1H104FA16L"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" "Digikey"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" "0.98000"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" "1"
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 102.87 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4406ef26-1499-4524-a826-6eb0f0ff58cb")
-		)
-		(pin "2"
-			(uuid "473be0cd-8e98-4249-bbb6-dcf06c82d564")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
-					(reference "C17")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 91.44 0)
 		(unit 1)
@@ -5571,6 +5410,167 @@
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5cfde13-c0dc-4aff-987d-f8c92d99e2c2")
+		(property "Reference" "C17"
+			(at 98.552 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 97.282 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.9048 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCC.pdf"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "KYOCERA AVX"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "06035C104K4T2A"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "478-KAM15AR71H104KTTR-ND"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.10000"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b25c88-bc7b-443c-a3ec-f9e2e275fb80")
+		)
+		(pin "2"
+			(uuid "661dea47-3e02-4ffc-a4c1-7df48394250b")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
+					(reference "C17")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
+					(reference "C18")
 					(unit 1)
 				)
 			)

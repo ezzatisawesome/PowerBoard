@@ -3290,7 +3290,7 @@
 		(dnp no)
 		(uuid "06fb1da9-0abb-45e9-a354-9d6699b5e1e3")
 		(property "Reference" "C8"
-			(at 199.39 91.44 0)
+			(at 199.644 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 197.612 89.408 0)
+			(at 197.866 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,21 +4236,21 @@
 		(dnp no)
 		(uuid "427a7717-3dff-4712-a74a-9f6af71c6b5b")
 		(property "Reference" "C2"
-			(at 105.664 108.712 0)
+			(at 110.236 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
-			(at 105.664 106.68 0)
+			(at 110.236 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -5397,10 +5397,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7667b7bc-054f-466b-9470-d094ee2e963d")
 		(property "Reference" "C36"
-			(at 101.6 106.0449 0)
+			(at 100.076 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5408,7 @@
 			)
 		)
 		(property "Value" "33uF"
-			(at 101.6 108.5849 0)
+			(at 100.076 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5562,7 @@
 		(dnp no)
 		(uuid "85b88b3b-553b-44de-9b27-dd1ffd27083f")
 		(property "Reference" "C10"
-			(at 218.694 90.932 0)
+			(at 218.948 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5571,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 218.694 88.9 0)
+			(at 218.948 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6440,7 @@
 		(dnp no)
 		(uuid "a45ff67c-27cd-4cbf-9154-b94ef127e450")
 		(property "Reference" "C11"
-			(at 227.584 90.932 0)
+			(at 227.838 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6449,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 227.584 88.9 0)
+			(at 227.838 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7300,7 @@
 		(dnp no)
 		(uuid "e91bd3b3-acfa-439f-9bd3-6849292f3fad")
 		(property "Reference" "C4"
-			(at 84.074 108.712 0)
+			(at 90.932 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7308,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 82.804 106.68 0)
+			(at 92.71 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
