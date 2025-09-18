@@ -484,23 +484,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U15"
+				(at 30.48 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "LMR43620MSC3RPERQ1"
-				(at 0 0 0)
+			(property "Value" "LMR43620MSC5RPERQ1"
+				(at 30.48 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "RPE0009A-MFG"
+			(property "Footprint" "_Power_Board:RPE0009A-MFG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -520,7 +520,97 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "IC REG BUCK ADJ/5V 2A 9VQFN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr P/N" "LMR43620MSC5RPERQ1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 P/N" "296-LMR43620MSC5RPERQ1TR-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 Unit Price" "3.81000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 Price @ Qty" "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 Unit Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 Price @ Qty" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -640,24 +730,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -17.78 0)
 					(length 5.08)
@@ -694,42 +766,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 60.96 0 180)
-					(length 5.08)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 60.96 -7.62 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 60.96 -17.78 180)
 					(length 5.08)
@@ -759,6 +795,62 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMR43620MSC3RPERQ1_1_1"
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 0 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -995,6 +1087,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 96.52 91.44)
@@ -1003,16 +1321,16 @@
 		(uuid "287df16f-1e48-4058-a07f-c7c5e9c14550")
 	)
 	(junction
+		(at 58.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b7adf71-7382-4d94-8df0-2199c3a5c38d")
+	)
+	(junction
 		(at 203.2 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fbb3043-55d5-4eff-8eb0-add555ff79c6")
-	)
-	(junction
-		(at 58.42 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50c86713-48f6-43e9-b5ae-d7249644ae33")
 	)
 	(junction
 		(at 229.87 91.44)
@@ -1092,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 100.33) (xy 58.42 101.6)
+			(xy 58.42 99.06) (xy 58.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1232,16 +1550,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 58.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fd2f6e0-538b-4602-9079-9f11607b4d69")
-	)
-	(wire
-		(pts
 			(xy 165.1 114.3) (xy 172.72 114.3)
 		)
 		(stroke
@@ -1259,16 +1567,6 @@
 			(type default)
 		)
 		(uuid "a65b5239-c73c-4ab4-89b4-2618bce17960")
-	)
-	(wire
-		(pts
-			(xy 58.42 101.6) (xy 58.42 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a740b2af-a4e3-477a-895b-3007b7c53b22")
 	)
 	(wire
 		(pts
@@ -1312,16 +1610,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 101.6) (xy 71.12 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3fd2bd2-1b18-4d81-9c57-3fcd9ed41ccc")
-	)
-	(wire
-		(pts
 			(xy 203.2 91.44) (xy 217.17 91.44)
 		)
 		(stroke
@@ -1342,23 +1630,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 101.6) (xy 71.12 101.6)
+			(xy 58.42 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e449d8a2-8ef7-48d9-a9ce-30ff69b0e902")
-	)
-	(wire
-		(pts
-			(xy 71.12 91.44) (xy 71.12 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51accd9-9748-4a8b-98b0-ca2b607a2067")
 	)
 	(wire
 		(pts
@@ -1439,17 +1717,6 @@
 			(justify left bottom)
 		)
 		(uuid "939f03dc-6e27-4503-8037-0ec6df78cf58")
-	)
-	(hierarchical_label "IN"
-		(shape input)
-		(at 45.72 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1fb7b3b5-417a-4977-a128-ca56bd204765")
 	)
 	(hierarchical_label "PGOOD"
 		(shape output)
@@ -1554,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPE0009A-MFG"
+		(property "Footprint" "_Power_Board:RPE0009A-MFG"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -2225,6 +2492,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 96.52 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c4bf3b-9028-4cc5-b6d6-79706009f373")
+		(property "Reference" "#FLG01"
+			(at 96.52 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feb4c110-32f2-4a16-9d15-bfe3c1409e79")
+		)
+		(instances
+			(project ""
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/82ef1b6a-46bf-4ed0-b9a8-2180f415726a"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 229.87 96.52 0)
 		(unit 1)
@@ -2545,7 +2878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 96.52 0)
+		(at 71.12 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2553,7 +2886,7 @@
 		(dnp no)
 		(uuid "7bf9ef54-4ecf-4538-acc3-fdbe42d9619c")
 		(property "Reference" "C73"
-			(at 75.184 95.25 0)
+			(at 75.184 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2894,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 76.454 97.282 0)
+			(at 76.454 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2902,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 72.0852 100.33 0)
+			(at 72.0852 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2911,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCC.pdf"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2920,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2929,7 @@
 			)
 		)
 		(property "Mfr" "KYOCERA AVX"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2938,7 @@
 			)
 		)
 		(property "Mfr P/N" "06035C104K4T2A"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2947,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2956,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "478-KAM15AR71H104KTTR-ND"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2965,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.10000"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2974,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2983,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2992,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +3001,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +3010,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 71.12 96.52 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3325,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 96.52 0)
+		(at 58.42 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3001,7 +3334,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9c4ddf5-4b35-4f46-83ce-5847680f0c7a")
 		(property "Reference" "C72"
-			(at 62.23 95.2499 0)
+			(at 62.23 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3343,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 62.23 97.7899 0)
+			(at 62.23 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3352,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 59.3852 100.33 0)
+			(at 59.3852 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3361,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BR61H475KE13-01.pdf"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3370,7 @@
 			)
 		)
 		(property "Description" "CAP CER 4.7UF 50V X5R 0805"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3379,7 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3388,7 @@
 			)
 		)
 		(property "Mfr P/N" "GRT21BR61H475KE13L"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3397,7 @@
 			)
 		)
 		(property "Supplier_1" "Digikey"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3406,7 @@
 			)
 		)
 		(property "Supplier_1 P/N" "490-12394-2-ND"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3415,7 @@
 			)
 		)
 		(property "Supplier_1 Unit Price" "0.24000"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3424,7 @@
 			)
 		)
 		(property "Supplier_1 Price @ Qty" "1"
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3433,7 @@
 			)
 		)
 		(property "Supplier_2" ""
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3442,7 @@
 			)
 		)
 		(property "Supplier_2 P/N" ""
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3451,7 @@
 			)
 		)
 		(property "Supplier_2 Unit Price" ""
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3460,7 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
-			(at 58.42 96.52 0)
+			(at 58.42 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,6 +3478,73 @@
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/82ef1b6a-46bf-4ed0-b9a8-2180f415726a"
 					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 45.72 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fffd4e55-13be-4325-8010-938b4e8fa2bf")
+		(property "Reference" "#PWR0134"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 41.91 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f033af-3359-4aa1-9d14-3a8c9b985648")
+		)
+		(instances
+			(project ""
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/82ef1b6a-46bf-4ed0-b9a8-2180f415726a"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)

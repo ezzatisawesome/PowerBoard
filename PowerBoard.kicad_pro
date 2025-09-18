@@ -528,6 +528,9 @@
       "/Main/boost_a_frontend/Vout": [
         "cls_HPWR"
       ],
+      "/Main/boost_a_in_sns/IN": [
+        "cls_LPWR"
+      ],
       "/Main/boost_a_load_sw/IN": [
         "cls_LPWR"
       ],
@@ -568,6 +571,9 @@
         "cls_HPWR"
       ],
       "Net-(C38-Pad1)": [
+        "cls_HPWR"
+      ],
+      "Net-(C69-Pad1)": [
         "cls_HPWR"
       ],
       "Net-(D1-K)": [
@@ -651,6 +657,12 @@
       "Net-(U12-OUT)": [
         "cls_ICPWR"
       ],
+      "Net-(U18-VIN)": [
+        "cls_HPWR"
+      ],
+      "Net-(U18-VIN)_1": [
+        "cls_HPWR"
+      ],
       "Net-(U5-IN)": [
         "cls_ICPWR"
       ],
@@ -662,6 +674,9 @@
       ],
       "Net-(U9-OUT)": [
         "cls_ICPWR"
+      ],
+      "VBUS": [
+        "cls_HPWR"
       ]
     },
     "netclass_patterns": [
@@ -786,6 +801,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -828,7 +851,7 @@
       "boost_b_load_sw"
     ],
     [
-      "68cab5ff-06be-4137-8d1a-3cc6d1b1d6d1",
+      "136865b6-9226-4363-90e9-85327831a678",
       "boost_b_frontend"
     ],
     [
@@ -845,7 +868,7 @@
     ],
     [
       "f48ac83e-9a77-49aa-aabc-f4682142862d",
-      "boost_b_in_sns"
+      "boost_a_in_sns"
     ],
     [
       "f2327609-10a0-4227-bf59-7648982e83ec",

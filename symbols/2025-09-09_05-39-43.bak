@@ -220,6 +220,24 @@
 				)
 			)
 			(pin power_in line
+				(at 55.88 -12.7 180)
+				(length 5.08)
+				(name "FLT_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 55.88 -48.26 180)
 				(length 5.08)
 				(name "GND"
@@ -430,24 +448,6 @@
 					)
 				)
 				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(name "FLT_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
