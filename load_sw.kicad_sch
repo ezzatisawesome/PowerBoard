@@ -2602,10 +2602,10 @@
 		)
 		(uuid "c63be2c1-3e66-419b-8619-4ab1f5c964a7")
 	)
-	(text_box "Min: 2.6  mV/C\nTyp: 2.73 mV/C\nMax: 3.1  mV/C"
+	(text_box "Min: 2.6  mV/deg C\nTyp: 2.73 mV/deg C\nMax: 3.1  mV/deg C"
 		(exclude_from_sim no)
 		(at 121.92 151.638 0)
-		(size 21.59 8.89)
+		(size 25.4 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2688,7 +2688,7 @@
 	(text_box "0.02307 V/A"
 		(exclude_from_sim no)
 		(at 88.9 151.638 0)
-		(size 21.59 8.89)
+		(size 25.4 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8454,7 +8454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:05-08-7040_ADI"
+		(property "Footprint" "_Power_Board:VMA0023A-MFG"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
+		(property "Supplier_1 Unit Price" "0.19000"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -9377,7 +9377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "0.19000"
+		(property "Supplier_1 Price @ Qty" "1"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -10772,7 +10772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "1"
+		(property "Supplier_1 Unit Price" "0.19000"
 			(at 269.24 78.74 0)
 			(effects
 				(font
@@ -10781,7 +10781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "0.19000"
+		(property "Supplier_1 Price @ Qty" "1"
 			(at 269.24 78.74 0)
 			(effects
 				(font

@@ -1731,9 +1731,21 @@
 	(bus_alias "SIG_BOOST"
 		(members "EN" "PGOOD" "FB")
 	)
+	(text "5V regulator characteristics"
+		(exclude_from_sim no)
+		(at 64.77 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "326ddf77-04ca-4872-8333-816a39fb9112")
+	)
 	(text "Control scheme"
 		(exclude_from_sim no)
-		(at 95.25 163.83 0)
+		(at 106.426 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1745,7 +1757,7 @@
 	)
 	(text "Compensation network"
 		(exclude_from_sim no)
-		(at 60.96 163.83 0)
+		(at 61.468 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1757,8 +1769,8 @@
 	)
 	(text_box "R: 60.4k\nC: 3.3nF"
 		(exclude_from_sim no)
-		(at 50.546 165.354 0)
-		(size 25.4 5.08)
+		(at 51.054 175.26 0)
+		(size 36.83 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1775,6 +1787,89 @@
 			(justify left top)
 		)
 		(uuid "25e2c182-c087-496f-9036-32c2e795e8b7")
+	)
+	(text_box "Feedback pin is modulated by a I2C controlled digipot which is controlled by the MCU."
+		(exclude_from_sim no)
+		(at 109.22 49.53 0)
+		(size 15.24 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "52e682ab-6849-49d3-9d0c-82239daee09f")
+	)
+	(text_box "Input filter from datasheet"
+		(exclude_from_sim no)
+		(at 45.72 96.52 0)
+		(size 30.48 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "822ccb43-0543-4acb-953c-748a7868e788")
+	)
+	(text_box "Max current: 9A\nF_sw = 1.0 Mhz"
+		(exclude_from_sim no)
+		(at 51.308 157.48 0)
+		(size 36.83 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "86c20422-766b-4341-a0f1-8823e3d636c4")
+	)
+	(text_box "Output filter from datasheet"
+		(exclude_from_sim no)
+		(at 220.98 69.85 0)
+		(size 30.48 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "f8b54441-9c6b-4508-8a83-029520a3dd4e")
 	)
 	(junction
 		(at 220.98 86.36)
@@ -2337,6 +2432,16 @@
 		)
 		(uuid "7b9756d7-986a-48bf-8323-38e22b096889")
 	)
+	(polyline
+		(pts
+			(xy 116.84 67.31) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf7520a-0565-4668-88f3-bf48b969df50")
+	)
 	(wire
 		(pts
 			(xy 97.79 104.14) (xy 107.95 104.14)
@@ -2596,6 +2701,16 @@
 			(type default)
 		)
 		(uuid "baadeedc-1e84-42f9-8a13-7e316b7e3982")
+	)
+	(polyline
+		(pts
+			(xy 116.84 71.12) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf212a5-e498-4d98-82b6-eb6b2d243193")
 	)
 	(wire
 		(pts
@@ -2890,7 +3005,7 @@
 		(cells
 			(table_cell "VSET1"
 				(exclude_from_sim no)
-				(at 88.138 165.354 0)
+				(at 99.314 157.734 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2909,7 +3024,7 @@
 			)
 			(table_cell "VSET2/FB"
 				(exclude_from_sim no)
-				(at 107.188 165.354 0)
+				(at 118.364 157.734 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2928,7 +3043,7 @@
 			)
 			(table_cell "Target VOUT"
 				(exclude_from_sim no)
-				(at 119.888 165.354 0)
+				(at 131.064 157.734 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2947,7 +3062,7 @@
 			)
 			(table_cell "100kΩ to INTVCC"
 				(exclude_from_sim no)
-				(at 88.138 167.894 0)
+				(at 99.314 160.274 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2964,7 +3079,7 @@
 			)
 			(table_cell "FB"
 				(exclude_from_sim no)
-				(at 107.188 167.894 0)
+				(at 118.364 160.274 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2981,7 +3096,7 @@
 			)
 			(table_cell "External Feedback"
 				(exclude_from_sim no)
-				(at 119.888 167.894 0)
+				(at 131.064 160.274 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3618,7 +3733,7 @@
 				)
 			)
 		)
-		(property "Value" "33.6k"
+		(property "Value" "31.6k"
 			(at 60.96 53.34 90)
 			(effects
 				(font
@@ -3635,7 +3750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1162/RG_RM_RGH_Oct2012.pdf"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -3644,7 +3759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33.6K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 31.6KOHM 0.1% 1/10W 0603"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -3653,7 +3768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "Susumu"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -3662,7 +3777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RN73R1JTTD3362B25"
+		(property "Mfr P/N" "RG1608P-3162-B-T5"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -3680,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2019-RN73R1JTTD3362B25TR-ND"
+		(property "Supplier_1 P/N" "RG16P31.6KBTR-ND"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -3689,7 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.04314"
+		(property "Supplier_1 Unit Price" "0.10000"
 			(at 60.96 55.88 0)
 			(effects
 				(font

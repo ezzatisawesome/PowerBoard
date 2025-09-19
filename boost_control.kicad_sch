@@ -897,8 +897,8 @@
 		(uuid "a60e68c9-9fb6-4f89-87ba-c4e7c0aa8401")
 	)
 	(bus_entry
-		(at 74.93 100.33)
-		(size 2.54 -2.54)
+		(at 195.58 80.01)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 77.47) (xy 187.96 77.47)
+			(xy 187.96 77.47) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1035,7 @@
 	)
 	(bus
 		(pts
-			(xy 68.58 105.41) (xy 74.93 105.41)
+			(xy 200.66 82.55) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1215,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 100.33) (xy 74.93 105.41)
+			(xy 195.58 80.01) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1242,26 +1242,6 @@
 			(type default)
 		)
 		(uuid "fcd1b4de-f1b4-4d5c-af32-af0153eaa967")
-	)
-	(wire
-		(pts
-			(xy 77.47 97.79) (xy 81.28 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd290e3c-f824-4e35-a6c9-bb5052bd8dff")
-	)
-	(label "FB"
-		(at 81.28 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09d5361a-e3a6-4cc8-924a-4c70202525c4")
 	)
 	(label "SDA"
 		(at 128.27 97.79 0)
@@ -1295,12 +1275,12 @@
 	)
 	(hierarchical_label "{SIG_BOOST}"
 		(shape bidirectional)
-		(at 68.58 105.41 180)
+		(at 200.66 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7d51bae2-cc6a-4a25-91e9-3c352f60b2fb")
 	)
