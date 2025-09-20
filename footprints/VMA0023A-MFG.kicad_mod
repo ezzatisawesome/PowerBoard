@@ -55,45 +55,6 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -1.649999 2.75) (xy -1.749999 2.65) (xy -1.749999 2.075) (xy -1.575001 1.899999) (xy -0.274998 1.900001)
-			(xy -0.1 2.075) (xy -0.1 2.65) (xy -0.2 2.75)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "07e58e77-82e5-4d25-99ea-4b1640242dd2")
-	)
-	(fp_poly
-		(pts
-			(xy -1.05 -2.75) (xy -0.950001 -2.65) (xy -0.950001 -1.974997) (xy -1.05 -1.874998) (xy -3.150001 -1.874998)
-			(xy -3.250001 -1.974997) (xy -3.249999 -2.65) (xy -3.149999 -2.75)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "869428e9-6117-480a-b0d2-2707d44e78ec")
-	)
-	(fp_poly
-		(pts
-			(xy 3.150001 1.799999) (xy 3.250001 1.899999) (xy 3.249999 2.65) (xy 3.149999 2.75) (xy 1.699999 2.75)
-			(xy 1.599999 2.65) (xy 1.599999 1.974997) (xy 1.774998 1.799999)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "9773526e-543f-492e-ae04-2c0528c73ea6")
-	)
-	(fp_poly
-		(pts
 			(xy -3.149999 2.125) (xy -3.200001 2.075) (xy -3.199999 1.925) (xy -3.149999 1.875) (xy -2.55 1.875)
 			(xy -2.5 1.925) (xy -2.5 2.65) (xy -2.55 2.7) (xy -2.75 2.7) (xy -2.799999 2.65) (xy -2.799999 2.224999)
 			(xy -2.899999 2.125)
@@ -545,10 +506,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8212361f-8934-4325-8287-8317ce99f60f")
 	)
-	(pad "7" smd circle
+	(pad "7" smd roundrect
 		(at -0.924999 2.324999)
-		(size 0.765 0.765)
+		(size 1.649998 0.849996)
 		(layers "F.Cu")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.12)
+		(chamfer top_left top_right bottom_left bottom_right)
 		(uuid "5adeaf51-bae9-4174-aeea-83cb67dcd7f6")
 	)
 	(pad "8" smd rect
@@ -563,10 +527,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0193487-cf3f-4150-8a7b-1f576b994ba4")
 	)
-	(pad "10" smd circle
-		(at 2.424999 2.274999)
-		(size 0.855 0.855)
+	(pad "10" smd roundrect
+		(at 2.425 2.274999)
+		(size 1.650002 0.949998)
 		(layers "F.Cu")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.12)
+		(chamfer top_left top_right bottom_left bottom_right)
 		(uuid "98fd4b8a-ffef-40a0-a510-1b8eea3475f1")
 	)
 	(pad "11" smd rect
@@ -635,10 +602,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "512aea2d-4daa-48f2-8056-28c5b9247935")
 	)
-	(pad "22" smd circle
-		(at -2.100001 -2.3125)
-		(size 0.787502 0.787502)
+	(pad "22" smd roundrect
+		(at -2.1 -2.3125)
+		(size 2.3 0.875)
 		(layers "F.Cu")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.12)
+		(chamfer top_left top_right bottom_left bottom_right)
 		(uuid "95b6e865-029f-4967-8309-330141ca6fca")
 	)
 	(pad "23" smd rect
@@ -748,6 +718,39 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2eb76e28-31e8-481a-afd0-192136b8ca4e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "5bdce4ae-5ae8-42da-a6dc-1eaa15d19af1")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.15 -1.875) (xy -3.25 -1.975) (xy -3.25 -2.65) (xy -3.15 -2.75) (xy -1.05 -2.75) (xy -0.95 -2.65)
+				(xy -0.95 -1.975) (xy -1.05 -1.875)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/VMA0023A.stp"
