@@ -2081,7 +2081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de0b144-dcac-4b53-81b1-56fac0b5ccca")
-		(property "Reference" "TP7"
+		(property "Reference" "TP1"
 			(at 200.66 72.8979 0)
 			(effects
 				(font
@@ -2222,11 +2222,11 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/09b4163a-819e-413e-b808-030375832f4a"
-					(reference "TP7")
+					(reference "TP1")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84126d6b-9224-455f-9cea-3582a8eebe20"
-					(reference "TP8")
+					(reference "TP4")
 					(unit 1)
 				)
 			)

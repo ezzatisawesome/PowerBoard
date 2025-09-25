@@ -1148,10 +1148,6 @@
 		(uuid "2ffd900b-481f-44f1-8705-473c68d98cc5")
 	)
 	(no_connect
-		(at 80.01 66.04)
-		(uuid "3a63fc02-fb12-4440-ad53-84ca92f66357")
-	)
-	(no_connect
 		(at 43.18 96.52)
 		(uuid "541c34fe-74b7-4a37-ba34-09d197bff6d5")
 	)
@@ -1176,24 +1172,12 @@
 		(uuid "98af0689-8591-4a0e-ac4a-5c4adc7b6b67")
 	)
 	(no_connect
-		(at 43.18 69.85)
-		(uuid "b2f800a5-2dfc-4348-91dc-ff73863dfadb")
-	)
-	(no_connect
-		(at 43.18 43.18)
-		(uuid "b568fe4a-2d02-4033-97f3-a245283ca34a")
-	)
-	(no_connect
 		(at 171.45 110.49)
 		(uuid "ba729dc5-1603-42b1-8bec-d5079fa74f20")
 	)
 	(no_connect
 		(at 43.18 39.37)
 		(uuid "db30e6cf-ed5a-4c86-b23e-8d738ef88941")
-	)
-	(no_connect
-		(at 80.01 39.37)
-		(uuid "e5a57392-a723-47f4-b674-96f2b4f39436")
 	)
 	(bus_entry
 		(at 86.36 72.39)
@@ -3293,7 +3277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15c6613d-cdc8-4ad1-b252-d2576ef7a8fd")
-		(property "Reference" "TP9"
+		(property "Reference" "TP3"
 			(at 232.664 121.92 90)
 			(effects
 				(font
@@ -3432,7 +3416,7 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "TP9")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3671,7 +3655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5886422f-0fe2-4e55-b0cd-51e2b615e602")
-		(property "Reference" "TP11"
+		(property "Reference" "TP2"
 			(at 232.664 116.586 90)
 			(effects
 				(font
@@ -3720,7 +3704,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/d1c21149-ce86-4764-be81-965c3e4dd332"
-					(reference "TP11")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
