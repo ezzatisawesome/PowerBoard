@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.765,
-          "width": 0.765
+          "drill": 5.0,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -135,7 +135,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -224,6 +224,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -544,13 +552,22 @@
       "/Main/backup_batt_load_sw/OUT": [
         "cls_HPBUS"
       ],
+      "/Main/batt1_load_sw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/batt1_load_sw/IN": [
         "cls_HPWR"
       ],
       "/Main/batt1_load_sw/OUT": [
         "cls_HPWR"
       ],
+      "/Main/batt2_load_sw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/batt2_load_sw/IN": [
+        "cls_HPWR"
+      ],
+      "/Main/batt3_load_sw/BUS": [
         "cls_HPWR"
       ],
       "/Main/batt3_load_sw/IN": [
@@ -568,6 +585,9 @@
       "/Main/boost_a_in_sns/IN": [
         "cls_LPWR"
       ],
+      "/Main/boost_a_load_sw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/boost_a_load_sw/IN": [
         "cls_LPWR"
       ],
@@ -582,6 +602,9 @@
       ],
       "/Main/boost_b_in_sns/IN": [
         "cls_LPWR"
+      ],
+      "/Main/boost_b_load_sw/BUS": [
+        "cls_HPWR"
       ],
       "/Main/boost_b_load_sw/IN": [
         "cls_LPWR"
