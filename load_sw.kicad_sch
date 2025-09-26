@@ -7459,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Value" "464"
+		(property "Value" "10k"
 			(at 164.846 53.594 90)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 464 OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -7503,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB4640V"
+		(property "Mfr P/N" "ERA-3AEB103V"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "10-ERA-3AEB4640VTR-ND"
+		(property "Supplier_1 P/N" "P10KDBTR-ND"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Value" "1.26k"
+		(property "Value" "27.4k"
 			(at 165.608 45.974 90)
 			(effects
 				(font
@@ -11029,7 +11029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11038,7 +11038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.26K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 27.4KOHM 0.1% 1/10W 0603"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11047,7 +11047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "Panasonic Electronic Components"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11056,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RN73R1JTTD1261B25"
+		(property "Mfr P/N" "ERA-3AEB2742V"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11074,7 +11074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2019-RN73R1JTTD1261B25TR-ND"
+		(property "Supplier_1 P/N" "P27.4KDBTR-ND"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11083,7 +11083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.12000"
+		(property "Supplier_1 Unit Price" "0.10000"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -12204,7 +12204,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220k"
 			(at 164.084 58.674 90)
 			(effects
 				(font
@@ -12230,7 +12230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 27.4KOHM 0.1% 1/10W 0603"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12248,7 +12248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB103V"
+		(property "Mfr P/N" "ERA-3AEB2742V"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12266,7 +12266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P10KDBTR-ND"
+		(property "Supplier_1 P/N" "P27.4KDBTR-ND"
 			(at 160.02 59.69 0)
 			(effects
 				(font
