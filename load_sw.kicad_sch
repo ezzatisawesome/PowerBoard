@@ -3291,7 +3291,7 @@
 		)
 		(uuid "31e0a6e5-0cba-4426-b02c-ddb038326d06")
 	)
-	(text_box "Trip Levels\nMin: 10.04A\nTyp: 10.84A\nMax: 11.79A\n\nTrip Times\nMin: 2.291ms\nTyp: 3.205ms\nMax: 4.827ms"
+	(text_box "Trip Levels\nMin: 10.32A\nTyp: 11.14A\nMax: 12.12A\n\nTrip Times\nMin: 2.291ms\nTyp: 3.205ms\nMax: 4.827ms"
 		(exclude_from_sim no)
 		(at 30.48 151.638 0)
 		(size 25.4 24.13)
@@ -3333,7 +3333,7 @@
 		)
 		(uuid "5ff215af-e3a4-4f46-a6ac-7434e362bd3c")
 	)
-	(text_box "0.02307 V/A"
+	(text_box "0.10052 V/A (nom)"
 		(exclude_from_sim no)
 		(at 88.9 151.638 0)
 		(size 25.4 8.89)
@@ -7459,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2k"
 			(at 164.846 53.594 90)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 2K OHM 0.1% 1/10W 0603"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -7503,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB103V"
+		(property "Mfr P/N" "ERA-3AEB202V"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P10KDBTR-ND"
+		(property "Supplier_1 P/N" "P2.0KDBTR-ND"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Value" "27.4k"
+		(property "Value" "5.49k"
 			(at 165.608 45.974 90)
 			(effects
 				(font
@@ -11038,7 +11038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 27.4KOHM 0.1% 1/10W 0603"
+		(property "Description" "RES SMD 5.49KOHM 0.1% 1/10W 0603"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11056,7 +11056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB2742V"
+		(property "Mfr P/N" "ERA-3AEB5491V"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -11074,7 +11074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P27.4KDBTR-ND"
+		(property "Supplier_1 P/N" "P5.49KDBTR-ND"
 			(at 160.02 46.99 0)
 			(effects
 				(font
@@ -12204,7 +12204,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "44.8k"
 			(at 164.084 58.674 90)
 			(effects
 				(font
@@ -12221,7 +12221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12230,7 +12230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 27.4KOHM 0.1% 1/10W 0603"
+		(property "Description" "RES 44.8K OHM 0.1% 1/10W 0603"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12239,7 +12239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic Electronic Components"
+		(property "Mfr" "KOA Speer Electronics, Inc."
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12248,7 +12248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB2742V"
+		(property "Mfr P/N" "RN73R1JTTD4482B25"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12266,7 +12266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P27.4KDBTR-ND"
+		(property "Supplier_1 P/N" "2019-RN73R1JTTD4482B25TR-ND"
 			(at 160.02 59.69 0)
 			(effects
 				(font
@@ -12629,13 +12629,13 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 224.79 34.29 90)
+		(at 224.79 34.29 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8776c24f-930c-4a2c-a65a-a2bed0f7adf7")
 		(property "Reference" "Q1"
 			(at 224.79 25.4 90)
@@ -12654,7 +12654,7 @@
 			)
 		)
 		(property "Footprint" "_Power_Board:LFPAK56_1"
-			(at 222.25 29.21 0)
+			(at 227.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13887,7 +13887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://my.centralsemi.com/datasheets/2N7002.PDF"
 			(at 73.66 110.49 0)
 			(effects
 				(font
