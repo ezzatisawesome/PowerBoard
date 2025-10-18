@@ -1731,7 +1731,7 @@
 	(bus_alias "SIG_BOOST"
 		(members "EN" "PGOOD" "FB")
 	)
-	(text "5V regulator characteristics"
+	(text "Boost characteristics"
 		(exclude_from_sim no)
 		(at 64.77 156.21 0)
 		(effects
