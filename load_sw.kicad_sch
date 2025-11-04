@@ -8627,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:VMA0023A-MFG"
+		(property "Footprint" "_PowerBoard:VMA0023A-MFG"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -9042,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:LFPAK56_1"
+		(property "Footprint" "_PowerBoard:LFPAK56_1"
 			(at 222.25 60.96 0)
 			(effects
 				(font
@@ -9497,6 +9497,96 @@
 			)
 		)
 		(property "Description" "High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 224.79 100.33 0)
 			(effects
 				(font

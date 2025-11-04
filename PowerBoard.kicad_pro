@@ -556,6 +556,9 @@
       "/Main/batt3_load_sw/IN": [
         "cls_HPWR"
       ],
+      "/Main/boost_a_control/VOUT_IN": [
+        "cls_LPWR"
+      ],
       "/Main/boost_a_frontend/BOOST_OUT": [
         "cls_LPWR"
       ],
@@ -1009,7 +1012,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {

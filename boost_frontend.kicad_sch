@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:IND_SER2918H-333KL"
+		(property "Footprint" "_PowerBoard:IND_SER2918H-333KL"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -7959,7 +7959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:05-08-7040_ADI"
+		(property "Footprint" "_PowerBoard:05-08-7040_ADI"
 			(at 176.53 109.22 0)
 			(effects
 				(font

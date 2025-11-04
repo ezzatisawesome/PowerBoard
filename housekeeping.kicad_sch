@@ -4491,7 +4491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:RPE0009A-MFG"
+		(property "Footprint" "_PowerBoard:RPE0009A-MFG"
 			(at 105.41 85.09 0)
 			(effects
 				(font

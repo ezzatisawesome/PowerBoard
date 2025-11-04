@@ -5214,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:REL0014A_PINA745AIRELR_TEX"
+		(property "Footprint" "_PowerBoard:REL0014A_PINA745AIRELR_TEX"
 			(at 170.18 76.2 0)
 			(effects
 				(font

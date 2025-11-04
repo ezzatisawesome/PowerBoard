@@ -485,16 +485,28 @@
 		(uuid "48f8b23e-82f6-452a-ba58-a6afd19b9559")
 	)
 	(junction
-		(at 109.22 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71a7aaa6-48da-4d97-ae20-6f7c12050c19")
-	)
-	(junction
 		(at 293.37 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "975d87cf-2444-4b04-aad6-4b988ca9aa10")
+	)
+	(junction
+		(at 146.05 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f9dbff-7e3e-4d7a-aed8-71268a613a1b")
+	)
+	(junction
+		(at 146.05 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ab03d4-e1ed-4261-8d2b-8afad6b46819")
+	)
+	(junction
+		(at 109.22 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3b589c9-89b8-4f4b-ae22-0405bd103725")
 	)
 	(junction
 		(at 109.22 115.57)
@@ -575,15 +587,16 @@
 		)
 		(uuid "1971cc28-ed48-4544-91cb-067ec6123772")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 109.22 154.94) (xy 119.38 154.94)
+			(xy 146.05 151.13) (xy 137.16 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 194 0 1)
 		)
-		(uuid "28c574db-de53-4483-aeec-0fde5307406a")
+		(uuid "240ad326-e6ce-42c3-a3ad-179e4c82a91e")
 	)
 	(bus
 		(pts
@@ -649,6 +662,16 @@
 	)
 	(bus
 		(pts
+			(xy 114.3 132.08) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ae1f6a-4705-4a1a-8498-cd4610677b05")
+	)
+	(bus
+		(pts
 			(xy 196.85 143.51) (xy 198.12 143.51)
 		)
 		(stroke
@@ -669,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 106.68) (xy 166.37 106.68)
+			(xy 140.97 106.68) (xy 146.05 106.68)
 		)
 		(stroke
 			(width 0)
@@ -707,6 +730,17 @@
 			(type default)
 		)
 		(uuid "54702368-dba9-4539-afe8-e054e1aa9feb")
+	)
+	(wire
+		(pts
+			(xy 137.16 132.08) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(uuid "57a123df-3987-4bd9-9f8b-742d46752ded")
 	)
 	(wire
 		(pts
@@ -791,7 +825,7 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 154.94) (xy 109.22 167.64)
+			(xy 109.22 152.4) (xy 109.22 154.94)
 		)
 		(stroke
 			(width 0)
@@ -831,6 +865,17 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 106.68) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(uuid "8f331512-96e7-4cf4-9bcf-186a1e73319b")
+	)
+	(wire
+		(pts
 			(xy 87.63 170.18) (xy 90.17 170.18)
 		)
 		(stroke
@@ -861,16 +906,6 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 132.08) (xy 119.38 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8b9d14-222d-4195-be15-f0bb6d9cfebb")
-	)
-	(bus
-		(pts
 			(xy 196.85 138.43) (xy 198.12 138.43)
 		)
 		(stroke
@@ -881,13 +916,13 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 128.27) (xy 109.22 128.27)
+			(xy 109.22 154.94) (xy 109.22 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afd7bbc8-2e72-4d24-8960-4eb3e78db693")
+		(uuid "b0b156b7-05df-4bb7-843a-dc65fc78dafd")
 	)
 	(bus
 		(pts
@@ -921,13 +956,23 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 151.13) (xy 119.38 151.13)
+			(xy 114.3 151.13) (xy 116.84 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c58c802c-a374-41d4-b904-fc9a9f67a7e4")
+		(uuid "c05e6e25-fbd1-465a-b020-78658bd5ff67")
+	)
+	(bus
+		(pts
+			(xy 109.22 154.94) (xy 116.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf3a5da-2465-4c66-9ade-37e9df6006ae")
 	)
 	(bus
 		(pts
@@ -971,16 +1016,6 @@
 	)
 	(bus
 		(pts
-			(xy 109.22 152.4) (xy 109.22 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03c7c67-70c1-4573-995d-77b50f7bef08")
-	)
-	(bus
-		(pts
 			(xy 163.83 148.59) (xy 166.37 148.59)
 		)
 		(stroke
@@ -1021,6 +1056,28 @@
 		)
 		(uuid "ec11a653-9b03-4a68-87d5-9a71052b18bd")
 	)
+	(wire
+		(pts
+			(xy 146.05 132.08) (xy 146.05 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(uuid "f26beca1-58df-4a40-923b-cc1a495f73fe")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 194 0 1)
+		)
+		(uuid "f8291839-d4d7-49fb-87f0-53ba39fa36b1")
+	)
 	(bus
 		(pts
 			(xy 109.22 115.57) (xy 111.76 115.57)
@@ -1041,6 +1098,16 @@
 			(color 0 0 194 1)
 		)
 		(uuid "fcd9c7e1-1cbc-40d1-a96f-4a9ea86dad17")
+	)
+	(bus
+		(pts
+			(xy 109.22 128.27) (xy 116.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda683b1-5f3d-451b-9237-eb6c6bc35f28")
 	)
 	(label "BOOSTX{SIG_LSW}"
 		(at 198.12 135.89 0)
@@ -1136,7 +1203,7 @@
 		(uuid "7c0cf2a1-7430-43ad-98f0-3ca80fc6f5a4")
 	)
 	(label "{I2C}"
-		(at 116.84 132.08 180)
+		(at 114.3 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1156,7 +1223,7 @@
 		(uuid "9c2eaa3f-a824-4fac-bcc6-eb167ce4d5ae")
 	)
 	(label "{I2C}"
-		(at 116.84 151.13 180)
+		(at 114.3 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,8 +1818,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 125.73)
-		(size 15.24 8.89)
+		(at 116.84 125.73)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1766,7 +1833,7 @@
 		)
 		(uuid "09b4163a-819e-413e-b808-030375832f4a")
 		(property "Sheetname" "boost_a_control"
-			(at 119.38 125.0184 0)
+			(at 116.84 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1842,7 @@
 			)
 		)
 		(property "Sheetfile" "boost_control.kicad_sch"
-			(at 112.522 132.588 0)
+			(at 109.982 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1852,7 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 119.38 132.08 180)
+			(at 116.84 132.08 180)
 			(uuid "d597351a-89c7-44af-bd9f-7c32fcd39a8e")
 			(effects
 				(font
@@ -1795,13 +1862,23 @@
 			)
 		)
 		(pin "{SIG_BOOST}" bidirectional
-			(at 119.38 128.27 180)
+			(at 116.84 128.27 180)
 			(uuid "92e4822f-d665-43db-ab01-1181e1640054")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VOUT_IN" input
+			(at 137.16 132.08 0)
+			(uuid "9fbe9ae1-1e7b-4079-81f8-969f6955973a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2316,8 +2393,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 148.59)
-		(size 15.24 8.89)
+		(at 116.84 148.59)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
@@ -2331,7 +2408,7 @@
 		)
 		(uuid "84126d6b-9224-455f-9cea-3582a8eebe20")
 		(property "Sheetname" "boost_b_control"
-			(at 119.38 147.8784 0)
+			(at 116.84 147.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2417,7 @@
 			)
 		)
 		(property "Sheetfile" "boost_control.kicad_sch"
-			(at 112.522 155.448 0)
+			(at 109.982 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2427,7 @@
 			)
 		)
 		(pin "{I2C}" bidirectional
-			(at 119.38 151.13 180)
+			(at 116.84 151.13 180)
 			(uuid "b6281637-14cb-4025-8075-2f697ed6569e")
 			(effects
 				(font
@@ -2360,13 +2437,23 @@
 			)
 		)
 		(pin "{SIG_BOOST}" bidirectional
-			(at 119.38 154.94 180)
+			(at 116.84 154.94 180)
 			(uuid "c58b9228-e0aa-4744-a6a6-aa6a30cec432")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VOUT_IN" input
+			(at 137.16 151.13 0)
+			(uuid "3b54a072-344f-4d27-8e5c-484e9efe4764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
