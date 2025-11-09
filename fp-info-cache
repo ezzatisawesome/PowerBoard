@@ -1,4 +1,4 @@
-26667376146742254
+26674428603152216
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106281,6 +106281,27 @@ IND_SER2918H-333KL
 3
 3
 _PowerBoard
+IND_XGL1313_COC
+
+XGL1313-333MED 
+0
+2
+2
+_PowerBoard
+IND_XGL1313_COC-L
+
+XGL1313-333MED 
+0
+2
+2
+_PowerBoard
+IND_XGL1313_COC-M
+
+XGL1313-333MED 
+0
+2
+2
+_PowerBoard
 LFPAK56_1
 LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf
 LFPAK56 SOT-669 Power-SO8
@@ -106294,6 +106315,13 @@ MODULE_ADAFRUIT_QT_PY
 0
 14
 14
+_PowerBoard
+RASPBERRY_PI_PICO
+
+
+0
+40
+40
 _PowerBoard
 REL0014A_PINA745AIRELR_TEX
 

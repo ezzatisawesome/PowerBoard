@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.765,
-          "width": 0.765
+          "height": 0.875,
+          "width": 2.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -135,11 +135,11 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -224,6 +224,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -544,13 +552,22 @@
       "/Main/backup_batt_load_sw/OUT": [
         "cls_HPBUS"
       ],
+      "/Main/batt1_load_sw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/batt1_load_sw/IN": [
         "cls_HPWR"
       ],
       "/Main/batt1_load_sw/OUT": [
         "cls_HPWR"
       ],
+      "/Main/batt2_load_sw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/batt2_load_sw/IN": [
+        "cls_HPWR"
+      ],
+      "/Main/batt3_load_sw/BUS": [
         "cls_HPWR"
       ],
       "/Main/batt3_load_sw/IN": [
@@ -571,6 +588,9 @@
       "/Main/boost_a_in_sns/IN": [
         "cls_LPWR"
       ],
+      "/Main/boost_a_load_sw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/boost_a_load_sw/IN": [
         "cls_LPWR"
       ],
@@ -585,6 +605,9 @@
       ],
       "/Main/boost_b_in_sns/IN": [
         "cls_LPWR"
+      ],
+      "/Main/boost_b_load_sw/BUS": [
+        "cls_HPWR"
       ],
       "/Main/boost_b_load_sw/IN": [
         "cls_LPWR"
@@ -782,7 +805,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -854,7 +877,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1005,6 +1028,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1012,7 +1041,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Datasheet"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

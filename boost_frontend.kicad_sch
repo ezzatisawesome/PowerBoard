@@ -3174,7 +3174,7 @@
 		(uuid "86d21b40-c6d2-4cad-828d-6f8c8f400ae3")
 	)
 	(label "INTVCC"
-		(at 72.39 86.36 180)
+		(at 71.12 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_PowerBoard:IND_SER2918H-333KL"
+		(property "Footprint" "_PowerBoard:IND_XGL1313_COC"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -6415,7 +6415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/a2805f49-c9b8-42c0-9939-b2d75eed7288/ser2900.pdf"
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/755c440a-d891-4d48-aaf8-866731f65aab/xgl1313.pdf"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -6442,7 +6442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "SER2918H-333KL"
+		(property "Mfr P/N" "XGL1313-333MED"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "Coilcraft"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -6460,7 +6460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2457-SER2918H-333KL-ND"
+		(property "Supplier_1 P/N" "XGL1313-333MED"
 			(at 151.13 128.27 0)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "6.98000"
+		(property "Supplier_1 Unit Price" "6.83000"
 			(at 151.13 128.27 0)
 			(effects
 				(font
