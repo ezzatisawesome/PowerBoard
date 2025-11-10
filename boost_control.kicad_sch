@@ -2130,7 +2130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_6mm_Pad_TopBottom"
 			(at 182.88 67.31 0)
 			(effects
 				(font
