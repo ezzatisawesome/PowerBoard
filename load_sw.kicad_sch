@@ -4989,7 +4989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "012efb61-90e2-46a9-a076-dd821c8bedb8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 172.72 92.71 0)
 			(effects
 				(font
@@ -5039,23 +5039,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0121")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0106")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR091")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -5199,6 +5199,132 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 31.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 31.75 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 31.75 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,6 +5509,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 213.36 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1f540c-ae03-48eb-990f-49a9fd3a371e")
 		)
@@ -5424,7 +5676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0756398a-430a-438a-9621-177c23e26e2d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -5474,23 +5726,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0117")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR068")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR087")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -5638,6 +5890,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05327991-636e-406c-8992-c912104bd10f")
 		)
@@ -5679,7 +6057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3440e05e-783b-4857-8c1a-a2dda2c7f609")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 76.2 100.33 0)
 			(effects
 				(font
@@ -5819,23 +6197,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0115")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR066")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR085")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5850,7 +6228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e425b5e-af26-46f7-9b88-1a3588839592")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 164.846 79.756 90)
 			(effects
 				(font
@@ -5983,6 +6361,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fabf916-6e7f-4343-9ab8-43716c537b7d")
 		)
@@ -5992,23 +6496,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C76")
+					(reference "C75")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C68")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C51")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C60")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -6024,7 +6528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425e6bd8-bba9-4182-ac9d-22a2234421fc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -6074,23 +6578,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR095")
+					(reference "#PWR096")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "443246d7-34f3-4de9-8e03-70119ec747dd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 224.79 120.65 0)
 			(effects
 				(font
@@ -6156,23 +6660,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0123")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0108")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR074")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR093")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6187,7 +6691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4713ebde-80a5-45b1-b9ee-92d414710efa")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 166.878 92.456 90)
 			(effects
 				(font
@@ -6322,6 +6826,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a6504ea-240c-4aef-8918-fd90d3735f52")
 		)
@@ -6331,23 +6961,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C77")
+					(reference "C76")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C69")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C52")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C61")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -6498,6 +7128,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4b7fe36-3863-4b73-b474-ae5ddaf9187d")
 		)
@@ -6538,7 +7294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b7a4d15-43d3-4786-8016-33a813690983")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 50.8 120.65 0)
 			(effects
 				(font
@@ -6678,23 +7434,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0111")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -6845,6 +7601,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cea233a-1e4f-4851-87a6-dca3417b20df")
 		)
@@ -6886,7 +7768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d911efa-6d84-411b-a1c7-5d851de2b567")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 191.77 120.65 0)
 			(effects
 				(font
@@ -6936,23 +7818,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0107")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR092")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -7094,6 +7976,132 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
 			(at 64.77 77.47 0)
 			(effects
 				(font
@@ -7268,6 +8276,132 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,6 +8584,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60353bf3-f5d0-416c-a472-6b2452fb74fd")
 		)
@@ -7491,7 +8751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56c4b43b-55bd-4978-ba41-e1aaad1c75ad")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 62.23 100.33 0)
 			(effects
 				(font
@@ -7631,23 +8891,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR064")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR083")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -7662,7 +8922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68c03e47-bf35-4824-9bbb-c96680ae6296")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 172.72 67.31 0)
 			(effects
 				(font
@@ -7713,23 +8973,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0120")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR090")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -7744,7 +9004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ea59260-8988-4ec7-a94d-378bb7d5d853")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 251.206 105.918 0)
 			(effects
 				(font
@@ -7877,6 +9137,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ed8c0f6-69ab-489d-9997-9c547738488a")
 		)
@@ -7886,23 +9272,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C79")
+					(reference "C78")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C71")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C54")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C63")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -8050,6 +9436,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21ba6231-2486-4e6e-ae3e-e2f136c9b600")
 		)
@@ -8090,7 +9602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77b7640c-74b1-465e-b290-b0de3c3ef6d0")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 55.118 88.646 0)
 			(effects
 				(font
@@ -8225,6 +9737,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e7f8ed78-c921-47da-be96-c407581ac018")
 		)
@@ -8234,23 +9872,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C73")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C65")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C48")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C57")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -8266,7 +9904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f31a36c-526a-474b-84d5-59801cf45a86")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 55.88 120.65 0)
 			(effects
 				(font
@@ -8406,23 +10044,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR097")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8570,6 +10208,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "742021d4-1730-4578-850d-a4854397bf12")
 		)
@@ -8611,7 +10375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81538182-6eb4-4167-b574-9f960b5f8be7")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -8746,6 +10510,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "56b9f3fa-5455-445b-882f-2c3fbf3ebb39")
 		)
@@ -8821,23 +10711,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "U16")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "U14")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8978,6 +10868,132 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 160.02 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,6 +11175,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 224.79 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G"
 			(uuid "fbeabe24-052a-4be3-9622-aba91daa08c1")
 		)
@@ -9203,7 +11345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0cac50-8efc-4a54-9a0e-c118313763f2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 157.48 120.65 0)
 			(effects
 				(font
@@ -9253,23 +11395,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0118")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR088")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -9419,6 +11561,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 195.58 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a621425-35aa-401c-955e-cce987211f85")
 		)
@@ -9460,7 +11728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6050b22-a3b8-4243-8719-f0058c22058c")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 226.9333 87.63 0)
 			(effects
 				(font
@@ -9595,6 +11863,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d7e4208c-948d-4e8a-b383-ef31507de58b")
 		)
@@ -9616,23 +12010,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "U17")
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "U15")
+					(reference "U14")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "U10")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -9648,7 +12042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8d3689c-63ad-45a7-a945-30c3923fb780")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 67.31 100.33 0)
 			(effects
 				(font
@@ -9788,23 +12182,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0114")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR065")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR084")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -9954,6 +12348,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f5c77ca-3d93-45f5-82b7-529d2f8ef522")
 		)
@@ -9994,7 +12514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa486bf8-225a-4d60-8c11-6fc2204a81aa")
-		(property "Reference" "C20"
+		(property "Reference" "C19"
 			(at 42.164 106.68 0)
 			(effects
 				(font
@@ -10129,6 +12649,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b67188a-31f7-42c5-a5b8-264299c24074")
 		)
@@ -10138,23 +12784,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C20")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C72")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C64")
+					(reference "C63")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C47")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C56")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -10304,6 +12950,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6818f70e-d5c1-4043-be30-d644bab6fa6a")
 		)
@@ -10345,7 +13117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9405841-dbb7-4dce-a184-5599bd60fead")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 173.99 104.1399 0)
 			(effects
 				(font
@@ -10480,6 +13252,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62d2680d-4cc6-46ec-8200-f62fa37e00fc")
 		)
@@ -10489,23 +13387,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C78")
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C70")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C53")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C62")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -10521,7 +13419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bafc71b8-c581-4fd0-8d8e-717f4a605f42")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 161.29 109.2199 0)
 			(effects
 				(font
@@ -10656,6 +13554,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58600f3b-8c3d-41ad-8894-d5cfba788445")
 		)
@@ -10665,23 +13689,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C75")
+					(reference "C74")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C67")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C50")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C59")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -10697,7 +13721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f48bd6-bab2-4987-b1a0-cf170276f781")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG04"
 			(at 82.55 78.105 0)
 			(effects
 				(font
@@ -10747,23 +13771,23 @@
 		(instances
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#FLG06")
+					(reference "#FLG04")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#FLG013")
+					(reference "#FLG011")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#FLG012")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
 					(reference "#FLG010")
 					(unit 1)
 				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
+					(reference "#FLG08")
+					(unit 1)
+				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#FLG011")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -10906,6 +13930,132 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 269.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 269.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 269.24 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,6 +14239,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 236.22 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "909eea06-49f0-4797-9395-4cb6db2a5b91")
 		)
@@ -11264,6 +14540,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3ced824-8f35-4592-9d68-e22914d4ec07")
 		)
@@ -11305,7 +14707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7b9d881-69e7-4bd2-8733-133d5d3d7a7b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 269.24 120.65 0)
 			(effects
 				(font
@@ -11355,23 +14757,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0124")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0109")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR075")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -11521,6 +14923,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d59797c5-7ad1-4737-8c97-8162ecb04952")
 		)
@@ -11563,7 +15091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea6bf40c-8738-42f4-ad97-d159c3c37897")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 76.2 120.65 0)
 			(effects
 				(font
@@ -11703,23 +15231,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0116")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR086")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -11734,7 +15262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec0375b1-db6d-4b07-b9de-7834293c3a5b")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -11869,6 +15397,132 @@
 				(hide yes)
 			)
 		)
+		(property "Availability" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 76.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d27b16a-f065-4e35-a56e-719ed638a57f")
 		)
@@ -11878,23 +15532,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "C74")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "C66")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "C49")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "C58")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -11910,7 +15564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef5a53cf-ee3c-4f30-99dd-70442d6c683d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 170.18 120.65 0)
 			(effects
 				(font
@@ -11960,23 +15614,23 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ab37dee-300b-447e-9b13-e5d50b13d849"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/70687909-9f63-4b18-b374-bb5d5688a7a1"
-					(reference "#PWR0119")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/aa92e4e1-fc74-44a9-8187-6c9770b466cf"
-					(reference "#PWR0104")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b9213479-bc9a-4fd6-a1a6-404b21448f58"
-					(reference "#PWR070")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f2327609-10a0-4227-bf59-7648982e83ec"
-					(reference "#PWR089")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -12120,6 +15774,132 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 247.65 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,6 +16075,132 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 187.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 187.96 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)

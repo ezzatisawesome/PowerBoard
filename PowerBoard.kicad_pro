@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 12.0,
-          "width": 12.0
+          "height": 0.875,
+          "width": 2.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -135,7 +135,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -226,12 +226,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
-          "drill": 0.2
-        },
-        {
           "diameter": 0.4,
-          "drill": 0.25
+          "drill": 0.3
         },
         {
           "diameter": 0.5,
@@ -640,6 +636,9 @@
       "Net-(C10-Pad1)": [
         "cls_HPWR"
       ],
+      "Net-(C36-Pad1)": [
+        "cls_HPWR"
+      ],
       "Net-(C37-Pad1)": [
         "cls_HPWR"
       ],
@@ -757,11 +756,26 @@
       "Net-(U13-OUT)": [
         "cls_ICPWR"
       ],
+      "Net-(U14-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U14-OUT)": [
+        "cls_ICPWR"
+      ],
       "Net-(U15-IN)": [
         "cls_ICPWR"
       ],
       "Net-(U15-OUT)": [
         "cls_ICPWR"
+      ],
+      "Net-(U16-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U16-OUT)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U17-BOOT)": [
+        "cls_5V"
       ],
       "Net-(U17-IN)": [
         "cls_ICPWR"
@@ -778,11 +792,20 @@
       "Net-(U18-VIN)_1": [
         "cls_HPWR"
       ],
+      "Net-(U4-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U4-OUT)": [
+        "cls_ICPWR"
+      ],
       "Net-(U5-IN)": [
         "cls_ICPWR"
       ],
       "Net-(U5-OUT)": [
         "cls_ICPWR"
+      ],
+      "Net-(U5-VIN)": [
+        "cls_HPWR"
       ],
       "Net-(U6-VIN)": [
         "cls_HPWR"
@@ -1044,8 +1067,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Supplier_1 P/N"
     },
     "connection_grid_size": 50.0,
     "drawing": {
