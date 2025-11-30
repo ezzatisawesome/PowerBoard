@@ -15398,7 +15398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C2A471FA16-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C1H472FA16-01A.pdf"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -15407,7 +15407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 470PF 100V C0G/NP0 0603"
+		(property "Description" "CAP CER 4700PF 50V C0G/NP0 0603"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -15425,7 +15425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GCM1885C2A471FA16D"
+		(property "Mfr P/N" "GCM1885C1H472FA16D"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -15443,7 +15443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM1885C2A471FA16DTR-ND"
+		(property "Supplier_1 P/N" "490-GCM1885C1H472FA16DTR-ND"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -15452,7 +15452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.16000"
+		(property "Supplier_1 Unit Price" "0.18000"
 			(at 157.48 78.74 0)
 			(effects
 				(font
@@ -17329,7 +17329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0603C221F5GACAUTO"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -17338,7 +17338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 220PF 50V C0G/NP0 0603"
+		(property "Description" "CAP CER 0.22UF 50V X7R 0603"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -17347,7 +17347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KEMET"
+		(property "Mfr" "YAGEO"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -17356,7 +17356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "C0603C221F5GACAUTO"
+		(property "Mfr P/N" "CC0603JRX7R9BB224"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -17374,7 +17374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "399-C0603C221F5GACAUTOTR-ND"
+		(property "Supplier_1 P/N" "13-CC0603JRX7R9BB224TR-ND"
 			(at 76.2 58.42 0)
 			(effects
 				(font
@@ -17383,7 +17383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.85000"
+		(property "Supplier_1 Unit Price" "0.15000"
 			(at 76.2 58.42 0)
 			(effects
 				(font
