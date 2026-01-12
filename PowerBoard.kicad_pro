@@ -919,20 +919,12 @@
       "boost_a_in_sns"
     ],
     [
-      "f2327609-10a0-4227-bf59-7648982e83ec",
-      "batt1_load_sw"
+      "80c1bfca-36b9-400a-8c9c-b4f3940cd581",
+      "imu"
     ],
     [
       "84e96f9f-2d05-4b14-bccc-57bd87440548",
       "solar_panels"
-    ],
-    [
-      "aa92e4e1-fc74-44a9-8187-6c9770b466cf",
-      "batt2_load_sw"
-    ],
-    [
-      "70687909-9f63-4b18-b374-bb5d5688a7a1",
-      "batt3_load_sw"
     ],
     [
       "5ca9c485-eddf-4b8f-8ea2-4142c873b2df",
@@ -941,6 +933,14 @@
     [
       "82ef1b6a-46bf-4ed0-b9a8-2180f415726a",
       "housekeeping"
+    ],
+    [
+      "dd15ba19-6ae0-43ad-9da3-66d2cc4e2bc8",
+      "navlight_load_sw2"
+    ],
+    [
+      "a2a5e176-2ba3-4f1c-82d3-fb6903dd7d61",
+      "navlight_load_sw1"
     ]
   ],
   "text_variables": {}

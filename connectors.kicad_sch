@@ -519,6 +519,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083b3279-b7f8-41b1-be01-9d0ad3ad32c8")
+	)
+	(wire
+		(pts
 			(xy 119.38 121.92) (xy 125.73 121.92)
 		)
 		(stroke
@@ -526,6 +536,37 @@
 			(type default)
 		)
 		(uuid "17189147-e6ad-4097-a39d-516862972d3c")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcea722-488f-4dbc-be40-f277f1eb00e4")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 186.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236142dd-8c9a-44c5-ac83-a2eca4e8c0e5")
+	)
+	(wire
+		(pts
+			(xy 186.69 62.23) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "24cc707c-800a-4948-9c69-90e0b81021d5")
 	)
 	(wire
 		(pts
@@ -589,6 +630,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 64.77) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb42a93-b1a1-4690-aeca-2d669a6d0e35")
+	)
+	(wire
+		(pts
 			(xy 106.68 99.06) (xy 125.73 99.06)
 		)
 		(stroke
@@ -636,6 +687,16 @@
 			(type default)
 		)
 		(uuid "7af957f6-69d4-4ff3-9761-1c60d4a47d48")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.77) (xy 186.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edbc58c-4f41-45b8-997e-90e55944ca11")
 	)
 	(wire
 		(pts
@@ -779,6 +840,28 @@
 		)
 		(uuid "522fef93-a2e2-412d-92d9-ee6993ccfaaf")
 	)
+	(hierarchical_label "Navlight2"
+		(shape output)
+		(at 180.34 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "956a1982-e6b4-41bf-81ce-dbe54b570264")
+	)
+	(hierarchical_label "Navlight1"
+		(shape output)
+		(at 180.34 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7fdd494-d4d3-4d8d-b03c-f6a0655b8cf3")
+	)
 	(hierarchical_label "BATT2_DRV"
 		(shape output)
 		(at 119.38 93.98 180)
@@ -862,6 +945,76 @@
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ca9c485-eddf-4b8f-8ea2-4142c873b2df"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 191.77 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e1b10c1-b5a6-4745-b01a-90118e7c5d9f")
+		(property "Reference" "J6"
+			(at 193.04 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 193.04 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bc6a1b9-b67c-496b-ae51-46c41bbe3fc5")
+		)
+		(pin "2"
+			(uuid "be308c94-9efd-4ca1-a817-4530a0c97317")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ca9c485-eddf-4b8f-8ea2-4142c873b2df"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -1223,6 +1376,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 180.34 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "990dd172-3dd5-49fe-afd3-e50c492ab694")
+		(property "Reference" "#PWR0118"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d942358a-44f0-4413-95c1-695b61ab49b9")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ca9c485-eddf-4b8f-8ea2-4142c873b2df"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1a2692b-bf49-49a8-ae42-53177f178dbd")
+		(property "Reference" "#PWR0119"
+			(at 180.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684f19ee-7087-4926-a127-a21f634fdfe4")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ca9c485-eddf-4b8f-8ea2-4142c873b2df"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 180.34 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1358,6 +1643,76 @@
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ca9c485-eddf-4b8f-8ea2-4142c873b2df"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 191.77 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc25cedd-73d0-414d-bcd0-32c03f175cbc")
+		(property "Reference" "J7"
+			(at 193.04 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 193.04 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c961b624-d1e7-487e-93df-3dcba3ef8132")
+		)
+		(pin "2"
+			(uuid "b976c77b-40ea-4d6c-bd6b-3ec104023790")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/5ca9c485-eddf-4b8f-8ea2-4142c873b2df"
+					(reference "J7")
 					(unit 1)
 				)
 			)
