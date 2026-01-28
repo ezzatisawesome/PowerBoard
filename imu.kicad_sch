@@ -1642,7 +1642,7 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "LVBUS_3V3"
 		(shape input)
 		(at 116.84 69.85 180)
 		(fields_autoplaced yes)
@@ -1654,7 +1654,7 @@
 		)
 		(uuid "ea037d96-b2ed-4b05-960c-3de861388c4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.7424 69.85 0)
+			(at 103.4529 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

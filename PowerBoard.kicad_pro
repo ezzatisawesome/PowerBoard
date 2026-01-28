@@ -501,6 +501,21 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Main/3V3": [
+        "LVBUS_3V3"
+      ],
+      "/Main/LDO/LVBUS_3V3": [
+        "LVBUS_3V3"
+      ],
+      "/Main/LVBUS_3V3": [
+        "LVBUS_3V3"
+      ],
+      "/Main/LV_BUS": [
+        "LVBUS_5V"
+      ],
+      "/Main/LV_OUTPUTS/LVBUS_5V": [
+        "LVBUS_5V"
+      ],
       "/Main/backup_batt_load_sw/IN": [
         "cls_HPBUS"
       ],
@@ -567,6 +582,12 @@
       "/Main/boost_in_sns_b/IN": [
         "cls_LPWR"
       ],
+      "/Main/buck_converter/LVBUS_5V": [
+        "LVBUS_5V"
+      ],
+      "/Main/buck_converter/LV_BUS": [
+        "LVBUS_5V"
+      ],
       "Net-(C1-Pad1)": [
         "cls_HPWR"
       ],
@@ -607,6 +628,9 @@
         "cls_HPWR"
       ],
       "Net-(D20-A2)": [
+        "cls_HPWR"
+      ],
+      "Net-(D21-A2)": [
         "cls_HPWR"
       ],
       "Net-(D3-K)": [
@@ -696,6 +720,12 @@
       "Net-(U15-OUT)": [
         "cls_ICPWR"
       ],
+      "Net-(U16-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U16-OUT)": [
+        "cls_ICPWR"
+      ],
       "Net-(U17-IN)": [
         "cls_ICPWR"
       ],
@@ -707,6 +737,18 @@
       ],
       "Net-(U18-VIN)_1": [
         "cls_HPWR"
+      ],
+      "Net-(U21-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U21-OUT)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U23-IN)": [
+        "cls_ICPWR"
+      ],
+      "Net-(U23-OUT)": [
+        "cls_ICPWR"
       ],
       "Net-(U5-IN)": [
         "cls_ICPWR"
@@ -927,8 +969,20 @@
       "solar_panels"
     ],
     [
+      "6815ee12-689e-4386-87ac-9bb461f0a023",
+      "batt1_load_sw1"
+    ],
+    [
+      "53c40e9b-bd94-4a56-9b8a-16484b2b8256",
+      "LV_BUS"
+    ],
+    [
       "5ca9c485-eddf-4b8f-8ea2-4142c873b2df",
       "connectors"
+    ],
+    [
+      "b04f366d-f95e-45dc-bbbe-449492e7a2e8",
+      "batt2_load_sw2"
     ],
     [
       "82ef1b6a-46bf-4ed0-b9a8-2180f415726a",
@@ -941,6 +995,18 @@
     [
       "a2a5e176-2ba3-4f1c-82d3-fb6903dd7d61",
       "navlight_load_sw1"
+    ],
+    [
+      "04cce5d8-74ad-4f2e-aa4c-97891a57f2ba",
+      "LDO"
+    ],
+    [
+      "f05e241f-cca3-4899-8bd9-c6842ef1c897",
+      "buck_converter"
+    ],
+    [
+      "bde8c131-4a12-4be6-b135-d5ac0107a22b",
+      "batt2_load_sw3"
     ]
   ],
   "text_variables": {}
