@@ -488,7 +488,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -561,6 +561,9 @@
       "/Main/batt1_load_sw/OUT": [
         "cls_HPWR"
       ],
+      "/Main/batt1_lsw/BUS": [
+        "cls_HPWR"
+      ],
       "/Main/batt1_lsw/OUT": [
         "cls_HPWR"
       ],
@@ -568,6 +571,9 @@
         "cls_HPWR"
       ],
       "/Main/batt2_load_sw/IN": [
+        "cls_HPWR"
+      ],
+      "/Main/batt2_lsw/BUS": [
         "cls_HPWR"
       ],
       "/Main/batt2_lsw/OUT": [
@@ -578,9 +584,6 @@
       ],
       "/Main/batt3_load_sw/IN": [
         "cls_HPWR"
-      ],
-      "/Main/boost_a_control/VOUT_IN": [
-        "cls_LPWR"
       ],
       "/Main/boost_a_frontend/BOOST_OUT": [
         "cls_LPWR"
@@ -646,9 +649,6 @@
         "cls_HPWR"
       ],
       "Net-(C10-Pad1)": [
-        "cls_HPWR"
-      ],
-      "Net-(C36-Pad1)": [
         "cls_HPWR"
       ],
       "Net-(C37-Pad1)": [
@@ -780,15 +780,6 @@
       "Net-(U15-OUT)": [
         "cls_ICPWR"
       ],
-      "Net-(U16-IN)": [
-        "cls_ICPWR"
-      ],
-      "Net-(U16-OUT)": [
-        "cls_ICPWR"
-      ],
-      "Net-(U17-BOOT)": [
-        "cls_5V"
-      ],
       "Net-(U17-IN)": [
         "cls_ICPWR"
       ],
@@ -804,26 +795,11 @@
       "Net-(U18-VIN)_1": [
         "cls_HPWR"
       ],
-      "Net-(U21-IN)": [
-        "cls_ICPWR"
-      ],
-      "Net-(U21-OUT)": [
-        "cls_ICPWR"
-      ],
-      "Net-(U4-IN)": [
-        "cls_ICPWR"
-      ],
-      "Net-(U4-OUT)": [
-        "cls_ICPWR"
-      ],
       "Net-(U5-IN)": [
         "cls_ICPWR"
       ],
       "Net-(U5-OUT)": [
         "cls_ICPWR"
-      ],
-      "Net-(U5-VIN)": [
-        "cls_HPWR"
       ],
       "Net-(U6-VIN)": [
         "cls_HPWR"
@@ -1085,8 +1061,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Supplier_1 P/N"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
