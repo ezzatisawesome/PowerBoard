@@ -741,132 +741,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Q_NMOS"
 			(pin_numbers
 				(hide yes)
@@ -878,25 +752,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q19"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "PSMN020-100YS"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "_PowerBoard:LFPAK56_1"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -905,7 +777,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN020-100YS.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -914,7 +786,97 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor"
+			(property "Description" "MOSFET N-CH 100V 43A LFPAK56"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr" "Nexperia USA Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr P/N" "PSMN020-100YS,115"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 P/N" "1727-4286-2-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 Unit Price" "1.42000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 Price @ Qty" "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 Unit Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 Price @ Qty" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1110,7 +1072,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,7 +1090,7 @@
 							)
 						)
 					)
-					(number "D"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1146,7 +1108,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4142,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 31.75) (xy 246.38 33.02)
+			(xy 246.38 31.75) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4552,23 +4514,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 33.02) (xy 234.95 31.75)
+			(xy 234.95 31.75) (xy 234.95 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "620cd1d2-7ec7-49bd-8e35-90771b94587f")
-	)
-	(wire
-		(pts
-			(xy 234.95 38.1) (xy 234.95 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62111e98-ad29-47aa-9e28-aef92e7bfa0e")
 	)
 	(wire
 		(pts
@@ -4752,16 +4704,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 38.1) (xy 212.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e417e4f-8f19-4881-a911-9448bfc68614")
-	)
-	(wire
-		(pts
 			(xy 162.56 54.61) (xy 168.91 54.61)
 		)
 		(stroke
@@ -4882,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 33.02) (xy 212.09 31.75)
+			(xy 212.09 31.75) (xy 212.09 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5139,16 +5081,6 @@
 			(type default)
 		)
 		(uuid "b6bc5212-2272-4e89-a851-c1fe81646ba2")
-	)
-	(wire
-		(pts
-			(xy 246.38 38.1) (xy 246.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc087652-8def-487d-bf24-9c7be2663e10")
 	)
 	(wire
 		(pts
@@ -6292,21 +6224,6 @@
 		)
 		(uuid "8d703bbe-171d-4ebc-af01-b4cdc8776d96")
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 232.41 48.26) (xy 232.41 45.72) (xy 248.92 45.72) (xy 248.92 48.26)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 736df3e2-47d2-49dc-b5be-af7f26bc730f)
-		)
-	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -6361,37 +6278,6 @@
 		)
 		(property "Component Class" ""
 			(at -115.57 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 248.92 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae527a46-21cb-42fa-8ebb-6a68ff9125b4")
-		(property "Netclass" "cls_ICPWR"
-			(at 249.6185 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -31.75 -46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,171 +6351,6 @@
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
 					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 212.09 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06cff66f-cf57-456c-9db2-981b760c05e0")
-		(property "Reference" "NT1"
-			(at 213.36 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 213.36 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 212.09 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b1f540c-ae03-48eb-990f-49a9fd3a371e")
-		)
-		(pin "2"
-			(uuid "bffc856c-f7c4-4a33-a6c4-e291da9a1ed4")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/6815ee12-689e-4386-87ac-9bb461f0a023"
-					(reference "NT1")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
-					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -10054,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+		(property "Footprint" "_PowerBoard:LFPAK56_1"
 			(at 226.06 29.21 0)
 			(effects
 				(font
@@ -10171,13 +9892,13 @@
 				(hide yes)
 			)
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "53c57675-b6e4-4352-94a7-c02144fb21b6")
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "5ba266ea-0503-43c9-a505-dc085439283f")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "47cf18e8-6426-491f-8811-2bec0cc12ecf")
 		)
 		(instances
@@ -13896,170 +13617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 234.95 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce4bd9da-aff2-4d5d-b8b2-4ca80d685e17")
-		(property "Reference" "NT2"
-			(at 235.966 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 236.22 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "909eea06-49f0-4797-9395-4cb6db2a5b91")
-		)
-		(pin "1"
-			(uuid "976610c7-72af-465d-b0de-2451b25186ae")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/6815ee12-689e-4386-87ac-9bb461f0a023"
-					(reference "NT2")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
-					(reference "NT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 171.45 54.61 0)
 		(unit 1)
@@ -16049,170 +15606,6 @@
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
 					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 246.38 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f71e8837-81ea-4488-be4a-aa14e90134f4")
-		(property "Reference" "NT3"
-			(at 247.396 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 247.65 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac2ef85a-bc0b-4f9e-978c-a94cb5309350")
-		)
-		(pin "2"
-			(uuid "0c15ac45-3785-4f35-b166-6f087547379b")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/6815ee12-689e-4386-87ac-9bb461f0a023"
-					(reference "NT3")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
-					(reference "NT6")
 					(unit 1)
 				)
 			)

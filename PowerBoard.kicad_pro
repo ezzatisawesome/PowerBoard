@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.875,
-          "width": 2.3
+          "height": 4.2,
+          "width": 3.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -562,7 +562,8 @@
         "cls_HPWR"
       ],
       "/Main/batt1_lsw/BUS": [
-        "cls_HPWR"
+        "cls_HPWR",
+        "cls_ICPWR"
       ],
       "/Main/batt1_lsw/OUT": [
         "cls_HPWR"
@@ -574,7 +575,8 @@
         "cls_HPWR"
       ],
       "/Main/batt2_lsw/BUS": [
-        "cls_HPWR"
+        "cls_HPWR",
+        "cls_ICPWR"
       ],
       "/Main/batt2_lsw/OUT": [
         "cls_HPWR"
