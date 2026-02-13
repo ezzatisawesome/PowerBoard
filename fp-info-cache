@@ -1,4 +1,4 @@
-26669186556359525
+26670955713108635
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106273,6 +106273,13 @@ LT8342RV-TRMPBF
 0
 29
 29
+_PowerBoard
+CONV_LT8640SEV_PBF
+
+
+0
+32
+32
 _PowerBoard
 IND_SER2918H-333KL
 

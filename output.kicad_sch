@@ -5929,7 +5929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "_LVBus:CONV_LT8640SEV_PBF"
+		(property "Footprint" "_PowerBoard:CONV_LT8640SEV_PBF"
 			(at 154.94 80.01 0)
 			(effects
 				(font
@@ -8446,9 +8446,9 @@
 		(at 55.88 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b116d1e0-4e2c-42fd-9e8a-3d71bb2342e9")
 		(property "Reference" "D8"
 			(at 52.832 61.214 90)
@@ -10967,10 +10967,10 @@
 		(lib_id "Device:C")
 		(at 66.04 60.96 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "ea020ba9-d599-4349-8118-29be0b02d39b")
 		(property "Reference" "C66"
 			(at 69.342 60.96 0)
