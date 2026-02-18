@@ -1081,14 +1081,128 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1 Part Number",
+          "name": "Supplier_1 Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1 Price @ QTY",
+          "name": "Supplier_1 Price @ QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR PN",
+          "name": "MFR PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1_Price @ QTY",
+          "name": "Supplier_1_Price @ QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_1_Price @ Qty",
+          "name": "Supplier_1_Price @ Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR-PN",
+          "name": "MFR-PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Quantity",
+          "name": "Quantity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2 Price @ QTY",
+          "name": "Supplier_2 Price @ QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost",
+          "name": "Cost",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2_Price @ QTY",
+          "name": "Supplier_2_Price @ QTY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier_2_Price @ Qty",
+          "name": "Supplier_2_Price @ Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Unit",
+          "name": "Unit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR P/N",
+          "name": "MFR P/N",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Supplier_1 P/N"
+      "sort_asc": true,
+      "sort_field": "Mfr"
     },
     "connection_grid_size": 50.0,
     "drawing": {

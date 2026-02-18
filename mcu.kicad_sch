@@ -4797,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 83.5152 0)
 			(effects
 				(font
@@ -4806,7 +4806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 93.98 82.55 0)
 			(effects
 				(font
@@ -4815,7 +4815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 82.55 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 169.8752 175.26 0)
 			(effects
 				(font
@@ -5197,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 235.2548 113.03 0)
 			(effects
 				(font
@@ -5505,7 +5505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 212.09 34.798 90)
 			(effects
 				(font
@@ -5514,7 +5514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73-RT.pdf"
+		(property "Datasheet" "~"
 			(at 212.09 33.02 0)
 			(effects
 				(font
@@ -5523,7 +5523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/10W 0402"
+		(property "Description" "Resistor"
 			(at 212.09 33.02 0)
 			(effects
 				(font
@@ -5665,7 +5665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.132 158.75 90)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 111.252 90)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 122.428 90)
 			(effects
 				(font
@@ -6401,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 70.8152 0)
 			(effects
 				(font
@@ -6410,7 +6410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -6419,7 +6419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -6576,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 113.9952 0)
 			(effects
 				(font
@@ -6585,7 +6585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -6594,7 +6594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -6751,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 106.3752 0)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -6769,7 +6769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -7193,7 +7193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 267.97 99.3648 0)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J475ME87-01.pdf"
+		(property "Datasheet" "~"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -7211,7 +7211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 6.3V X5R 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 264.16 100.33 0)
 			(effects
 				(font
@@ -7417,7 +7417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 223.2152 129.54 0)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.412 107.95 90)
 			(effects
 				(font
@@ -7867,7 +7867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 208.5848 130.81 0)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.8848 130.81 0)
 			(effects
 				(font
@@ -8548,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 267.97 91.7448 0)
 			(effects
 				(font
@@ -8770,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 211.1248 49.53 0)
 			(effects
 				(font
@@ -8779,7 +8779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 212.09 53.34 0)
 			(effects
 				(font
@@ -8788,7 +8788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 212.09 53.34 0)
 			(effects
 				(font
@@ -8946,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_BMS:QFN-60_7X7_RPI"
+		(property "Footprint" "_PowerBoard:QFN-60_7X7_RPI"
 			(at 115.57 57.15 0)
 			(effects
 				(font
@@ -9479,7 +9479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.52 66.548 90)
 			(effects
 				(font
@@ -9796,7 +9796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 58.1152 0)
 			(effects
 				(font
@@ -9805,7 +9805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -9814,7 +9814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -10326,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 223.52 69.088 90)
 			(effects
 				(font
@@ -10484,7 +10484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_BMS:ABM8-272-T3_ABR"
+		(property "Footprint" "_PowerBoard:ABM8-272-T3_ABR"
 			(at 132.08 163.83 0)
 			(effects
 				(font
@@ -10716,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 109.728 90)
 			(effects
 				(font
@@ -11073,7 +11073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.1552 175.26 0)
 			(effects
 				(font
@@ -11296,7 +11296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 131.7752 0)
 			(effects
 				(font
@@ -11305,7 +11305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155C71H104JE19-01A.pdf"
+		(property "Datasheet" "~"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7S 0402"
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -11736,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 30.988 90)
 			(effects
 				(font
@@ -11745,7 +11745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "~"
 			(at 64.77 29.21 0)
 			(effects
 				(font
@@ -11754,7 +11754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33K OHM 0.1% 1/16W 0402"
+		(property "Description" "Resistor"
 			(at 64.77 29.21 0)
 			(effects
 				(font
@@ -11959,7 +11959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 31.242 90)
 			(effects
 				(font
@@ -11968,7 +11968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "~"
 			(at 64.77 33.02 0)
 			(effects
 				(font
@@ -11977,7 +11977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33K OHM 0.1% 1/16W 0402"
+		(property "Description" "Resistor"
 			(at 64.77 33.02 0)
 			(effects
 				(font
@@ -12249,7 +12249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.1552 120.65 0)
 			(effects
 				(font

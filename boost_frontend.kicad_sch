@@ -781,25 +781,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q2"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:WDFN-8-1EP_2x2.2mm_P0.5mm_EP0.80x0.54"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -818,6 +816,96 @@
 				)
 			)
 			(property "Description" "N-MOSFET transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 Unit Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_1 Price @ Qty" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 P/N" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 Unit Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier_2 Price @ Qty" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1013,7 +1101,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1031,7 +1119,7 @@
 							)
 						)
 					)
-					(number "D"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1049,7 +1137,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2205,12 +2293,6 @@
 		(uuid "b89b7be6-30e2-43f0-aa7f-ff8a5a44e246")
 	)
 	(junction
-		(at 118.11 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddb99eb1-a605-4686-8076-77db51087cb0")
-	)
-	(junction
 		(at 57.15 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2221,6 +2303,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e732d430-a55c-4d7a-8a94-0540c412b1d4")
+	)
+	(junction
+		(at 118.11 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebcde03f-cabe-46ce-8554-1ee9909d09f2")
 	)
 	(junction
 		(at 83.82 104.14)
@@ -2347,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 128.27) (xy 135.89 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1954f7df-dd16-4570-8696-0b190ca70414")
+	)
+	(wire
+		(pts
 			(xy 118.11 83.82) (xy 125.73 83.82)
 		)
 		(stroke
@@ -2414,16 +2512,6 @@
 			(type default)
 		)
 		(uuid "2a340e85-5203-4187-bcc5-3525b630ffce")
-	)
-	(wire
-		(pts
-			(xy 140.97 139.7) (xy 140.97 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa5921f-e707-4022-b108-fa13df234e8e")
 	)
 	(wire
 		(pts
@@ -2617,16 +2705,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 128.27) (xy 118.11 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6833d503-a54a-462b-a57d-1c162601e13c")
-	)
-	(wire
-		(pts
 			(xy 104.14 104.14) (xy 104.14 128.27)
 		)
 		(stroke
@@ -2674,16 +2752,6 @@
 			(type default)
 		)
 		(uuid "76c0a341-de8f-4a07-ad04-eaf2e5fc588a")
-	)
-	(wire
-		(pts
-			(xy 168.91 128.27) (xy 146.05 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7823d41e-69fc-4ec6-9caf-99b84e474660")
 	)
 	(wire
 		(pts
@@ -2987,6 +3055,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 135.89) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42c3ee9-cd20-4c45-a61d-caacbc9dd178")
+	)
+	(wire
+		(pts
 			(xy 97.79 91.44) (xy 125.73 91.44)
 		)
 		(stroke
@@ -3134,6 +3212,16 @@
 			(type default)
 		)
 		(uuid "e81fa167-83ad-4653-847d-11dc8a48986e")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 168.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8740974-8417-47cf-ba7d-338a549d7e65")
 	)
 	(wire
 		(pts
@@ -6831,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:IND_SER2918H-333KL"
+		(property "Footprint" "_PowerBoard:IND_XGL1313_COC-L"
 			(at 172.72 128.27 0)
 			(effects
 				(font
@@ -7665,13 +7753,13 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "7c2a0453-8f4a-49f1-b983-b5b05455a6ec")
 		)
-		(pin "D"
+		(pin "1"
 			(uuid "5487e4a0-a87a-44ac-9959-ce04b6e5fd87")
 		)
-		(pin "G"
+		(pin "3"
 			(uuid "1b36679c-2c75-49a9-94d3-b106b7418287")
 		)
 		(instances
@@ -8549,7 +8637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Power_Board:05-08-7040_ADI"
+		(property "Footprint" "_PowerBoard:05-08-7040_ADI"
 			(at 176.53 109.22 0)
 			(effects
 				(font
