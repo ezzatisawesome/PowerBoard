@@ -12,113 +12,6 @@
 		(comment 2 "Reviewer: ")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3489,12 +3382,6 @@
 		(uuid "263180a9-6d87-4539-a152-ec270dba3255")
 	)
 	(junction
-		(at 110.49 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bc5d34b-0ef2-4ce3-b535-7e660635a348")
-	)
-	(junction
 		(at 262.89 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3595,12 +3482,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f08099b-6f43-4cb7-96a3-7aa88f374171")
-	)
-	(junction
-		(at 110.49 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f6e04ea-b100-4f4b-89bd-cf4c4f858695")
 	)
 	(junction
 		(at 168.91 59.69)
@@ -4144,16 +4025,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 121.92) (xy 110.49 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae8a3a3-de00-4f6d-8796-d3bf3087f28f")
-	)
-	(wire
-		(pts
 			(xy 233.68 128.27) (xy 233.68 132.08)
 		)
 		(stroke
@@ -4241,16 +4112,6 @@
 			(type default)
 		)
 		(uuid "427f6bb4-d066-4ec9-95a3-eacc045ce3c8")
-	)
-	(wire
-		(pts
-			(xy 110.49 110.49) (xy 135.89 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43279dd9-6da4-4858-8ae4-f53ded6a6f23")
 	)
 	(wire
 		(pts
@@ -4604,7 +4465,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 121.92) (xy 107.95 121.92)
+			(xy 132.08 121.92) (xy 135.89 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5244,7 +5105,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 110.49 110.49)
+			(xy 132.08 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6042,7 +5903,7 @@
 		(uuid "16f110b1-583d-430a-8a0f-e5becd728d74")
 	)
 	(label "FLTn"
-		(at 107.95 121.92 180)
+		(at 132.08 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6102,7 +5963,7 @@
 		(uuid "57f122e4-b08a-4949-abbb-6e49cc66349d")
 	)
 	(label "PGOOD"
-		(at 107.95 110.49 180)
+		(at 132.08 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,167 +7357,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "227b0e6f-1f7d-4e43-8fcd-1c0bca8d7cb7")
-		(property "Reference" "TP2"
-			(at 113.03 105.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_PGOOD"
-			(at 113.03 108.4579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D5.0mm"
-			(at 115.57 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f7934ee-aaaa-42f1-bc6f-256705431f20")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/6815ee12-689e-4386-87ac-9bb461f0a023"
-					(reference "TP2")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 81.28 44.45 180)
 		(unit 1)
@@ -8604,167 +8304,6 @@
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3382242e-cb7e-4d4e-919c-5e2e4cc3622b")
-		(property "Reference" "TP3"
-			(at 113.03 123.9519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TP_FLTn"
-			(at 113.03 126.4919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D5.0mm"
-			(at 105.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr P/N" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 P/N" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Unit Price" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_1 Price @ Qty" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 P/N" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Unit Price" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier_2 Price @ Qty" ""
-			(at 110.49 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdf81a36-4fc5-4188-9828-e4aae70a6a2d")
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/6815ee12-689e-4386-87ac-9bb461f0a023"
-					(reference "TP3")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/b04f366d-f95e-45dc-bbbe-449492e7a2e8"
-					(reference "TP6")
 					(unit 1)
 				)
 			)

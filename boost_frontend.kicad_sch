@@ -5868,7 +5868,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "3mOhm"
 			(at 111.76 124.46 90)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 112.014 127.254 90)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894606192742400"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5903,7 +5903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "YAGEO"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5912,7 +5912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" " PA2512FKE7W0R003E"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" ""
+		(property "Supplier_2" "JLCPCB"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5966,7 +5966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" ""
+		(property "Supplier_2 P/N" " C728307"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5975,7 +5975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" ""
+		(property "Supplier_2 Unit Price" "0.1173"
 			(at 111.76 128.27 0)
 			(effects
 				(font
@@ -5984,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" ""
+		(property "Supplier_2 Price @ Qty" "1"
 			(at 111.76 128.27 0)
 			(effects
 				(font
