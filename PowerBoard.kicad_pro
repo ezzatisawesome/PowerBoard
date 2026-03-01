@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.57,
-          "width": 0.545
+          "drill": 0.2032,
+          "height": 0.499999,
+          "width": 0.499999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -565,6 +565,9 @@
         "cls_HPWR",
         "cls_ICPWR"
       ],
+      "/Main/batt1_lsw/IN": [
+        "cls_HPWR"
+      ],
       "/Main/batt1_lsw/OUT": [
         "cls_HPWR"
       ],
@@ -577,6 +580,9 @@
       "/Main/batt2_lsw/BUS": [
         "cls_HPWR",
         "cls_ICPWR"
+      ],
+      "/Main/batt2_lsw/IN": [
+        "cls_HPWR"
       ],
       "/Main/batt2_lsw/OUT": [
         "cls_HPWR"
@@ -644,6 +650,12 @@
       "/Main/boost_in_sns_b/IN": [
         "cls_LPWR"
       ],
+      "/Main/connectors/NAV1": [
+        "cls_HPWR"
+      ],
+      "/Main/connectors/NAV2": [
+        "cls_HPWR"
+      ],
       "/Main/navlight_load_sw1/OUTPUT": [
         "cls_HPWR"
       ],
@@ -663,6 +675,9 @@
         "cls_HPWR"
       ],
       "Net-(C38-Pad1)": [
+        "cls_HPWR"
+      ],
+      "Net-(C44-Pad1)": [
         "cls_HPWR"
       ],
       "Net-(C69-Pad1)": [

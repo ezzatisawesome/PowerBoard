@@ -485,6 +485,12 @@
 		(uuid "71a7aaa6-48da-4d97-ae20-6f7c12050c19")
 	)
 	(junction
+		(at 207.01 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a862be3b-008b-4adf-ab48-5416052b725f")
+	)
+	(junction
 		(at 248.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -520,7 +526,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 106.68) (xy 248.92 106.68)
+			(xy 140.97 106.68) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -567,6 +573,16 @@
 			(type default)
 		)
 		(uuid "2b792019-463f-4397-ae1f-f5da008e4767")
+	)
+	(wire
+		(pts
+			(xy 207.01 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fff705-071b-4350-8a3a-d231a0607461")
 	)
 	(wire
 		(pts
@@ -637,6 +653,16 @@
 			(type default)
 		)
 		(uuid "7284f354-8900-4c94-ac46-cf8763a4caa2")
+	)
+	(wire
+		(pts
+			(xy 207.01 106.68) (xy 207.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77567476-8253-44fd-b75f-c7ad75433474")
 	)
 	(bus
 		(pts
@@ -860,6 +886,16 @@
 			(color 0 194 0 1)
 		)
 		(uuid "ec11a653-9b03-4a68-87d5-9a71052b18bd")
+	)
+	(wire
+		(pts
+			(xy 193.04 177.8) (xy 207.01 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0e14c6-c814-488c-a10d-e9364285f37c")
 	)
 	(wire
 		(pts
@@ -1775,9 +1811,9 @@
 				(justify left top)
 			)
 		)
-		(pin "HVBUS" input
+		(pin "HV_BUS" input
 			(at 193.04 177.8 0)
-			(uuid "a640a590-d2fe-4069-903f-ad5c91cd082c")
+			(uuid "30f2265d-fb32-45ec-9ea4-518547882f10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,16 +1872,6 @@
 				(justify left)
 			)
 		)
-		(pin "BATT3_DRV" output
-			(at 370.84 186.69 180)
-			(uuid "60a77608-63bb-4d75-be8b-2909691121c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BATT2_DRV" output
 			(at 370.84 213.36 180)
 			(uuid "d12bfa08-9920-4957-bf04-5f6d52795e69")
@@ -1856,9 +1882,9 @@
 				(justify left)
 			)
 		)
-		(pin "Navlight1" output
-			(at 370.84 124.46 180)
-			(uuid "96e02eab-7aac-4f52-b59c-3afe3e3cb37f")
+		(pin "BATT1_DRV" input
+			(at 370.84 186.69 180)
+			(uuid "9ba51595-5f62-4501-8077-a383b463cba4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,9 +1892,19 @@
 				(justify left)
 			)
 		)
-		(pin "Navlight2" output
+		(pin "NAV1" output
+			(at 370.84 124.46 180)
+			(uuid "df8f4961-f1cc-4ec4-99b1-1c1aed2d76a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NAV2" output
 			(at 370.84 151.13 180)
-			(uuid "e08ad8dc-e500-4a93-9ee1-0dc6c2916844")
+			(uuid "10f7c20d-1091-48f8-93bf-38fb40dae843")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,23 +1997,23 @@
 			)
 		)
 		(pin "OUT" output
-			(at 340.36 186.69 0)
+			(at 309.88 186.69 180)
 			(uuid "47bd7e92-de2a-46f8-a962-a956d48f2de9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IN" input
-			(at 309.88 186.69 180)
+			(at 340.36 186.69 0)
 			(uuid "f28e76d4-c411-4a1e-a837-ae7157639eb5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "{SIG_LSW}" bidirectional
@@ -2289,23 +2325,23 @@
 			)
 		)
 		(pin "OUT" output
-			(at 340.36 213.36 0)
+			(at 309.88 213.36 180)
 			(uuid "83871fd9-4da8-403d-ad23-f90cc07fbd4f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IN" input
-			(at 309.88 213.36 180)
+			(at 340.36 213.36 0)
 			(uuid "74c4f798-ae53-4806-b17e-f7ca48c651fd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "{SIG_LSW}" bidirectional
