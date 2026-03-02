@@ -1921,48 +1921,6 @@
 		)
 	)
 	(sheet
-		(at 162.56 104.14)
-		(size 29.21 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "62819e83-bb5b-4036-9a46-d7b99974c455")
-		(property "Sheetname" "boost_a_diode"
-			(at 162.56 103.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ideal_diode.kicad_sch"
-			(at 162.56 119.9646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 309.88 173.99)
 		(size 30.48 15.24)
 		(exclude_from_sim no)
@@ -2614,48 +2572,6 @@
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
 					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 162.56 201.93)
-		(size 29.21 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fe926274-a74f-475a-ae07-73af437c7972")
-		(property "Sheetname" "boost_b_diode"
-			(at 162.56 201.2184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ideal_diode.kicad_sch"
-			(at 162.56 217.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PowerBoard"
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(page "7")
 				)
 			)
 		)

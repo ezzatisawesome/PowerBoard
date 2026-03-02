@@ -1293,10 +1293,6 @@
       "mcu"
     ],
     [
-      "fe926274-a74f-475a-ae07-73af437c7972",
-      "boost_b_diode"
-    ],
-    [
       "136865b6-9226-4363-90e9-85327831a678",
       "boost_b_frontend"
     ],
@@ -1339,10 +1335,6 @@
     [
       "dd15ba19-6ae0-43ad-9da3-66d2cc4e2bc8",
       "navlight_load_sw2"
-    ],
-    [
-      "62819e83-bb5b-4036-9a46-d7b99974c455",
-      "boost_a_diode"
     ],
     [
       "a2a5e176-2ba3-4f1c-82d3-fb6903dd7d61",

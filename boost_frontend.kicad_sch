@@ -2217,6 +2217,12 @@
 		(uuid "24e6289b-97ec-435b-aa3a-2d2811243fd8")
 	)
 	(junction
+		(at 31.75 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d05710-0e78-4b89-bc04-114cff9945dc")
+	)
+	(junction
 		(at 209.55 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2227,6 +2233,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2db6ad27-0598-4d64-8ba3-f7700c1a5bb0")
+	)
+	(junction
+		(at 43.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "467ebcda-1f49-4eb9-95d3-7d8f004c7e5a")
 	)
 	(junction
 		(at 227.33 95.25)
@@ -2595,6 +2607,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 111.76) (xy 31.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2444d176-a34a-4459-b1b2-505bdc19fbaf")
+	)
+	(wire
+		(pts
 			(xy 53.34 113.03) (xy 63.5 113.03)
 		)
 		(stroke
@@ -2612,6 +2634,16 @@
 			(type default)
 		)
 		(uuid "2a340e85-5203-4187-bcc5-3525b630ffce")
+	)
+	(wire
+		(pts
+			(xy 31.75 113.03) (xy 43.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3396b6c5-f51d-424d-b51e-bb1f2f7ee471")
 	)
 	(wire
 		(pts
@@ -2905,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 104.14) (xy 43.18 104.14)
+			(xy 27.94 104.14) (xy 31.75 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2922,6 +2954,16 @@
 			(type default)
 		)
 		(uuid "845bf663-089c-4cf1-8398-98d64f99bfcf")
+	)
+	(wire
+		(pts
+			(xy 31.75 104.14) (xy 43.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b23c86-2f6b-4a95-94c3-14b884874b90")
 	)
 	(wire
 		(pts
@@ -4161,6 +4203,169 @@
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/136865b6-9226-4363-90e9-85327831a678"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e52ed55-435d-48cb-9255-b012ef587a6f")
+		(property "Reference" "C74"
+			(at 29.464 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 29.464 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 30.7848 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 50V X5R 0805"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "GRM21BR61H106KE43L"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "Digikey"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "490-18663-2-ND"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" "0.28000"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" "1"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4f8dc6e-f221-4311-a345-82751a5c4578")
+		)
+		(pin "2"
+			(uuid "1afc1e96-75fb-4276-8c91-5845a943ba99")
+		)
+		(instances
+			(project "PowerBoard"
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/136865b6-9226-4363-90e9-85327831a678"
+					(reference "C75")
 					(unit 1)
 				)
 			)
