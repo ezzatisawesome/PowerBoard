@@ -870,7 +870,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PowerBoard.step",
       "svg": "",
       "vrml": ""
     },
