@@ -7609,7 +7609,7 @@
 				)
 			)
 		)
-		(property "Value" "33uH"
+		(property "Value" "1.8uH"
 			(at 179.324 137.16 90)
 			(effects
 				(font
@@ -7617,7 +7617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_PowerBoard:IND_XGL1313_COC-L"
+		(property "Footprint" "_PowerBoard:XAL6030182MEC"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -7626,7 +7626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/a2805f49-c9b8-42c0-9939-b2d75eed7288/ser2900.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/995/1/xal50xx.pdf"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -7635,7 +7635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
+		(property "Description" "Power Inductors - SMD 1uH Shld 20% 11.1A 9.4mOhms"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -7662,7 +7662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "Mouser"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -7671,7 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2457-SER2918H-333KL-ND"
+		(property "Supplier_1 P/N" "994-XAL5030-102MEC"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "6.98000"
+		(property "Supplier_1 Unit Price" "3.50"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8561,7 +8561,7 @@
 				)
 			)
 		)
-		(property "Value" "33.6k"
+		(property "Value" "100k"
 			(at 96.52 53.34 90)
 			(effects
 				(font
@@ -8578,7 +8578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73R.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -8596,7 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "Yageo"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RN73R1JTTD3362B25"
+		(property "Mfr P/N" "RC0603FR-07100KL "
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -8614,7 +8614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "Mouser"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -8623,7 +8623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "2019-RN73R1JTTD3362B25TR-ND"
+		(property "Supplier_1 P/N" "603-RC0603FR-07100KL"
 			(at 96.52 55.88 0)
 			(effects
 				(font
