@@ -1,4 +1,4 @@
-26686923194759878
+26688696794122870
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106363,7 +106363,7 @@ RHF0024A-MFG
 TPS26400RHFR 
 0
 34
-34
+25
 _PowerBoard
 RM_10_ADI
 
@@ -106413,3 +106413,10 @@ PTPS16850VMAR
 0
 36
 24
+_PowerBoard
+XAL6030182MEC
+XAL6030-182MEC-3
+Inductor
+0
+2
+2

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2032,
-          "height": 0.499999,
-          "width": 0.499999
+          "drill": 0.3048,
+          "height": 0.599999,
+          "width": 0.599999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -668,6 +668,9 @@
       "Net-(C10-Pad1)": [
         "cls_HPWR"
       ],
+      "Net-(C11-Pad1)": [
+        "cls_HPWR"
+      ],
       "Net-(C36-Pad1)": [
         "cls_HPWR"
       ],
@@ -678,6 +681,9 @@
         "cls_HPWR"
       ],
       "Net-(C44-Pad1)": [
+        "cls_HPWR"
+      ],
+      "Net-(C46-Pad1)": [
         "cls_HPWR"
       ],
       "Net-(C69-Pad1)": [
@@ -1335,6 +1341,10 @@
     [
       "dd15ba19-6ae0-43ad-9da3-66d2cc4e2bc8",
       "navlight_load_sw2"
+    ],
+    [
+      "4c1950f4-55e3-4dd9-a247-5599c9473a59",
+      "io"
     ],
     [
       "a2a5e176-2ba3-4f1c-82d3-fb6903dd7d61",

@@ -253,7 +253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58b4db23-65fd-473e-8825-258c470accd1")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 119.38 104.1399 0)
 			(effects
 				(font
@@ -391,7 +391,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/f504018f-47b7-40f6-962c-9989a757ee65"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -561,7 +561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee54b4f4-6e96-49fc-a8be-5a07b26e4552")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 153.67 82.5499 0)
 			(effects
 				(font
@@ -699,7 +699,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/f504018f-47b7-40f6-962c-9989a757ee65"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)

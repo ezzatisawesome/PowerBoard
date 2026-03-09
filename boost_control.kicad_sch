@@ -1681,7 +1681,7 @@
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84126d6b-9224-455f-9cea-3582a8eebe20"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1696,7 +1696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "307a43f4-4e82-4d62-972f-0748fcb29246")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 215.9 100.584 0)
 			(effects
 				(font
@@ -1840,11 +1840,11 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/09b4163a-819e-413e-b808-030375832f4a"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84126d6b-9224-455f-9cea-3582a8eebe20"
-					(reference "C53")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -2076,7 +2076,7 @@
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84126d6b-9224-455f-9cea-3582a8eebe20"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2179,7 +2179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 182.88 60.96 0)
 			(effects
 				(font
@@ -2198,6 +2198,96 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
 			(at 177.8 60.96 0)
 			(effects
 				(font
@@ -2378,7 +2468,7 @@
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84126d6b-9224-455f-9cea-3582a8eebe20"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -2605,7 +2695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdac92e3-1e50-48c8-abbe-26bc98451c0f")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 205.232 100.584 0)
 			(effects
 				(font
@@ -2747,11 +2837,11 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/09b4163a-819e-413e-b808-030375832f4a"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/84126d6b-9224-455f-9cea-3582a8eebe20"
-					(reference "C52")
+					(reference "C54")
 					(unit 1)
 				)
 			)

@@ -151,7 +151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "_INA745:PINA745AIRELR"
+		(symbol "_PINA75:PINA745AIRELR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -777,12 +777,6 @@
 		(color 0 0 0 0)
 		(uuid "ee638026-60d7-414f-a044-4d2bac74dac6")
 	)
-	(junction
-		(at 171.45 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f81ed505-9e5f-4cc7-97b4-49a0c415a359")
-	)
 	(bus_entry
 		(at 180.34 88.9)
 		(size 2.54 -2.54)
@@ -813,13 +807,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 171.45 83.82)
+			(xy 170.18 83.82) (xy 176.53 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07c9ff68-42b4-4a8e-89e1-a11df380f0a4")
+	)
+	(wire
+		(pts
+			(xy 176.53 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0e8f6f-5909-4433-88b3-8872eed43fad")
 	)
 	(wire
 		(pts
@@ -830,6 +834,16 @@
 			(type default)
 		)
 		(uuid "0ee35f45-907a-41b8-ada8-7e2a355375c1")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1016df0c-62cb-4276-99e9-3f2cb5415c3d")
 	)
 	(wire
 		(pts
@@ -853,16 +867,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 185.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac96d33-8a54-42e1-a1fe-edf9f2910df3")
-	)
-	(wire
-		(pts
 			(xy 95.25 83.82) (xy 102.87 83.82)
 		)
 		(stroke
@@ -873,7 +877,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 83.82) (xy 186.69 83.82)
+			(xy 182.88 83.82) (xy 185.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -903,6 +907,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 83.82) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7969fa80-ef0c-43f4-8f0f-4caa8a172d35")
+	)
+	(wire
+		(pts
 			(xy 128.27 76.2) (xy 128.27 78.74)
 		)
 		(stroke
@@ -923,6 +937,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 81.28) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8def48fd-d5f8-4f59-acea-49f3e61a0cf5")
+	)
+	(wire
+		(pts
 			(xy 125.73 81.28) (xy 129.54 81.28)
 		)
 		(stroke
@@ -930,6 +954,16 @@
 			(type default)
 		)
 		(uuid "8f44f041-aec1-4dda-ab7b-b4719ce46fb5")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 172.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98564f90-ba6b-480c-a709-1ab7279516d0")
 	)
 	(wire
 		(pts
@@ -953,16 +987,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 171.45 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4450046-0490-479d-aec8-11997f0210fc")
-	)
-	(wire
-		(pts
 			(xy 170.18 88.9) (xy 180.34 88.9)
 		)
 		(stroke
@@ -973,17 +997,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 171.45 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56fdcf0-8041-4a94-840e-17063cbc7747")
-	)
-	(wire
-		(pts
-			(xy 170.18 91.44) (xy 186.69 91.44)
+			(xy 170.18 91.44) (xy 185.42 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4982,7 +4996,7 @@
 	)
 	(hierarchical_label "{I2C}"
 		(shape bidirectional)
-		(at 186.69 83.82 0)
+		(at 185.42 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5013,9 +5027,20 @@
 		)
 		(uuid "3f269e1d-0e50-4815-8ea4-70ecf9f9d8ad")
 	)
+	(hierarchical_label "I2C_SETTING"
+		(shape input)
+		(at 185.42 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6c4a455-d660-4748-900d-695afbb086e2")
+	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 186.69 91.44 0)
+		(at 185.42 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5033,7 +5058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ae76a72-ffca-4b8d-8cc6-a855f8989fee")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR072"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -5084,7 +5109,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
-					(reference "#PWR073")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
@@ -5104,7 +5129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ce0c41-65dc-4fdd-834b-d3f3ffec8944")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR071"
 			(at 102.87 97.79 0)
 			(effects
 				(font
@@ -5154,7 +5179,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
-					(reference "#PWR072")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
@@ -5165,7 +5190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_INA745:PINA745AIRELR")
+		(lib_id "_PINA75:PINA745AIRELR")
 		(at 170.18 76.2 0)
 		(mirror y)
 		(unit 1)
@@ -5173,8 +5198,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1d2886c-c074-4ea0-afb7-05d47244871d")
-		(property "Reference" "U5"
+		(uuid "94d4df53-c953-4be0-ae27-9838e3ad6e3a")
+		(property "Reference" "U18"
 			(at 149.86 66.04 0)
 			(effects
 				(font
@@ -5210,7 +5235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V, 16BIT HIGH-PRECISION I2C OU"
+		(property "Description" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5219,7 +5244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Texas Instruments"
+		(property "Mfr" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5228,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "INA745AIRELR"
+		(property "Mfr P/N" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5237,7 +5262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Texas Instruments"
+		(property "Supplier_1" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5246,7 +5271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "1"
+		(property "Supplier_1 P/N" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5255,7 +5280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "2.044"
+		(property "Supplier_1 Unit Price" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5264,7 +5289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5309,56 +5334,56 @@
 				(hide yes)
 			)
 		)
-		(pin "12"
-			(uuid "4d7f18e0-2dd2-4219-8b3b-04bf922018a2")
-		)
-		(pin "1"
-			(uuid "4dfe3ab9-1a88-481a-a370-2992c8131403")
-		)
-		(pin "4"
-			(uuid "6044b246-a76a-4066-b4ba-d2a69759eb2b")
-		)
-		(pin "3"
-			(uuid "f4fb9ae0-17f6-439c-ad40-1194941c2d7b")
-		)
-		(pin "2"
-			(uuid "ae7b9a66-4e93-406f-9638-c8d0f3e66530")
-		)
-		(pin "11"
-			(uuid "26001afc-af88-42e9-ba81-93e81972ef80")
-		)
 		(pin "9"
-			(uuid "0a8d9316-a77c-4f83-b9a9-c1fa651190ac")
+			(uuid "3b13942d-7d05-4294-adec-6e400aeb591d")
 		)
 		(pin "10"
-			(uuid "2b00f9d0-5054-4681-bd30-b1d2fde7cd7f")
-		)
-		(pin "8"
-			(uuid "02e0cc1b-00df-4b7a-812a-baaba9cc0f34")
-		)
-		(pin "7"
-			(uuid "c38b7333-644f-42cd-88c6-dea871591c7d")
-		)
-		(pin "14"
-			(uuid "9c2af017-2782-4708-8a77-72e59af879cd")
+			(uuid "9c90b237-a962-49ec-9ddf-55c706772ce0")
 		)
 		(pin "5"
-			(uuid "6c2d8307-ce14-4502-882d-151d078945b1")
+			(uuid "d4cda5ce-f537-4a4d-ba06-a9a44c9c6535")
+		)
+		(pin "3"
+			(uuid "4ffdec38-5da3-4dda-9c98-dfa46521b25f")
+		)
+		(pin "1"
+			(uuid "e7f961c8-51dc-4de2-855a-e227113fe8e7")
+		)
+		(pin "2"
+			(uuid "91ee9beb-c418-4cf3-97e4-9616e0a6a271")
+		)
+		(pin "4"
+			(uuid "e4b15c69-32de-4de9-87dd-66df8e60e913")
+		)
+		(pin "14"
+			(uuid "dc9841d3-98ea-4d33-8857-b41534fd72a4")
 		)
 		(pin "6"
-			(uuid "4d93c5ce-ad23-4eaf-8317-52b906feb053")
+			(uuid "6d4b849e-633e-442d-8137-9120ef48227c")
+		)
+		(pin "12"
+			(uuid "74868d0e-34cc-420c-a259-14d1b2e173b4")
 		)
 		(pin "13"
-			(uuid "f726f23d-0fd4-4dc2-a146-68d3d2c9693c")
+			(uuid "133e8829-f59c-4b59-b4c9-6d9455206000")
+		)
+		(pin "7"
+			(uuid "7656596c-b678-43dd-81c0-f94a3b4cacd5")
+		)
+		(pin "11"
+			(uuid "72dc8ee3-2938-4a6c-a9e2-5d98e5bd8695")
+		)
+		(pin "8"
+			(uuid "9c22f7bd-650d-4c8c-b527-76159faac14a")
 		)
 		(instances
-			(project "PowerBoard"
+			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
-					(reference "U5")
+					(reference "U18")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
-					(reference "U7")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -5366,7 +5391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 81.28 90)
+		(at 184.15 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5374,7 +5399,7 @@
 		(dnp no)
 		(uuid "c997ad88-d8aa-4621-8603-d3514a7469b1")
 		(property "Reference" "#PWR074"
-			(at 191.77 81.28 0)
+			(at 190.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5408,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.214 81.28 90)
+			(at 186.944 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 81.28 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 81.28 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 81.28 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5453,7 @@
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5443,7 +5468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5cfde13-c0dc-4aff-987d-f8c92d99e2c2")
-		(property "Reference" "C51"
+		(property "Reference" "C53"
 			(at 98.552 88.392 0)
 			(effects
 				(font
@@ -5585,11 +5610,11 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
-					(reference "C51")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
-					(reference "C54")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -5605,7 +5630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec6dcf2b-348b-40ca-a2ad-1254b1909f63")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR070"
 			(at 99.06 83.82 0)
 			(effects
 				(font
@@ -5656,7 +5681,7 @@
 		(instances
 			(project "PowerBoard"
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/3068c1f6-122c-49ae-9c21-f8ebc0263ff5"
-					(reference "#PWR071")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/f48ac83e-9a77-49aa-aabc-f4682142862d"
