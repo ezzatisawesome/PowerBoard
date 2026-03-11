@@ -5144,7 +5144,7 @@
 		)
 		(uuid "34417c19-0256-4ad5-8a95-fe43aacb70d5")
 	)
-	(label "BATT2.IMON"
+	(label "BATT1.IMON"
 		(at 232.41 152.4 0)
 		(effects
 			(font
@@ -5314,7 +5314,7 @@
 		)
 		(uuid "5c17cf41-84aa-4401-85de-6a0ac52fbfba")
 	)
-	(label "BATT2.FLTn"
+	(label "BATT1.EN"
 		(at 171.45 132.08 180)
 		(effects
 			(font
@@ -5454,7 +5454,7 @@
 		)
 		(uuid "82e3bcdd-b6a3-4d42-9246-dc311003ca6d")
 	)
-	(label "BATT1.EN_DIODE"
+	(label "BATT2.SWEN"
 		(at 171.45 134.62 180)
 		(effects
 			(font

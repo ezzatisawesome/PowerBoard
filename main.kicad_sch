@@ -1038,7 +1038,7 @@
 		)
 		(uuid "2a6bf571-23d8-4de6-93bd-0f5609d9009a")
 	)
-	(label "NAV1{SIG_NAV_LSW}"
+	(label "NAV2{SIG_NAV_LSW}"
 		(at 243.84 151.13 0)
 		(effects
 			(font
@@ -1141,7 +1141,7 @@
 		)
 		(uuid "b93bdaf9-633e-4d89-8351-7f8724ebf4f3")
 	)
-	(label "NAV1{SIG_NAV_LSW}"
+	(label "NAV2{SIG_NAV_LSW}"
 		(at 290.83 151.13 180)
 		(effects
 			(font
@@ -2605,26 +2605,6 @@
 				(justify left)
 			)
 		)
-		(pin "NAV1{SIG_NAV_LSW}" bidirectional
-			(at 242.57 151.13 0)
-			(uuid "23e7d42f-cadc-4824-a598-ab4db67f0a92")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NAV2{SIG_NAV_LSW}" bidirectional
-			(at 242.57 146.05 0)
-			(uuid "4bbd6eff-fd23-4c82-a39c-eedbf60095e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{SERIAL}" bidirectional
 			(at 196.85 154.94 180)
 			(uuid "595314c7-a063-456d-b763-466f37b2bf9c")
@@ -2633,6 +2613,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "NAV1{SIG_NAV_LSW}" bidirectional
+			(at 242.57 146.05 0)
+			(uuid "6feb67fe-1e41-4310-bcbf-63c5fba07bb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NAV2{SIG_NAV_LSW}" bidirectional
+			(at 242.57 151.13 0)
+			(uuid "dccbd010-c0f3-4ab7-a665-acf6c59cecdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

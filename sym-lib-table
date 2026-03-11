@@ -4,4 +4,5 @@
   (lib (name "_TPS26400RHFR")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS26400RHFR.kicad_sym")(options "")(descr ""))
   (lib (name "_PINA75")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-09-08_05-34-04.kicad_sym")(options "")(descr ""))
   (lib (name "_LT8342")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-09-07_17-50-26.kicad_sym")(options "")(descr ""))
+  (lib (name "_AMPHENOL1017")(type "KiCad")(uri "${KIPRJMOD}/symbols/amphenol_10173568-00011LF.kicad_sym")(options "")(descr ""))
 )
