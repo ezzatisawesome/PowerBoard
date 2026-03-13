@@ -2229,7 +2229,7 @@
 		)
 		(uuid "df7d434a-5617-4d94-aafd-509dcee77816")
 	)
-	(text_box "Input:\nOutput: 5V\nMax current: "
+	(text_box "Input:\nOutput: 5V\nMax current: 6A"
 		(exclude_from_sim no)
 		(at 54.356 84.836 0)
 		(size 29.21 17.78)
