@@ -505,10 +505,24 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R_dif",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "line_style": 0,
         "name": "cls_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.5,
         "wire_width": 6
@@ -516,7 +530,7 @@
       {
         "name": "cls_HPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 7.5,
         "wire_width": 20
@@ -524,7 +538,7 @@
       {
         "name": "cls_ICPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "wire_width": 6
@@ -532,7 +546,7 @@
       {
         "name": "cls_LPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 4.0,
         "wire_width": 20
@@ -865,6 +879,22 @@
       {
         "netclass": "Default",
         "pattern": ""
+      },
+      {
+        "netclass": "90R_dif",
+        "pattern": "/Main/io/D-"
+      },
+      {
+        "netclass": "90R_dif",
+        "pattern": "/Main/io/D+"
+      },
+      {
+        "netclass": "90R_dif",
+        "pattern": "/Main/mcu/D+"
+      },
+      {
+        "netclass": "90R_dif",
+        "pattern": "/Main/mcu/D-"
       }
     ]
   },
