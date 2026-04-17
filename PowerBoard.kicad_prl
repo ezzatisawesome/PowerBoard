@@ -5,7 +5,7 @@
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -13,7 +13,7 @@
       "shapes": 0.9800000190734863,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.05999999865889549
+      "zones": 0.75
     },
     "selection_filter": {
       "dimensions": true,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_a2000185",
+    "visible_layers": "00000000_00000000_00000000_a2000f55",
     "zone_display_mode": 0
   },
   "git": {
@@ -109,7 +109,7 @@
       103,
       103,
       103,
-      0
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
