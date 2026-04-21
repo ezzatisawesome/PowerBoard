@@ -3119,6 +3119,10 @@
 		(uuid "f1a11032-9752-4397-a5e5-770a0518a890")
 	)
 	(no_connect
+		(at 232.41 162.56)
+		(uuid "21384bb2-064b-4373-aa9b-d06c675517ac")
+	)
+	(no_connect
 		(at 171.45 132.08)
 		(uuid "9e3bf3a8-3bc6-4e7e-821a-8763b83d553d")
 	)
@@ -3127,12 +3131,12 @@
 		(uuid "a57b811d-4d89-42b6-8f60-5e6395a97639")
 	)
 	(no_connect
-		(at 171.45 172.72)
-		(uuid "af62c24c-437d-48bf-85dc-cf47d439cdf7")
-	)
-	(no_connect
 		(at 54.61 138.43)
 		(uuid "d9d750e1-5d79-46cb-9c69-0b35581bb358")
+	)
+	(no_connect
+		(at 232.41 172.72)
+		(uuid "f48a450e-ee55-4167-a074-4d01a910ed07")
 	)
 	(bus_entry
 		(at 41.91 180.34)
@@ -5246,16 +5250,6 @@
 		)
 		(uuid "435ff1e1-7de8-4647-80f2-ee9db89d74c4")
 	)
-	(label "SX_BOOST.PGOOD"
-		(at 232.41 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47318c2c-0c96-4385-bb0f-a6301876b7ba")
-	)
 	(label "RX"
 		(at 129.54 106.68 0)
 		(effects
@@ -5356,6 +5350,16 @@
 		)
 		(uuid "5c17cf41-84aa-4401-85de-6a0ac52fbfba")
 	)
+	(label "SY_BOOST.EN"
+		(at 171.45 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "627978f0-11fb-4400-83d6-066de63aba22")
+	)
 	(label "NAV1.nSHDN"
 		(at 171.45 167.64 180)
 		(effects
@@ -5445,16 +5449,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e201bf1-c3e8-46bd-b412-124c122a4930")
-	)
-	(label "BATT2.PGOOD"
-		(at 171.45 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "803181ae-1463-42fc-b0ce-9f62900f22e1")
 	)
 	(label "SWCLK"
 		(at 99.06 152.4 0)
@@ -5596,6 +5590,16 @@
 		)
 		(uuid "ad7cec2f-def8-4052-b18d-b24810b18fda")
 	)
+	(label "SX_BOOST.PGOOD"
+		(at 232.41 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae6f92d0-7079-4767-941e-ecbe583da5fc")
+	)
 	(label "QSPI_SD2"
 		(at 261.62 62.23 180)
 		(effects
@@ -5635,6 +5639,16 @@
 			(justify left bottom)
 		)
 		(uuid "b4745010-4ebf-4f38-ba54-d11cc5d198a3")
+	)
+	(label "BATT2.PGOOD"
+		(at 171.45 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5ce534f-72fa-48c0-aca8-7f4809f8bc92")
 	)
 	(label "SY_BOOST.PGOOD"
 		(at 232.41 177.8 0)
@@ -5705,16 +5719,6 @@
 			(justify left bottom)
 		)
 		(uuid "d01cc19c-1c4d-4628-a554-4fb51661a0bd")
-	)
-	(label "SY_BOOST.EN"
-		(at 232.41 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2d9ba8b-dbdc-491a-90e7-0ae2fe176780")
 	)
 	(label "A_SNS"
 		(at 232.41 165.1 0)
