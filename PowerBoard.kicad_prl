@@ -13,7 +13,7 @@
       "shapes": 0.8600000143051147,
       "tracks": 1.0,
       "vias": 0.9800000190734863,
-      "zones": 0.0
+      "zones": 0.3799999952316284
     },
     "selection_filter": {
       "dimensions": true,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_22000555",
+    "visible_layers": "00000000_00000000_00000000_220005c5",
     "zone_display_mode": 0
   },
   "git": {
