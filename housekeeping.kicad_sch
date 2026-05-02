@@ -1778,7 +1778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "296-LMR43620MSC5RPERQ1TR-ND"
+		(property "Supplier_1 P/N" "C6979910"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -1796,7 +1796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "3.81000"
+		(property "Supplier_1 Unit Price" ""
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -1958,7 +1958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 217.17 96.52 0)
 			(effects
 				(font
@@ -1967,7 +1967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P15463TR-ND"
+		(property "Supplier_1 P/N" "C178643"
 			(at 217.17 96.52 0)
 			(effects
 				(font
@@ -1976,7 +1976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.83000"
+		(property "Supplier_1 Unit Price" ""
 			(at 217.17 96.52 0)
 			(effects
 				(font
@@ -2314,7 +2314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "SRN6045TA-3R3YTR-ND"
+		(property "Supplier_1 P/N" "C3221229"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.45000"
+		(property "Supplier_1 Unit Price" ""
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -2539,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 229.87 96.52 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P15463TR-ND"
+		(property "Supplier_1 P/N" "C178643"
 			(at 229.87 96.52 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.83000"
+		(property "Supplier_1 Unit Price" ""
 			(at 229.87 96.52 0)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 71.12 110.49 0)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-13310-2-ND"
+		(property "Supplier_1 P/N" "C576424"
 			(at 71.12 110.49 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.22000"
+		(property "Supplier_1 Unit Price" ""
 			(at 71.12 110.49 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "06035C104K4T2A"
+		(property "Mfr P/N" "CC0603KRX7R9BB104"
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -2856,7 +2856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -2865,7 +2865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "478-KAM15AR71H104KTTR-ND"
+		(property "Supplier_1 P/N" "C14663"
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -2920,6 +2920,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
 			(at 71.12 95.25 0)
 			(effects
 				(font
@@ -3137,7 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "06035C104K4T2A"
+		(property "Mfr P/N" "CC0603KRX7R9BB104"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -3146,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -3155,7 +3164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "478-KAM15AR71H104KTTR-ND"
+		(property "Supplier_1 P/N" "C14663"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -3164,7 +3173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -3210,6 +3219,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -3306,7 +3324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -3315,7 +3333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-12394-2-ND"
+		(property "Supplier_1 P/N" "C437576"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -3324,7 +3342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.24000"
+		(property "Supplier_1 Unit Price" ""
 			(at 58.42 95.25 0)
 			(effects
 				(font

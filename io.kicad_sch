@@ -1492,8 +1492,8 @@
 		(uuid bbdb3403-6b55-4ac8-a081-7d95c09aeec2)
 	)
 	(rectangle
-		(start 16.51 67.31)
-		(end 87.63 132.08)
+		(start 13.97 69.85)
+		(end 85.09 134.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -1594,6 +1594,42 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9aa01862-fb28-477f-b4b9-be60702d5457")
+	)
+	(no_connect
+		(at 48.26 102.87)
+		(uuid "02ba7817-46a0-48da-9898-f7081aa2682e")
+	)
+	(no_connect
+		(at 48.26 107.95)
+		(uuid "07866f1e-4427-484e-88ba-f25ac5782fe1")
+	)
+	(no_connect
+		(at 48.26 115.57)
+		(uuid "189204df-c6ed-414a-8dee-9c76ea0cbbff")
+	)
+	(no_connect
+		(at 48.26 110.49)
+		(uuid "5346162b-a470-4876-929e-b7e97ae97d43")
+	)
+	(no_connect
+		(at 48.26 97.79)
+		(uuid "64386c18-d64c-4c5c-8297-f6d782ccd21b")
+	)
+	(no_connect
+		(at 48.26 92.71)
+		(uuid "77714063-a4c6-44f5-a352-5224da9f9bda")
+	)
+	(no_connect
+		(at 48.26 113.03)
+		(uuid "7f1f5af3-4ad6-49c0-b933-deba0a0bcfc0")
+	)
+	(no_connect
+		(at 48.26 95.25)
+		(uuid "be349e52-ffd7-4c3d-9345-65041108fcce")
+	)
+	(no_connect
+		(at 48.26 100.33)
+		(uuid "d2e79f2f-17b7-4b5a-b221-88128b9daafa")
 	)
 	(bus_entry
 		(at 129.54 129.54)
@@ -2408,6 +2444,51 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1" "LCSC"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C720628"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "TYPEC-303-ACP16"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B6"
 			(uuid "613afbb3-26d7-4b29-9e5b-ff8ed6285384")
 		)
@@ -2681,7 +2762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -2690,7 +2771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C35786"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -2745,6 +2826,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -2839,7 +2929,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 111.76 134.62 180)
+		(at 111.76 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2847,22 +2937,22 @@
 		(dnp no)
 		(uuid "58c6f1d0-df3b-4e16-9924-79fb89842138")
 		(property "Reference" "D5"
-			(at 111.76 138.684 0)
+			(at 111.76 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 111.76 141.224 0)
+		(property "Value" "B5819W"
+			(at 111.76 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -2871,7 +2961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707605704359936-C8598.pdf?response-content-disposition=attachment%3B%20filename%3DC8598.pdf%3B%20filename%2A%3DUTF-8%27%27C8598.pdf&x-oss-date=20260501T210506Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rHHc%2Fsmrps7qbSVUSCgnIWQvx1nvLc0Tz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeZ4qk934J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhrgWU9lqNHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1nAKQaKWD5sagAGaGghTqTpio5mHZ6WeJwnD%2BegT864TCrRuRXIh2DbmD8BIqL1%2FFoX1pfdPieGojAJQCFlo4Vq55pQYHplXuyuEQBV68hPMiWw0po2lj37GIRFEMvajzs2vRtepg2MrgimDfvu%2FtdFJpuyU6flMMjQS1F%2FiC%2BiCkI1F0i%2B0od97PiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYrVuXweMYd9Wb3frCNsYq7w3%2F20260501%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=98a375e9222a9ad6c8740ed2931e20955f0bfb7d609026876e2b9e9aecdc9402"
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -2899,6 +2989,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -3124,7 +3223,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 113.03 63.5 180)
+		(at 113.03 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3132,22 +3231,22 @@
 		(dnp no)
 		(uuid "78892633-d1a6-4a78-a0f6-920db0202a4d")
 		(property "Reference" "D21"
-			(at 113.03 67.564 0)
+			(at 113.03 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 113.03 70.104 0)
+		(property "Value" "B5819W"
+			(at 113.03 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -3156,7 +3255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707605704359936-C8598.pdf?response-content-disposition=attachment%3B%20filename%3DC8598.pdf%3B%20filename%2A%3DUTF-8%27%27C8598.pdf&x-oss-date=20260501T210506Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rHHc%2Fsmrps7qbSVUSCgnIWQvx1nvLc0Tz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeZ4qk934J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhrgWU9lqNHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1nAKQaKWD5sagAGaGghTqTpio5mHZ6WeJwnD%2BegT864TCrRuRXIh2DbmD8BIqL1%2FFoX1pfdPieGojAJQCFlo4Vq55pQYHplXuyuEQBV68hPMiWw0po2lj37GIRFEMvajzs2vRtepg2MrgimDfvu%2FtdFJpuyU6flMMjQS1F%2FiC%2BiCkI1F0i%2B0od97PiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYrVuXweMYd9Wb3frCNsYq7w3%2F20260501%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=98a375e9222a9ad6c8740ed2931e20955f0bfb7d609026876e2b9e9aecdc9402"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -3184,6 +3283,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -3278,7 +3386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 101.6 129.54 0)
 			(effects
 				(font
@@ -3287,7 +3395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C51940118"
 			(at 101.6 129.54 0)
 			(effects
 				(font
@@ -3350,6 +3458,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2d5bf85a-66a7-4be0-a888-2310aaf38f68")
 		)
@@ -3373,7 +3490,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 111.76 113.03 180)
+		(at 111.76 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3381,22 +3498,22 @@
 		(dnp no)
 		(uuid "7e2be038-657c-45b4-b1ff-071dd65a2bc6")
 		(property "Reference" "D7"
-			(at 111.76 117.094 0)
+			(at 111.76 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 111.76 119.634 0)
+		(property "Value" "B5819W"
+			(at 111.76 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -3405,7 +3522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707605704359936-C8598.pdf?response-content-disposition=attachment%3B%20filename%3DC8598.pdf%3B%20filename%2A%3DUTF-8%27%27C8598.pdf&x-oss-date=20260501T210506Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rHHc%2Fsmrps7qbSVUSCgnIWQvx1nvLc0Tz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeZ4qk934J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhrgWU9lqNHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1nAKQaKWD5sagAGaGghTqTpio5mHZ6WeJwnD%2BegT864TCrRuRXIh2DbmD8BIqL1%2FFoX1pfdPieGojAJQCFlo4Vq55pQYHplXuyuEQBV68hPMiWw0po2lj37GIRFEMvajzs2vRtepg2MrgimDfvu%2FtdFJpuyU6flMMjQS1F%2FiC%2BiCkI1F0i%2B0od97PiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYrVuXweMYd9Wb3frCNsYq7w3%2F20260501%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=98a375e9222a9ad6c8740ed2931e20955f0bfb7d609026876e2b9e9aecdc9402"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -3433,6 +3550,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -3526,7 +3652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -3535,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C51940118"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -3590,6 +3716,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -3757,7 +3892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 102.87 107.95 0)
 			(effects
 				(font
@@ -3766,7 +3901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C161692"
 			(at 102.87 107.95 0)
 			(effects
 				(font
@@ -3821,6 +3956,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 102.87 107.95 0)
 			(effects
 				(font
@@ -3987,7 +4131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -3996,7 +4140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C35786"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -4051,6 +4195,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 228.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -4161,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF5101TCE"
+		(property "Value" "5.1K"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -4216,6 +4369,51 @@
 		)
 		(property "LCSC Part" "C25905"
 			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "LCSC"
+			(at 43.18 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C25905"
+			(at 43.18 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "0402WGF5101TCE"
+			(at 43.18 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 43.18 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 43.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4653,7 @@
 				)
 			)
 		)
-		(property "Value" "0402WGF5101TCE"
+		(property "Value" "5.1K"
 			(at 43.18 101.6 0)
 			(effects
 				(font
@@ -4481,7 +4679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1KΩ (5101) ±1%"
+		(property "Description" "0402WGF5101TCE"
 			(at 43.18 105.41 0)
 			(effects
 				(font
@@ -4517,6 +4715,51 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1" "LCSC"
+			(at 43.18 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C25905"
+			(at 43.18 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr P/N" "0402WGF5101TCE"
+			(at 43.18 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 43.18 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e6f0f63-efc1-41c6-8c06-107a8fa422cc")
 		)
@@ -4534,7 +4777,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 31.75 82.55 0)
+		(at 31.75 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4543,22 +4786,22 @@
 		(fields_autoplaced yes)
 		(uuid "fa99de72-85fe-445a-9dad-7bfb9f32f9b8")
 		(property "Reference" "D9"
-			(at 31.75 88.9 0)
+			(at 31.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 31.75 86.36 0)
+		(property "Value" "B5819W"
+			(at 31.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 31.75 82.55 0)
 			(effects
 				(font
@@ -4567,7 +4810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8579707605704359936-C8598.pdf?response-content-disposition=attachment%3B%20filename%3DC8598.pdf%3B%20filename%2A%3DUTF-8%27%27C8598.pdf&x-oss-date=20260501T210506Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5rHHc%2Fsmrps7qbSVUSCgnIWQvx1nvLc0Tz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qeZ4qk934J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWhrgWU9lqNHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMI1nAKQaKWD5sagAGaGghTqTpio5mHZ6WeJwnD%2BegT864TCrRuRXIh2DbmD8BIqL1%2FFoX1pfdPieGojAJQCFlo4Vq55pQYHplXuyuEQBV68hPMiWw0po2lj37GIRFEMvajzs2vRtepg2MrgimDfvu%2FtdFJpuyU6flMMjQS1F%2FiC%2BiCkI1F0i%2B0od97PiAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NYrVuXweMYd9Wb3frCNsYq7w3%2F20260501%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=98a375e9222a9ad6c8740ed2931e20955f0bfb7d609026876e2b9e9aecdc9402"
 			(at 31.75 82.55 0)
 			(effects
 				(font
@@ -4595,6 +4838,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 31.75 82.55 0)
 			(effects
 				(font

@@ -5226,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "GCM31C5C1H104FA16L"
+		(property "Mfr P/N" "CL31B104KBCNNNC"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -5235,7 +5235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -5244,7 +5244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-GCM31C5C1H104FA16LTR-ND"
+		(property "Supplier_1 P/N" "C24497"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -5253,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.98000"
+		(property "Supplier_1 Unit Price" ""
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -5299,6 +5299,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
 			(at 102.87 87.63 0)
 			(effects
 				(font

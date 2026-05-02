@@ -1,4 +1,4 @@
-26777627521540939
+26788288021742729
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61375,6 +61375,34 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EasyEDA
+QFN-60_7X7_RPI
+
+RP2350A 
+0
+61
+61
+EasyEDa
+C0603
+22pF (220) ±5% 50V
+
+0
+2
+2
+EasyEDa
+FC-135R_L3.2-W1.5
+32.768KHz ±20ppm 12.5pF
+
+0
+2
+2
+EasyEDa
+OSC-SMD_2P-L3.2-W1.5
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -106522,6 +106550,20 @@ _PowerBoard
 XAL6030182MEC
 XAL6030-182MEC-3
 Inductor
+0
+2
+2
+easyeda
+C0603
+22pF (220) ±5% 50V
+
+0
+2
+2
+easyeda
+OSC-SMD_2P-L3.2-W1.5
+
+
 0
 2
 2

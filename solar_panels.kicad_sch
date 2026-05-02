@@ -411,7 +411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -420,7 +420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C431092"
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -475,6 +475,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 99.06 95.25 0)
 			(effects
 				(font
@@ -700,7 +709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "LCSC"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -709,7 +718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C431092"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -764,6 +773,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 99.06 78.74 0)
 			(effects
 				(font

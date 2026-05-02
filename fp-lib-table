@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "_PowerBoard")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
   (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda/easyeda.pretty")(options "")(descr "EasyEDA imported footprints"))
+  (lib (name "EasyEDA")(type "KiCad")(uri "/Users/omarreyes/Desktop/PowerBoard")(options "")(descr ""))
+  (lib (name "EasyEDa")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr ""))
 )

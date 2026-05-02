@@ -1327,7 +1327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -1336,7 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
+		(property "Supplier_1 P/N" "C3345122"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.28000"
+		(property "Supplier_1 Unit Price" ""
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -1627,7 +1627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "DigiKey"
+		(property "Supplier_1" "LCSC"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -1636,7 +1636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "1276-1000-2-ND"
+		(property "Supplier_1 P/N" "C1591"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -1645,7 +1645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.08"
+		(property "Supplier_1 Unit Price" ""
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB8061V"
+		(property "Mfr P/N" "0603WAF8061T5E"
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -2013,7 +2013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "DigiKey"
+		(property "Supplier_1" "LCSC"
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -2022,7 +2022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P8.06KDBTR-ND"
+		(property "Supplier_1 P/N" "C23112"
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -2031,7 +2031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10"
+		(property "Supplier_1 Unit Price" ""
 			(at 175.26 100.33 0)
 			(effects
 				(font
@@ -2229,6 +2229,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f3e9930-6bf8-477a-a33d-9906f207f13d")
 		)
@@ -2317,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2326,7 +2335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "952-1478-2-ND"
+		(property "Supplier_1 P/N" "C3345122"
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2335,7 +2344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.28000"
+		(property "Supplier_1 Unit Price" ""
 			(at 170.18 82.55 0)
 			(effects
 				(font
@@ -2674,7 +2683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "UMK107AB7105KA-T"
+		(property "Mfr P/N" "CL10A105KB8NNNC"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -2683,7 +2692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "DigiKey"
+		(property "Supplier_1" "LCSC"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -2692,7 +2701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "UMK107AB7105KA-T"
+		(property "Supplier_1 P/N" "C15849"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -2701,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "$0.08"
+		(property "Supplier_1 Unit Price" ""
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -2917,6 +2926,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70a22102-030a-4850-ad69-91396d144bc9")
 		)
@@ -3003,7 +3021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -3012,7 +3030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "296-TPS26400PWPRTR-ND"
+		(property "Supplier_1 P/N" "C3662862"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -3021,7 +3039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "2.85000"
+		(property "Supplier_1 Unit Price" ""
 			(at 152.4 82.55 0)
 			(effects
 				(font

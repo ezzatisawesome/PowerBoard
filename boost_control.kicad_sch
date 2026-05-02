@@ -1840,7 +1840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1849,7 +1849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "AD5259BRMZ100-R7TR-ND"
+		(property "Supplier_1 P/N" "C141953"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1858,7 +1858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "4.45000"
+		(property "Supplier_1 Unit Price" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1904,6 +1904,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" "1"
+			(at 118.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -2027,7 +2036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -2036,7 +2045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "490-18663-2-ND"
+		(property "Supplier_1 P/N" "C440198"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -2045,7 +2054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.28000"
+		(property "Supplier_1 Unit Price" ""
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -2091,6 +2100,15 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -2250,7 +2268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB2743V"
+		(property "Mfr P/N" "FRC0603F2743TS"
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2259,7 +2277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2268,7 +2286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P274KDBTR-ND"
+		(property "Supplier_1 P/N" "C5126128"
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2277,7 +2295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2324,6 +2342,24 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "Similar JLC in-stock package match"
+			(at 168.91 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 168.91 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,6 +2600,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8775866-57c3-4881-bf4c-76024c8a59b3")
 		)
@@ -2711,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB153V"
+		(property "Mfr P/N" "0603WAF1502T5E"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -2720,7 +2765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -2729,7 +2774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "P15KDBTR-ND"
+		(property "Supplier_1 P/N" "C22809"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -2738,7 +2783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -2785,6 +2830,24 @@
 		)
 		(property "Supplier_2 Price @ Qty" ""
 			(at 168.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 168.91 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 168.91 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,6 +3090,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 162.56 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9a29eb8-1294-49d5-b1d0-6d66101310a8")
 		)
@@ -3178,7 +3250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "06035C104K4T2A"
+		(property "Mfr P/N" "CC0603KRX7R9BB104"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -3187,7 +3259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "Digikey"
+		(property "Supplier_1" "LCSC"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -3196,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "478-KAM15AR71H104KTTR-ND"
+		(property "Supplier_1 P/N" "C14663"
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -3205,7 +3277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Unit Price" "0.10000"
+		(property "Supplier_1 Unit Price" ""
 			(at 185.42 105.41 0)
 			(effects
 				(font
@@ -3251,6 +3323,24 @@
 			)
 		)
 		(property "Supplier_2 Price @ Qty" ""
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Status" "JLC in-stock package match"
+			(at 185.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 185.42 105.41 0)
 			(effects
 				(font

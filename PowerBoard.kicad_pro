@@ -516,17 +516,35 @@
         "microvia_drill": 0.1,
         "name": "90R_dif",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
+        "clearance": 0.4064,
+        "name": "I2C_Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.19812
+      },
+      {
+        "clearance": 0.635,
+        "name": "SWD_Debug",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.8001,
+        "via_drill": 0.39878
+      },
+      {
         "line_style": 0,
         "name": "cls_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.5,
         "wire_width": 6
@@ -534,7 +552,7 @@
       {
         "name": "cls_HPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 7.5,
         "wire_width": 20
@@ -542,7 +560,7 @@
       {
         "name": "cls_ICPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "wire_width": 6
@@ -550,7 +568,7 @@
       {
         "name": "cls_LPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 4.0,
         "wire_width": 20
@@ -882,7 +900,7 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": ""
+        "pattern": "I2C_Bus"
       },
       {
         "netclass": "90R_dif",
@@ -899,6 +917,26 @@
       {
         "netclass": "90R_dif",
         "pattern": "/Main/mcu/D-"
+      },
+      {
+        "netclass": "I2C_Bus",
+        "pattern": "/Main/io/SDA"
+      },
+      {
+        "netclass": "I2C_Bus",
+        "pattern": "/Main/io/SCL"
+      },
+      {
+        "netclass": "SWD_Debug",
+        "pattern": ""
+      },
+      {
+        "netclass": "SWD_Debug",
+        "pattern": "/Main/mcu/SWDIO"
+      },
+      {
+        "netclass": "SWD_Debug",
+        "pattern": "/Main/mcu/SWCLK"
       }
     ]
   },
@@ -931,12 +969,30 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -947,38 +1003,20 @@
         },
         {
           "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
@@ -1021,13 +1059,13 @@
           "group_by": false,
           "label": "Mfr",
           "name": "Mfr",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Mfr P/N",
           "name": "Mfr P/N",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1081,13 +1119,13 @@
           "group_by": false,
           "label": "Supplier_1 Price @ Qty",
           "name": "Supplier_1 Price @ Qty",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Supplier_1 Unit Price",
           "name": "Supplier_1 Unit Price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1250,14 +1288,74 @@
           "label": "MFR P/N",
           "name": "MFR P/N",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Status",
+          "name": "JLCPCB Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
         }
       ],
-      "filter_string": "",
-      "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "filter_string": "C81",
+      "group_symbols": false,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Mfr"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
