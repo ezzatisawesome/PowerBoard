@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.850011,
-          "height": 1.1,
-          "width": 1.35
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -523,7 +523,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.4064,
+        "clearance": 0.254,
         "name": "I2C_Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -919,16 +919,16 @@
         "pattern": "/Main/mcu/D-"
       },
       {
-        "netclass": "I2C_Bus",
+        "netclass": "Default",
         "pattern": "/Main/io/SDA"
       },
       {
-        "netclass": "I2C_Bus",
+        "netclass": "Default",
         "pattern": "/Main/io/SCL"
       },
       {
-        "netclass": "SWD_Debug",
-        "pattern": ""
+        "netclass": "Default",
+        "pattern": "/Main/SCL"
       },
       {
         "netclass": "SWD_Debug",
@@ -937,6 +937,10 @@
       {
         "netclass": "SWD_Debug",
         "pattern": "/Main/mcu/SWCLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Main/SDA"
       }
     ]
   },

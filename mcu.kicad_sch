@@ -5810,6 +5810,50 @@
 		)
 		(uuid "fdaaf4db-ae6d-42f3-9b59-56d061a96602")
 	)
+	(global_label "USB_D_N"
+		(shape input)
+		(at 285.75 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a56c19f2-fefe-46ca-bc3e-75dd4a7e4da4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 297.0809 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D_P"
+		(shape input)
+		(at 285.75 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abffdc92-e930-4976-a93a-6d6ab1ce5d5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 297.0204 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "BATT1{SIG_LSW}"
 		(shape bidirectional)
 		(at 40.64 132.08 180)
@@ -5820,17 +5864,6 @@
 			(justify right)
 		)
 		(uuid "05753773-9ac9-4edc-b0b1-ae3f99913a3a")
-	)
-	(hierarchical_label "USB_D-"
-		(shape bidirectional)
-		(at 285.75 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23201bbb-5eb1-4f55-ab79-5ca15ffdfc2f")
 	)
 	(hierarchical_label "BOOT"
 		(shape input)
@@ -5886,17 +5919,6 @@
 			(justify right)
 		)
 		(uuid "6400d55d-2f44-491d-bbb7-d295b3a10f14")
-	)
-	(hierarchical_label "USB_D+"
-		(shape bidirectional)
-		(at 285.75 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "809f224c-cfeb-4720-815b-4640aa81e03a")
 	)
 	(hierarchical_label "NAV1{SIG_NAV_LSW}"
 		(shape bidirectional)

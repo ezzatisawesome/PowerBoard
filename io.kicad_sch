@@ -2153,6 +2153,50 @@
 		)
 		(uuid "ea827200-508e-459d-9b66-bfda82f08a77")
 	)
+	(global_label "USB_D_P"
+		(shape input)
+		(at 34.29 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b174285-c343-484d-af89-c26818a09de6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.0196 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D_N"
+		(shape input)
+		(at 34.29 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9638ffbd-1d15-4338-938b-9c3dcd2a1ce4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.9591 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "{SERIAL}"
 		(shape bidirectional)
 		(at 195.58 110.49 0)
@@ -2197,17 +2241,6 @@
 		)
 		(uuid "99efac51-98f2-47c5-a870-8bd1a6dfb4aa")
 	)
-	(hierarchical_label "D-"
-		(shape bidirectional)
-		(at 34.29 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e03cf5fb-b61b-448e-bc06-19deda2a6506")
-	)
 	(hierarchical_label "{I2C}"
 		(shape bidirectional)
 		(at 138.43 50.8 0)
@@ -2218,17 +2251,6 @@
 			(justify left)
 		)
 		(uuid "e55dc393-1f0c-45e8-a688-bde7ead7fddf")
-	)
-	(hierarchical_label "D+"
-		(shape bidirectional)
-		(at 34.29 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0b79ccf-e524-4f0b-aa23-6abb2b260081")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -3006,6 +3028,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1" "LCSC"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C8598"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "52badd3f-0a11-4720-af58-3740ba70d937")
 		)
@@ -3300,6 +3340,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1" "LCSC"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C8598"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc1628da-1192-457e-9ef1-8b2094c8b6c4")
 		)
@@ -3559,6 +3617,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "LCSC"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C8598"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -4847,6 +4923,24 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1" "LCSC"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 P/N" "C8598"
 			(at 31.75 82.55 0)
 			(effects
 				(font
