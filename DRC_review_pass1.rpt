@@ -1,0 +1,627 @@
+** Drc report for PowerBoard.kicad_pcb **
+** Created on 2026-05-02T21:52:05-0700 **
+
+** Found 166 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5315 in, 3.1516 in): Pad 1 [+5V] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5315 in, 3.1713 in): Pad 2 [/Main/LV_BUS/intvcc] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5315 in, 3.2106 in): Pad 4 [unconnected-(U13-NC1-Pad4)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5315 in, 3.2303 in): Pad 5 [VBUS] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5315 in, 3.2500 in): Pad 6 [VBUS] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5571 in, 3.2756 in): Pad 7 [unconnected-(U13-BST-Pad7)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5768 in, 3.2756 in): Pad 8 [Net-(L4-Pad1)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6811 in, 3.2303 in): Pad 14 [VBUS] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6811 in, 3.2106 in): Pad 15 [unconnected-(U13-NC1-Pad15)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6811 in, 3.1713 in): Pad 17 [VBUS] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6811 in, 3.1516 in): Pad 18 [Net-(U13-RT)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6555 in, 3.1260 in): Pad 19 [unconnected-(U13-CLKOUT-Pad19)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6358 in, 3.1260 in): Pad 20 [/Main/LV_BUS/intvcc] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6161 in, 3.1260 in): Pad 21 [Net-(U13-TR/SS)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5768 in, 3.1260 in): Pad 23 [unconnected-(U13-PG-Pad23)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5571 in, 3.1260 in): Pad 24 [Net-(U13-FB)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6777 in, 3.1294 in): Pad 30 [unconnected-(U13-NC2-Pad30)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.5349 in, 3.2721 in): Pad 31 [unconnected-(U13-NC2-Pad31)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(5.6777 in, 3.2721 in): Pad 32 [unconnected-(U13-NC2-Pad32)] of U13 on F.Cu
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(5.0177 in, 4.7805 in): Via [+5V] on F.Cu - B.Cu
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(5.3445 in, 5.1685 in): Zone [+3V3] on In3.Cu, priority 12
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3.1102 in, 2.9134 in): Segment on Edge.Cuts
+    @(3.1014 in, 3.2402 in): Reference field of J3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(7.5197 in, 2.9134 in): Segment on Edge.Cuts
+    @(7.5039 in, 3.8110 in): Reference field of J4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3.1102 in, 2.9134 in): Segment on Edge.Cuts
+    @(2.9189 in, 3.6327 in): Segment of J7 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3.1102 in, 2.9134 in): Segment on Edge.Cuts
+    @(2.9189 in, 3.9894 in): Segment of J7 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5.2362 in, 4.3701 in): Segment on Edge.Cuts
+    @(5.2437 in, 4.0610 in): Reference field of USB2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(6.2205 in, 3.7795 in): Segment on Edge.Cuts
+    @(5.9425 in, 3.7949 in): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(6.2205 in, 3.7795 in): Segment on Edge.Cuts
+    @(5.9425 in, 4.3469 in): Segment of J8 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(6.2205 in, 5.2736 in): Segment on Edge.Cuts
+    @(5.8091 in, 5.2571 in): Reference field of R37
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(7.5197 in, 2.9134 in): Segment on Edge.Cuts
+    @(7.5039 in, 4.3780 in): Reference field of J5
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3.1102 in, 2.9134 in): Segment on Edge.Cuts
+    @(3.1063 in, 4.9488 in): Reference field of J2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3.1102 in, 2.9134 in): Segment on Edge.Cuts
+    @(2.9194 in, 4.2007 in): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(3.1102 in, 2.9134 in): Segment on Edge.Cuts
+    @(2.9194 in, 4.5574 in): Segment of J6 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(5.7914 in, 4.6614 in): Footprint U12
+[lib_footprint_mismatch]: Footprint 'USB-C-SMD_TYPEC-303-ACP16' does not match copy in library 'easyeda'.
+    Local override; warning
+    @(5.0016 in, 4.0610 in): Footprint USB2
+[lib_footprint_mismatch]: Footprint 'TSOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(6.5448 in, 4.8071 in): Footprint U15
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(7.1924 in, 5.1811 in): Footprint Q4
+[lib_footprint_mismatch]: Footprint 'TSOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(6.5531 in, 3.1358 in): Footprint U11
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(7.1900 in, 3.5108 in): Footprint Q3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.0327 in, 3.2680 in): Reference field of C48
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.6758 in, 3.6722 in): Reference field of Q2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.1240 in, 3.3445 in): Reference field of TP2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.6211 in, 3.0679 in): Reference field of U13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.9201 in, 3.1499 in): Reference field of C47
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.6941 in, 3.2047 in): Reference field of C43
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.8427 in, 3.2067 in): Reference field of U8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(6.0197 in, 4.9185 in): Reference field of R7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.5394 in, 3.3150 in): Rectangle of L4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(3.8143 in, 3.6841 in): Reference field of U16
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.6291 in, 3.1969 in): Reference field of C45
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.6917 in, 3.2402 in): Reference field of C72
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.0346 in, 3.1381 in): Reference field of C49
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.5748 in, 3.1232 in): Reference field of C74
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.9811 in, 3.2759 in): Reference field of C50
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(3.8976 in, 3.2283 in): Reference field of U18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(6.9301 in, 4.9862 in): Reference field of U14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.6917 in, 3.1142 in): Reference field of R45
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.7571 in, 3.1460 in): Reference field of C42
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.4449 in, 3.4579 in): Reference field of C76
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.1654 in, 3.8642 in): Reference field of R61
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.1457 in, 4.0315 in): Circle of R61 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.7539 in, 4.0709 in): Reference field of R63
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.9213 in, 4.0906 in): Circle of R63 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.4449 in, 3.3949 in): Reference field of R46
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.9646 in, 4.8965 in): Reference field of R8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.5098 in, 3.2972 in): Circle of C91 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.7126 in, 3.4626 in): Reference field of JP2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.2205 in, 4.8780 in): Reference field of J10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7.2205 in, 3.3031 in): Reference field of J13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.7019 in, 4.8858 in): Reference field of U3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.4331 in, 3.3465 in): Circle of X2 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(3.8713 in, 4.1535 in): Reference field of R73
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.9400 in, 4.6012 in): Reference field of R24
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.7965 in, 3.3317 in): Reference field of C59
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.5819 in, 3.2126 in): Reference field of C58
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.3445 in, 5.1232 in): Reference field of R11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(6.5543 in, 5.0827 in): Reference field of R55
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.9409 in, 4.6622 in): Reference field of R25
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.4882 in, 3.3996 in): Reference field of U9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.8278 in, 4.5412 in): Footprint text of U2 (*)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.8278 in, 4.5412 in): Footprint text of U2 (*)
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.6535 in, 3.4390 in): Reference field of C90
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(4.4803 in, 3.4705 in): Circle of C90 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(5.9035 in, 5.0382 in): Reference field of R39
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(3.8386 in, 3.3323 in): Footprint text of U18 (*)
+    @(3.8386 in, 3.3323 in): Footprint text of U18 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7331 in, 3.4181 in): Segment of L3 on F.Silkscreen
+    @(4.8425 in, 3.3991 in): Reference field of C46
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.7331 in, 3.4181 in): Segment of L3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.9913 in, 3.6685 in): Segment of L3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.9563 in, 3.2625 in): Segment of C48 on F.Silkscreen
+    @(4.9811 in, 3.2759 in): Reference field of C50
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8425 in, 3.3991 in): Reference field of C46
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8481 in, 3.3227 in): Segment of C46 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8481 in, 3.3629 in): Segment of C46 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.0327 in, 3.2680 in): Reference field of C48
+    @(5.0183 in, 3.2862 in): Segment of C50 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.9965 in, 3.2625 in): Segment of C48 on F.Silkscreen
+    @(4.9811 in, 3.2759 in): Reference field of C50
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.0183 in, 3.1317 in): Segment of C49 on F.Silkscreen
+    @(5.0346 in, 3.1381 in): Reference field of C49
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8622 in, 3.5433 in): Reference field of L3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8427 in, 3.2067 in): Reference field of U8
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.7874 in, 3.9472 in): Segment of D7 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.7409 in, 4.7291 in): Segment of L1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8500 in, 4.6318 in): Segment of C11 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8425 in, 3.1831 in): Segment on F.Silkscreen
+    @(4.8500 in, 4.6719 in): Segment of C11 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.3601 in, 3.4287 in): Segment of C44 on F.Silkscreen
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4020 in, 3.6972 in): Segment of C44 on F.Silkscreen
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+    @(4.3143 in, 3.3311 in): Segment of FB3 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.2921 in, 4.0500 in): Segment of J12 on F.Silkscreen
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.2921 in, 4.2543 in): Segment of J12 on F.Silkscreen
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.3701 in, 3.2677 in): Segment on F.Silkscreen
+    @(4.2947 in, 4.9327 in): Segment of FB1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.9366 in, 3.9984 in): Segment of USB2 on F.Silkscreen
+    @(4.9311 in, 4.0799 in): Segment of R63 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.0614 in, 3.8811 in): Segment of USB2 on F.Silkscreen
+    @(5.0866 in, 3.9016 in): Reference field of D9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.0665 in, 3.8811 in): Segment of USB2 on F.Silkscreen
+    @(5.0866 in, 3.9016 in): Reference field of D9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.0866 in, 3.9016 in): Reference field of D9
+    @(5.0665 in, 3.9346 in): Segment of USB2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.9311 in, 4.0339 in): Segment of R63 on F.Silkscreen
+    @(4.9366 in, 3.9984 in): Segment of USB2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.9311 in, 4.0618 in): Segment of R63 on F.Silkscreen
+    @(4.9366 in, 3.9984 in): Segment of USB2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.9366 in, 3.9984 in): Segment of USB2 on F.Silkscreen
+    @(4.9311 in, 4.1079 in): Segment of R63 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.0866 in, 3.9016 in): Reference field of D9
+    @(5.0921 in, 3.8850 in): Circle of USB2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.1260 in, 3.9945 in): Segment of D9 on F.Silkscreen
+    @(5.1654 in, 3.8642 in): Reference field of R61
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.6758 in, 3.6722 in): Reference field of Q2
+    @(4.6758 in, 3.7126 in): Segment of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.6758 in, 3.6722 in): Reference field of Q2
+    @(4.6758 in, 3.7106 in): Arc of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.6758 in, 3.6722 in): Reference field of Q2
+    @(4.6758 in, 3.7106 in): Arc of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.6758 in, 3.6722 in): Reference field of Q2
+    @(4.6758 in, 3.7087 in): Segment of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7935 in, 3.3282 in): Footprint text of U8 (*)
+    @(4.7935 in, 3.3282 in): Footprint text of U8 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7422 in, 3.1847 in): Polygon of U8 on F.Silkscreen
+    @(4.7571 in, 3.1460 in): Reference field of C42
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.6291 in, 3.1969 in): Reference field of C45
+    @(4.6177 in, 3.1992 in): Segment of C43 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(3.8425 in, 5.1508 in): Footprint text of U19 (*)
+    @(3.8425 in, 5.1508 in): Footprint text of U19 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7935 in, 4.6392 in): Footprint text of U6 (*)
+    @(4.7935 in, 4.6392 in): Footprint text of U6 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.6211 in, 3.0679 in): Reference field of U13
+    @(5.5803 in, 3.0469 in): Segment of C74 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.6211 in, 3.0679 in): Reference field of U13
+    @(5.5803 in, 3.0870 in): Segment of C74 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.6211 in, 3.0679 in): Reference field of U13
+    @(5.6917 in, 3.1142 in): Reference field of R45
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.4449 in, 3.3949 in): Reference field of R46
+    @(5.4504 in, 3.3815 in): Segment of C76 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.4449 in, 3.4579 in): Reference field of C76
+    @(5.5083 in, 3.4488 in): Segment of D12 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.9646 in, 4.8965 in): Reference field of R8
+    @(6.0197 in, 4.9185 in): Reference field of R7
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(6.4420 in, 4.6846 in): Segment of R62 on F.Silkscreen
+    @(6.3829 in, 4.6650 in): Reference field of J1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.1654 in, 3.8642 in): Reference field of R61
+    @(5.2047 in, 3.9945 in): Segment of D9 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8278 in, 4.5412 in): Footprint text of U2 (*)
+    @(4.8278 in, 4.5412 in): Footprint text of U2 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.3351 in, 5.1172 in): Segment of R12 on B.Silkscreen
+    @(5.3445 in, 5.1232 in): Reference field of R11
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(6.0394 in, 4.5551 in): Reference field of R10
+    @(6.0343 in, 4.6378 in): Reference field of R32
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.9409 in, 4.6622 in): Reference field of R25
+    @(5.9493 in, 4.6369 in): Segment of R24 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(5.9409 in, 4.6622 in): Reference field of R25
+    @(5.9493 in, 4.6781 in): Segment of R24 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.3535 in, 3.3193 in): Circle of X2 on B.Silkscreen
+    @(4.3366 in, 3.3287 in): Reference field of C91
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5098 in, 3.3713 in): Arc of C91 on B.Silkscreen
+    @(4.4882 in, 3.3996 in): Reference field of U9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5118 in, 3.3843 in): Segment of C90 on B.Silkscreen
+    @(4.5098 in, 3.3713 in): Arc of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5098 in, 3.3713 in): Arc of C91 on B.Silkscreen
+    @(4.5118 in, 3.3965 in): Arc of C90 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4882 in, 3.3996 in): Reference field of U9
+    @(4.4783 in, 3.3835 in): Segment of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5118 in, 3.3843 in): Segment of C90 on B.Silkscreen
+    @(4.4882 in, 3.3996 in): Reference field of U9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4882 in, 3.3996 in): Reference field of U9
+    @(4.5118 in, 3.3965 in): Arc of C90 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4661 in, 3.3398 in): Segment of C91 on B.Silkscreen
+    @(4.4882 in, 3.3996 in): Reference field of U9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5118 in, 3.3843 in): Segment of C90 on B.Silkscreen
+    @(4.4783 in, 3.3835 in): Segment of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4803 in, 3.3965 in): Arc of C90 on B.Silkscreen
+    @(4.4783 in, 3.3835 in): Segment of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5118 in, 3.3965 in): Arc of C90 on B.Silkscreen
+    @(4.4783 in, 3.3835 in): Segment of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4783 in, 3.3713 in): Arc of C91 on B.Silkscreen
+    @(4.4882 in, 3.3996 in): Reference field of U9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5118 in, 3.3843 in): Segment of C90 on B.Silkscreen
+    @(4.4783 in, 3.3713 in): Arc of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4783 in, 3.3713 in): Arc of C91 on B.Silkscreen
+    @(4.4803 in, 3.3965 in): Arc of C90 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(3.8574 in, 4.1628 in): Segment of R71 on B.Silkscreen
+    @(3.8713 in, 4.1535 in): Reference field of R73
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5370 in, 3.2929 in): Polygon of U9 on B.Silkscreen
+    @(4.5220 in, 3.3177 in): Segment of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.5370 in, 3.2929 in): Polygon of U9 on B.Silkscreen
+    @(4.5098 in, 3.2862 in): Arc of C91 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4882 in, 3.3996 in): Reference field of U9
+    @(4.4681 in, 3.4280 in): Segment of C90 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.4803 in, 3.3965 in): Arc of C90 on B.Silkscreen
+    @(4.4882 in, 3.3996 in): Reference field of U9
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(7.2205 in, 3.3031 in): Reference field of J13
+    @(7.2253 in, 3.3037 in): Segment of R26 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7126 in, 3.4626 in): Reference field of JP2
+    @(4.6953 in, 3.5063 in): Segment of U9 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7126 in, 3.4626 in): Reference field of JP2
+    @(4.6953 in, 3.5063 in): Segment of U9 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(6.5543 in, 5.0827 in): Reference field of R55
+    @(6.5385 in, 5.0920 in): Segment of R54 on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.8239 in, 3.2331 in): Footprint text of U7 (*)
+    @(4.8239 in, 3.2331 in): Footprint text of U7 (*)
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.7826 in, 3.3400 in): Segment of R22 on B.Silkscreen
+    @(4.7965 in, 3.3317 in): Reference field of C59
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(4.6201 in, 3.1937 in): Reference field of C57
+    @(4.5819 in, 3.2126 in): Reference field of C58
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+    @(2.7918 in, 2.7472 in): Zone [GND] on F.Cu, B.Cu and 4 more, priority 3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(5.0177 in, 4.7776 in): Track [+5V] on In3.Cu, length 0.0529 in
+    @(4.9252 in, 4.7933 in): Track [+5V] on B.Cu, length 0.0177 in
+
+** Found 0 Footprint errors **
+
+** End of Report **

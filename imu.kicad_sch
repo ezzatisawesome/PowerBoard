@@ -1693,25 +1693,25 @@
 		)
 		(uuid "f17ac4e1-8acb-4fc0-814e-accbac468ba6")
 	)
-	(label "SCL"
-		(at 121.92 109.22 0)
+	(label "INT.SDA"
+		(at 119.38 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "548fea2e-2d16-4a8e-a97e-d867a6cb701b")
+		(uuid "41bbc3e5-7535-4f0f-8585-31f3521deaf0")
 	)
-	(label "SDA"
-		(at 121.92 106.68 0)
+	(label "INT.SCL"
+		(at 119.38 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "80eb94d6-c155-46e3-843a-f7dec9d36752")
+		(uuid "a1b1ffbc-c964-4801-8bec-5fa85a59994e")
 	)
 	(hierarchical_label "nRESET"
 		(shape input)
@@ -1724,7 +1724,7 @@
 		)
 		(uuid "1affdf49-9261-4f18-bd1e-bf00c279f83e")
 	)
-	(hierarchical_label "{I2C}"
+	(hierarchical_label "INT{I2C}"
 		(shape input)
 		(at 113.03 113.03 180)
 		(effects

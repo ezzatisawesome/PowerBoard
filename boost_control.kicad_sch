@@ -1332,7 +1332,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "44786724-a6ea-4115-94d0-03d670efb05a")
+		(uuid "a8cbd9ca-ebe8-4809-b0d1-6f844b8bfded")
 	)
 	(bus_entry
 		(at 110.49 106.68)
@@ -1341,7 +1341,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b4460954-f71e-4523-a577-540bc8040a43")
+		(uuid "e70c7fc6-b853-4984-8149-35ae1898818a")
 	)
 	(wire
 		(pts
@@ -1382,6 +1382,16 @@
 			(type default)
 		)
 		(uuid "0b1dc164-1194-48ef-829f-146c0308539d")
+	)
+	(bus
+		(pts
+			(xy 110.49 104.14) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd5a0a9-7036-46fe-bc65-cc322ce11cc7")
 	)
 	(wire
 		(pts
@@ -1433,16 +1443,6 @@
 		)
 		(uuid "37826a45-673b-4d7b-a343-9610955aa2e5")
 	)
-	(bus
-		(pts
-			(xy 110.49 104.14) (xy 110.49 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aae5f33-34a9-4cf7-b554-fdc47c42d51f")
-	)
 	(wire
 		(pts
 			(xy 185.42 109.22) (xy 185.42 111.76)
@@ -1472,6 +1472,16 @@
 			(type default)
 		)
 		(uuid "57ca8868-db24-4571-b1a9-a1255bab3499")
+	)
+	(bus
+		(pts
+			(xy 105.41 109.22) (xy 110.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580d2c84-e491-4fc4-9b26-627d20541faa")
 	)
 	(wire
 		(pts
@@ -1601,7 +1611,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ba41ec9e-7050-4c2d-89d8-2c87635fff2a")
+		(uuid "bb5419f5-9ab6-47d3-80be-89776f10794b")
 	)
 	(wire
 		(pts
@@ -1612,16 +1622,6 @@
 			(type default)
 		)
 		(uuid "c0276c18-3f2d-489e-8c7f-cfc2371f60a7")
-	)
-	(bus
-		(pts
-			(xy 105.41 109.22) (xy 110.49 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f161b1-407a-4d86-9273-428d0cf6b44f")
 	)
 	(wire
 		(pts
@@ -1693,7 +1693,7 @@
 		)
 		(uuid "fcd1b4de-f1b4-4d5c-af32-af0153eaa967")
 	)
-	(label "SDA"
+	(label "INT.SDA"
 		(at 113.03 101.6 0)
 		(effects
 			(font
@@ -1701,9 +1701,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8218c15e-6cbe-4b9c-bcb1-98c4cefa25f2")
+		(uuid "2e5cdac6-81b7-41e1-ad14-40ec2d02c891")
 	)
-	(label "SCL"
+	(label "INT.SCL"
 		(at 113.03 104.14 0)
 		(effects
 			(font
@@ -1711,7 +1711,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bcbb442f-e03d-4653-85a1-daf375ec5d2c")
+		(uuid "3bc07e75-aa59-4420-b6c8-acb9483a10b3")
 	)
 	(label "FB"
 		(at 165.1 64.77 0)
@@ -1734,7 +1734,7 @@
 		)
 		(uuid "606f346e-f318-49ed-9998-be76974279bf")
 	)
-	(hierarchical_label "{I2C}"
+	(hierarchical_label "INT{I2C}"
 		(shape bidirectional)
 		(at 105.41 109.22 180)
 		(effects
@@ -1743,7 +1743,7 @@
 			)
 			(justify right)
 		)
-		(uuid "aa4445e2-4eae-4829-9ead-2f510e761722")
+		(uuid "94e41326-5995-4ed4-ad84-06b16f306491")
 	)
 	(hierarchical_label "{SIG_BOOST}"
 		(shape bidirectional)

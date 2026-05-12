@@ -908,6 +908,16 @@
 		)
 		(uuid "ec11a653-9b03-4a68-87d5-9a71052b18bd")
 	)
+	(bus
+		(pts
+			(xy 185.42 144.78) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecec2156-e489-44ad-ba78-fe3e969b6a95")
+	)
 	(wire
 		(pts
 			(xy 236.22 181.61) (xy 271.78 181.61)
@@ -1030,6 +1040,16 @@
 		)
 		(uuid "314c1dc7-7f4d-4d62-ba45-68696a747335")
 	)
+	(label "INT{I2C}"
+		(at 116.84 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "400be5a6-f8ba-42a5-8638-b96868e1ef05")
+	)
 	(label "NAV1{SIG_NAV_LSW}"
 		(at 290.83 124.46 180)
 		(effects
@@ -1050,7 +1070,7 @@
 		)
 		(uuid "59fce846-78fb-43d2-8e95-e6222139aabb")
 	)
-	(label "{I2C}"
+	(label "INT{I2C}"
 		(at 118.11 110.49 0)
 		(effects
 			(font
@@ -1092,7 +1112,7 @@
 		)
 		(uuid "7c0cf2a1-7430-43ad-98f0-3ca80fc6f5a4")
 	)
-	(label "{I2C}"
+	(label "INT{I2C}"
 		(at 163.83 127 180)
 		(effects
 			(font
@@ -1102,7 +1122,7 @@
 		)
 		(uuid "95ab64aa-0bc6-4285-b73f-6876fc832f4d")
 	)
-	(label "{I2C}"
+	(label "INT{I2C}"
 		(at 163.83 181.61 180)
 		(effects
 			(font
@@ -1112,7 +1132,7 @@
 		)
 		(uuid "aa44a6ad-9cf5-410d-9240-8d85e861359f")
 	)
-	(label "{I2C}"
+	(label "INT{I2C}"
 		(at 231.14 124.46 0)
 		(effects
 			(font
@@ -1163,15 +1183,15 @@
 		)
 		(uuid "d8bd37a3-56a8-41d7-bcc5-5a53fe83965f")
 	)
-	(label "{I2C}"
-		(at 116.84 196.85 0)
+	(label "INT{I2C}"
+		(at 191.77 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "dd28ce13-2152-4932-ac32-af0326bc9efa")
+		(uuid "e9e00a5b-44f3-4b43-8aff-d542b7626f4e")
 	)
 	(label "BATT2{SIG_LSW}"
 		(at 290.83 199.39 180)
@@ -1708,16 +1728,6 @@
 				(hide yes)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 166.37 127 180)
-			(uuid "d597351a-89c7-44af-bd9f-7c32fcd39a8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{SIG_BOOST}" bidirectional
 			(at 166.37 123.19 180)
 			(uuid "92e4822f-d665-43db-ab01-1181e1640054")
@@ -1741,6 +1751,16 @@
 		(pin "I2C_SETTING" input
 			(at 166.37 130.81 180)
 			(uuid "bdb96538-8305-4535-9dd3-fb3ef5b4cf6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT{I2C}" bidirectional
+			(at 166.37 127 180)
+			(uuid "38201086-3676-49a8-b1a8-6d0cf853fa8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1984,7 @@
 				(justify right)
 			)
 		)
-		(pin "{I2C}" bidirectional
+		(pin "INT{I2C}" bidirectional
 			(at 115.57 196.85 0)
 			(uuid "6f77db94-dfa7-4c23-88f6-d251ecaa91a7")
 			(effects
@@ -2351,9 +2371,9 @@
 				(justify left top)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 228.6 124.46 0)
-			(uuid "44c8f120-f2a2-4e41-a876-ba383df52e16")
+		(pin "nRESET" input
+			(at 228.6 127 0)
+			(uuid "7c6b98cb-0f0d-469c-99dc-e563bce24e9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,9 +2381,9 @@
 				(justify right)
 			)
 		)
-		(pin "nRESET" input
-			(at 228.6 127 0)
-			(uuid "7c6b98cb-0f0d-469c-99dc-e563bce24e9e")
+		(pin "INT{I2C}" input
+			(at 228.6 124.46 0)
+			(uuid "34bd5f28-3c16-4b91-bbfc-b33db63f30ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,9 +2453,9 @@
 				(justify right)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 166.37 181.61 180)
-			(uuid "6a5fffa9-edba-4a29-91c9-3b9e1a407f87")
+		(pin "I2C_SETTING" input
+			(at 166.37 177.8 180)
+			(uuid "79ade3c5-9bae-499f-92d4-849f8a5ebd93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,9 +2463,9 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SETTING" input
-			(at 166.37 177.8 180)
-			(uuid "79ade3c5-9bae-499f-92d4-849f8a5ebd93")
+		(pin "INT{I2C}" bidirectional
+			(at 166.37 181.61 180)
+			(uuid "e4d0fa61-bda9-403f-92f6-a6fb74375e75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,16 +2720,6 @@
 				(justify left top)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 196.85 147.32 180)
-			(uuid "40e4fe12-eb40-4bdb-b955-c6c3c19cd50d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SY_BOOST{SIG_BOOST}" bidirectional
 			(at 242.57 161.29 0)
 			(uuid "c05bcfb6-45fc-48a4-8b05-cc6457e7f514")
@@ -2833,6 +2843,26 @@
 		(pin "USB_DP" bidirectional
 			(at 196.85 149.86 180)
 			(uuid "3d7c5c61-2130-455e-97c9-e015dfefc863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT{I2C}" bidirectional
+			(at 196.85 147.32 180)
+			(uuid "a2a50af9-b694-4be3-8727-10d61c70eeff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT{I2C}" bidirectional
+			(at 196.85 144.78 180)
+			(uuid "20a68d25-ffe6-4b43-a274-9d9743b6c7fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +3014,7 @@
 				(justify right)
 			)
 		)
-		(pin "{I2C}" bidirectional
+		(pin "INT{I2C}" bidirectional
 			(at 115.57 110.49 0)
 			(uuid "a5460d2d-1439-4059-aba0-89758f0b457f")
 			(effects

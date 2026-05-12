@@ -1033,22 +1033,22 @@
 		(uuid "f8fb06ec-c5e6-4387-8699-8c94e4ab2294")
 	)
 	(bus_entry
-		(at 180.34 88.9)
-		(size 2.54 -2.54)
+		(at 198.12 83.82)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68349fd2-74f9-4c1c-95e4-51d670ee77ed")
+		(uuid "49259e5a-71a5-4aa5-97cc-d01fd5a3aff9")
 	)
 	(bus_entry
-		(at 180.34 86.36)
-		(size 2.54 -2.54)
+		(at 198.12 86.36)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84d8fb3d-591c-41c1-a32e-7189ec3a5daf")
+		(uuid "9f88f74d-607b-44de-a9cd-0b6f76472509")
 	)
 	(wire
 		(pts
@@ -1110,6 +1110,16 @@
 		)
 		(uuid "12d43d2e-a473-49c8-a4e9-41ae035fcc12")
 	)
+	(bus
+		(pts
+			(xy 198.12 83.82) (xy 198.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dbdfde-3483-458c-91a1-1b3dda7a0edd")
+	)
 	(wire
 		(pts
 			(xy 170.18 76.2) (xy 171.45 76.2)
@@ -1119,6 +1129,16 @@
 			(type default)
 		)
 		(uuid "1b2464c0-c3c5-43a6-8bc2-a1eb43c5cb8f")
+	)
+	(bus
+		(pts
+			(xy 198.12 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edff8c5-f3d3-4bd9-8ee2-0aca5b3be92c")
 	)
 	(wire
 		(pts
@@ -1142,13 +1162,13 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 86.36) (xy 185.42 86.36)
+			(xy 198.12 86.36) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56291865-d6cb-42ea-a0c7-c7377508ab9a")
+		(uuid "4e50aef7-b25e-4706-a73e-25f885c7d548")
 	)
 	(wire
 		(pts
@@ -1250,19 +1270,9 @@
 		)
 		(uuid "a745db9b-3757-40d4-97cf-6458c442dd0e")
 	)
-	(bus
-		(pts
-			(xy 182.88 83.82) (xy 182.88 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad16b1b3-9e00-4326-85a6-81fe0bfa421b")
-	)
 	(wire
 		(pts
-			(xy 170.18 88.9) (xy 180.34 88.9)
+			(xy 170.18 88.9) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 180.34 86.36)
+			(xy 170.18 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5249,36 +5259,25 @@
 			)
 		)
 	)
-	(label "SDA"
-		(at 171.45 86.36 0)
+	(label "INT.SCL"
+		(at 182.88 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "30a15f9b-d4a9-45fc-9dcd-232bb34c3a1e")
+		(uuid "aa98e821-a78d-4eab-be85-3384bb0dc012")
 	)
-	(label "SCL"
-		(at 171.45 88.9 0)
+	(label "INT.SDA"
+		(at 182.88 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7de91db8-94cb-4b09-a8c9-3732a8bfd149")
-	)
-	(hierarchical_label "{I2C}"
-		(shape bidirectional)
-		(at 185.42 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00a23b13-65d7-414c-822c-72e27c1fd0f9")
+		(uuid "d119a71c-99dd-4d89-bc38-38d3d941858a")
 	)
 	(hierarchical_label "IN"
 		(shape input)
@@ -5312,6 +5311,17 @@
 			(justify left)
 		)
 		(uuid "b6c4a455-d660-4748-900d-695afbb086e2")
+	)
+	(hierarchical_label "INT{I2C}"
+		(shape bidirectional)
+		(at 203.2 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba685db1-7a9c-4b89-923b-aa426afa61b5")
 	)
 	(hierarchical_label "OUT"
 		(shape output)

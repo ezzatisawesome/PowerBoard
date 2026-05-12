@@ -1,0 +1,4868 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-05-02T21:08:00-0700",
+    "kicad_version": "9.0.5",
+    "schematic_parity": [
+        {
+            "description": "Pad net (USB_VBUS_CONN) doesn't match net given by schematic (/Main/io/USB_VBUS_CONN).",
+            "items": [
+                {
+                    "description": "Pad 1 [USB_VBUS_CONN] of D9 on F.Cu",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 100.75
+                    },
+                    "uuid": "32a7ea11-e18e-4c68-b613-34b4cc4a060d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (USB_VBUS_CONN) doesn't match net given by schematic (/Main/io/USB_VBUS_CONN).",
+            "items": [
+                {
+                    "description": "Pad A4 [USB_VBUS_CONN] of USB2 on F.Cu",
+                    "pos": {
+                        "x": 127.9,
+                        "y": 101.9
+                    },
+                    "uuid": "49b47f3e-8e00-4c61-99b2-42f1e68221f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (USB_VBUS_CONN) doesn't match net given by schematic (/Main/io/USB_VBUS_CONN).",
+            "items": [
+                {
+                    "description": "Pad A9 [USB_VBUS_CONN] of USB2 on F.Cu",
+                    "pos": {
+                        "x": 127.9,
+                        "y": 104.4
+                    },
+                    "uuid": "86afd543-3333-4921-b16b-22b53dad08d9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (USB_VBUS_CONN) doesn't match net given by schematic (/Main/io/USB_VBUS_CONN).",
+            "items": [
+                {
+                    "description": "Pad B4 [USB_VBUS_CONN] of USB2 on F.Cu",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 104.4
+                    },
+                    "uuid": "f0f984bb-db44-4602-b019-00a33c0a7f27"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (USB_VBUS_CONN) doesn't match net given by schematic (/Main/io/USB_VBUS_CONN).",
+            "items": [
+                {
+                    "description": "Pad B9 [USB_VBUS_CONN] of USB2 on F.Cu",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 101.9
+                    },
+                    "uuid": "e4563826-01d6-473a-bd47-99c57ca4b7e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "PowerBoard.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [VBUS] on F.Cu, priority 4",
+                    "pos": {
+                        "x": 103.9,
+                        "y": 94.8
+                    },
+                    "uuid": "631b78dc-6860-4a58-84e3-dbec328b10e7"
+                },
+                {
+                    "description": "Zone [VBUS] on F.Cu, priority 4",
+                    "pos": {
+                        "x": 103.8,
+                        "y": 109.324111
+                    },
+                    "uuid": "ad7d5962-0e0b-4b5a-8e05-eaa618119a69"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on B.Cu, length 6.3640 mm",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc009"
+                },
+                {
+                    "description": "Track [+5V] on B.Cu, length 18.7572 mm",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 93.9
+                    },
+                    "uuid": "6f831b95-f257-4e0b-b4dd-071c7655168c"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_D_P and Net-(USB2-CC1))",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Track [Net-(USB2-CC1)] on F.Cu, length 2.6200 mm",
+                    "pos": {
+                        "x": 130.52,
+                        "y": 102.4
+                    },
+                    "uuid": "9178f75c-cbe1-425b-ad4a-d06a10c40dbe"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_D_P and Net-(USB2-CC1))",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Track [Net-(USB2-CC1)] on F.Cu, length 0.3536 mm",
+                    "pos": {
+                        "x": 130.77,
+                        "y": 102.15
+                    },
+                    "uuid": "df9d634a-5bbb-490d-bb9e-24439ca72321"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_D_N and USB_D_P)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 3.1916 mm",
+                    "pos": {
+                        "x": 130.143198,
+                        "y": 102.925
+                    },
+                    "uuid": "bb2db140-031e-448f-99bb-3c819afbf870"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_CONN] on F.Cu, length 1.7300 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 101.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc001"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_CONN] on F.Cu, length 2.2700 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 101.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc002"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_CONN] on F.Cu, length 2.5000 mm",
+                    "pos": {
+                        "x": 123.9,
+                        "y": 101.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc003"
+                },
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_CONN] on F.Cu, length 2.5000 mm",
+                    "pos": {
+                        "x": 123.9,
+                        "y": 101.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc003"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_CONN] on F.Cu, length 4.0000 mm",
+                    "pos": {
+                        "x": 123.9,
+                        "y": 104.4
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc004"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets Net-(USB2-CC2) and USB_D_P)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(USB2-CC2)] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 103.83
+                    },
+                    "uuid": "48f18237-5d1f-4949-9ebe-ed9b4299f978"
+                },
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 1.8807 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 103.4
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc007"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 1.8807 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 103.4
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc007"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets Net-(USB2-CC2) and USB_D_P)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(USB2-CC2)] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 103.83
+                    },
+                    "uuid": "48f18237-5d1f-4949-9ebe-ed9b4299f978"
+                },
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on B.Cu, length 6.3640 mm",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc009"
+                },
+                {
+                    "description": "Track [USB_D_N] on B.Cu, length 6.3789 mm",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00e"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on B.Cu, length 6.3640 mm",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc009"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0550 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Pad 1 [Net-(USB2-CC1)] of R61 on F.Cu",
+                    "pos": {
+                        "x": 130.77,
+                        "y": 102.15
+                    },
+                    "uuid": "751cb8e6-32f0-4fbb-b3bc-39c3eecfdeb4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [VBUS] on In2.Cu, priority 7",
+                    "pos": {
+                        "x": 125.65,
+                        "y": 79.5
+                    },
+                    "uuid": "e548441b-949c-4d92-8ac3-04b086162b91"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [VBUS] on In2.Cu, priority 7",
+                    "pos": {
+                        "x": 125.65,
+                        "y": 79.5
+                    },
+                    "uuid": "e548441b-949c-4d92-8ac3-04b086162b91"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 0.5092 mm",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00b"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_D_N and GND)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 1.8939 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 102.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00c"
+                },
+                {
+                    "description": "Pad 2 [GND] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 102.97
+                    },
+                    "uuid": "b106b538-401c-4acf-a19b-127eafc6807d"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 1.8939 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 102.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00c"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_VBUS_CONN] on F.Cu, length 2.5000 mm",
+                    "pos": {
+                        "x": 123.9,
+                        "y": 101.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc003"
+                },
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Tracks crossing",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on B.Cu, length 6.3789 mm",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00e"
+                },
+                {
+                    "description": "Track [+5V] on B.Cu, length 18.7572 mm",
+                    "pos": {
+                        "x": 128.0,
+                        "y": 93.9
+                    },
+                    "uuid": "6f831b95-f257-4e0b-b4dd-071c7655168c"
+                }
+            ],
+            "severity": "error",
+            "type": "tracks_crossing"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on B.Cu, length 6.3789 mm",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00e"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [VBUS] on In2.Cu, priority 7",
+                    "pos": {
+                        "x": 125.65,
+                        "y": 79.5
+                    },
+                    "uuid": "e548441b-949c-4d92-8ac3-04b086162b91"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [VBUS] on In2.Cu, priority 7",
+                    "pos": {
+                        "x": 125.65,
+                        "y": 79.5
+                    },
+                    "uuid": "e548441b-949c-4d92-8ac3-04b086162b91"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.0900 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                },
+                {
+                    "description": "Zone [GND] on F.Cu, B.Cu and 4 more, priority 3",
+                    "pos": {
+                        "x": 70.9128,
+                        "y": 69.7784
+                    },
+                    "uuid": "d0a830ba-0c1a-40e5-82bf-39d7d76f946c"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets USB_D_N and USB_D_P)",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 0.6814 mm",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc010"
+                },
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 3.1916 mm",
+                    "pos": {
+                        "x": 130.143198,
+                        "y": 102.925
+                    },
+                    "uuid": "bb2db140-031e-448f-99bb-3c819afbf870"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1800 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(USB2-CC1)] of R61 on F.Cu",
+                    "pos": {
+                        "x": 130.77,
+                        "y": 102.15
+                    },
+                    "uuid": "751cb8e6-32f0-4fbb-b3bc-39c3eecfdeb4"
+                },
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0800 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(USB2-CC2)] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 103.83
+                    },
+                    "uuid": "48f18237-5d1f-4949-9ebe-ed9b4299f978"
+                },
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0999 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 102.97
+                    },
+                    "uuid": "b106b538-401c-4acf-a19b-127eafc6807d"
+                },
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 102.7
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00a"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Via diameter (board setup constraints min diameter 0.5000 mm; actual 0.4500 mm)",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 130.6,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00f"
+                }
+            ],
+            "severity": "error",
+            "type": "via_diameter"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [USB_D_P] on F.Cu, length 1.8807 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 103.4
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc007"
+                },
+                {
+                    "description": "Pad 1 [Net-(USB2-CC2)] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 103.83
+                    },
+                    "uuid": "48f18237-5d1f-4949-9ebe-ed9b4299f978"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [USB_D_P] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 103.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc008"
+                },
+                {
+                    "description": "Pad 1 [Net-(USB2-CC2)] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 103.83
+                    },
+                    "uuid": "48f18237-5d1f-4949-9ebe-ed9b4299f978"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [USB_D_N] on F.Cu, length 1.8939 mm",
+                    "pos": {
+                        "x": 126.17,
+                        "y": 102.9
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00c"
+                },
+                {
+                    "description": "Pad 2 [GND] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 102.97
+                    },
+                    "uuid": "b106b538-401c-4acf-a19b-127eafc6807d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Via [USB_D_N] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 124.3,
+                        "y": 102.6
+                    },
+                    "uuid": "4ab4707c-53cd-426d-a95a-fb1053efc00d"
+                },
+                {
+                    "description": "Pad 2 [GND] of R63 on F.Cu",
+                    "pos": {
+                        "x": 124.75,
+                        "y": 102.97
+                    },
+                    "uuid": "b106b538-401c-4acf-a19b-127eafc6807d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [+3V3] on In3.Cu, priority 12",
+                    "pos": {
+                        "x": 135.750457,
+                        "y": 131.279063
+                    },
+                    "uuid": "85cb251e-5a89-4f70-80c0-a984dd22f5d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 74.0
+                    },
+                    "uuid": "0ae93be2-1fd8-4257-9656-1e47f7979b8a"
+                },
+                {
+                    "description": "Reference field of J3",
+                    "pos": {
+                        "x": 78.775,
+                        "y": 82.3
+                    },
+                    "uuid": "278c66a7-eb1b-4f6e-b524-a424437c64c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 191.0,
+                        "y": 74.0
+                    },
+                    "uuid": "ed9b97cd-85ad-4985-8049-2986df28205d"
+                },
+                {
+                    "description": "Reference field of J4",
+                    "pos": {
+                        "x": 190.6,
+                        "y": 96.8
+                    },
+                    "uuid": "121df303-6470-494e-ad30-561822823366"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 74.0
+                    },
+                    "uuid": "0ae93be2-1fd8-4257-9656-1e47f7979b8a"
+                },
+                {
+                    "description": "Segment of J7 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.14,
+                        "y": 92.27
+                    },
+                    "uuid": "99dcd8f1-16c3-43fa-92eb-0345d305c782"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 74.0
+                    },
+                    "uuid": "0ae93be2-1fd8-4257-9656-1e47f7979b8a"
+                },
+                {
+                    "description": "Segment of J7 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.14,
+                        "y": 101.33
+                    },
+                    "uuid": "1d5dc7b7-d442-4c48-b0fb-2e8919b117b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 111.0
+                    },
+                    "uuid": "c0f5de5b-57c9-459a-8826-14bb2b0895f1"
+                },
+                {
+                    "description": "Reference field of USB2",
+                    "pos": {
+                        "x": 133.19,
+                        "y": 103.15
+                    },
+                    "uuid": "e2b01d6a-635f-4278-b9d3-4b3775df0988"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 96.0
+                    },
+                    "uuid": "43dc9ef7-5815-4255-8c0b-1fbbaa7b9a59"
+                },
+                {
+                    "description": "Segment of J8 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.94,
+                        "y": 96.39
+                    },
+                    "uuid": "f0771085-90a2-4cd7-9c1d-b9a744a032f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 96.0
+                    },
+                    "uuid": "43dc9ef7-5815-4255-8c0b-1fbbaa7b9a59"
+                },
+                {
+                    "description": "Segment of J8 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.94,
+                        "y": 110.41
+                    },
+                    "uuid": "147d6260-4275-4a3a-a979-e0b6c2a385c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 158.0,
+                        "y": 133.95
+                    },
+                    "uuid": "8f498270-3b51-4b89-8272-52077fec3b33"
+                },
+                {
+                    "description": "Reference field of R37",
+                    "pos": {
+                        "x": 147.55,
+                        "y": 133.53
+                    },
+                    "uuid": "434fa3f9-01e1-4ee2-8f12-bb9633c381fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 191.0,
+                        "y": 74.0
+                    },
+                    "uuid": "ed9b97cd-85ad-4985-8049-2986df28205d"
+                },
+                {
+                    "description": "Reference field of J5",
+                    "pos": {
+                        "x": 190.6,
+                        "y": 111.2
+                    },
+                    "uuid": "994a086e-67bd-4eb3-8603-9c4a1d2bf6cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 74.0
+                    },
+                    "uuid": "0ae93be2-1fd8-4257-9656-1e47f7979b8a"
+                },
+                {
+                    "description": "Reference field of J2",
+                    "pos": {
+                        "x": 78.9,
+                        "y": 125.7
+                    },
+                    "uuid": "4ee76ede-9654-4de8-af2e-03f43ce63cb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 74.0
+                    },
+                    "uuid": "0ae93be2-1fd8-4257-9656-1e47f7979b8a"
+                },
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.1528,
+                        "y": 106.6984
+                    },
+                    "uuid": "960f3c10-0f70-4b93-a0c4-9b5c2465d660"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 79.0,
+                        "y": 74.0
+                    },
+                    "uuid": "0ae93be2-1fd8-4257-9656-1e47f7979b8a"
+                },
+                {
+                    "description": "Segment of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 74.1528,
+                        "y": 115.7584
+                    },
+                    "uuid": "ad344d81-7588-432b-b016-653f55506866"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U12",
+                    "pos": {
+                        "x": 147.101,
+                        "y": 118.4
+                    },
+                    "uuid": "53f9f26a-7c34-4fc9-9044-1f3d4b0b647e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'USB-C-SMD_TYPEC-303-ACP16' does not match copy in library 'easyeda'.",
+            "items": [
+                {
+                    "description": "Footprint USB2",
+                    "pos": {
+                        "x": 127.04,
+                        "y": 103.15
+                    },
+                    "uuid": "8dd759c6-5099-40a0-99ce-6a7832422370"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TSOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U15",
+                    "pos": {
+                        "x": 166.2375,
+                        "y": 122.1
+                    },
+                    "uuid": "30780109-3ad3-4913-8dc0-4d70003f9386"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint Q4",
+                    "pos": {
+                        "x": 182.6875,
+                        "y": 131.6
+                    },
+                    "uuid": "3278a489-9fdc-45a0-9964-38de67ab65ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TSOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint U11",
+                    "pos": {
+                        "x": 166.45,
+                        "y": 79.65
+                    },
+                    "uuid": "3906fb5d-304f-43ff-a672-8f57a3fabe83"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.",
+            "items": [
+                {
+                    "description": "Footprint Q3",
+                    "pos": {
+                        "x": 182.625,
+                        "y": 89.175
+                    },
+                    "uuid": "d3d44309-6f72-4d15-a755-a5ea9b69011b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C48",
+                    "pos": {
+                        "x": 127.83,
+                        "y": 83.007201
+                    },
+                    "uuid": "378f1687-5a6a-44f7-bd3c-96debf0618c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of Q2",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 93.275
+                    },
+                    "uuid": "1ceadd81-c178-4f8e-ba79-729f88ed6f32"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of TP2",
+                    "pos": {
+                        "x": 130.15,
+                        "y": 84.95
+                    },
+                    "uuid": "9ea0957f-345a-406a-96e4-c93447f5bdd5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U13",
+                    "pos": {
+                        "x": 142.775,
+                        "y": 77.925
+                    },
+                    "uuid": "1c2926dc-590e-46f8-8bda-e98065cf32a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C47",
+                    "pos": {
+                        "x": 124.97,
+                        "y": 80.007201
+                    },
+                    "uuid": "22205af2-6a7d-43f4-8b1c-be12e74ff55a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C43",
+                    "pos": {
+                        "x": 119.23,
+                        "y": 81.4
+                    },
+                    "uuid": "ec25bb8b-e523-4928-946e-e09b44b9ea21"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U8",
+                    "pos": {
+                        "x": 123.005,
+                        "y": 81.45
+                    },
+                    "uuid": "7bf83f6d-8dfe-40ea-bc0f-8a88df6cb9bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 152.9,
+                        "y": 124.93
+                    },
+                    "uuid": "f44fdc68-4200-4f55-b68d-96a146b1768b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Rectangle of L4 on F.Silkscreen",
+                    "pos": {
+                        "x": 140.7,
+                        "y": 84.2
+                    },
+                    "uuid": "350dcae5-6fb8-48ea-b7a2-a8c2961c48c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U16",
+                    "pos": {
+                        "x": 96.882821,
+                        "y": 93.575889
+                    },
+                    "uuid": "52235615-3ffd-4564-a867-126bcef82724"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C45",
+                    "pos": {
+                        "x": 117.58,
+                        "y": 81.2
+                    },
+                    "uuid": "3561fa7d-e5be-48f1-8e1e-f23391b5e72a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C72",
+                    "pos": {
+                        "x": 144.57,
+                        "y": 82.3
+                    },
+                    "uuid": "958124f7-1e66-46a9-ac65-f6e688f3ad55"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C49",
+                    "pos": {
+                        "x": 127.880001,
+                        "y": 79.707202
+                    },
+                    "uuid": "ae69affa-24ff-43f1-bb7f-c8e5804166c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C74",
+                    "pos": {
+                        "x": 141.6,
+                        "y": 79.33
+                    },
+                    "uuid": "ce5a96a7-ef25-4297-82d3-197916eb8f5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C50",
+                    "pos": {
+                        "x": 126.52,
+                        "y": 83.207201
+                    },
+                    "uuid": "a29f3492-5452-4494-b6e6-c8dabe886c21"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U18",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 81.9978
+                    },
+                    "uuid": "0395a88b-8db3-4ad9-a546-0548372c6f66"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U14",
+                    "pos": {
+                        "x": 176.025,
+                        "y": 126.65
+                    },
+                    "uuid": "79458a39-2876-4f8f-8995-9c173aa5f649"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R45",
+                    "pos": {
+                        "x": 144.57,
+                        "y": 79.1
+                    },
+                    "uuid": "de9f6a94-6cb5-4093-9e0e-2f31c06f1e78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C42",
+                    "pos": {
+                        "x": 120.83,
+                        "y": 79.907201
+                    },
+                    "uuid": "d0b0aed4-9be4-48ef-b510-71518012677b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C76",
+                    "pos": {
+                        "x": 138.3,
+                        "y": 87.83
+                    },
+                    "uuid": "693546a9-d85b-4dd7-9e5d-c1c3013f18d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R61",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 98.15
+                    },
+                    "uuid": "afac151d-e9a4-4b1f-b355-cae01fd5f65a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of R61 on F.Silkscreen",
+                    "pos": {
+                        "x": 130.7,
+                        "y": 102.4
+                    },
+                    "uuid": "04f1fae8-9773-497e-b7b9-edbac946f092"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R63",
+                    "pos": {
+                        "x": 120.75,
+                        "y": 103.4
+                    },
+                    "uuid": "8e0cd5d7-1066-44da-83a2-95b4f0a7e37d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of R63 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 103.9
+                    },
+                    "uuid": "5fe34b9c-1fab-45ce-99d8-9096d4b234ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R46",
+                    "pos": {
+                        "x": 138.3,
+                        "y": 86.23
+                    },
+                    "uuid": "96eabfd5-fb91-435b-82eb-f46ff6c6081b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 151.5,
+                        "y": 124.37
+                    },
+                    "uuid": "23acd16a-ecde-41d8-86ec-efd76b36b4ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.55,
+                        "y": 83.75
+                    },
+                    "uuid": "d900bc1c-b3f3-466d-a866-ab0fcbddecc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of JP2",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 87.95
+                    },
+                    "uuid": "298bb409-648f-409f-bd4b-64d231b22949"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J10",
+                    "pos": {
+                        "x": 183.4,
+                        "y": 123.9
+                    },
+                    "uuid": "b78494de-245f-494f-b942-bc7a56212897"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of J13",
+                    "pos": {
+                        "x": 183.4,
+                        "y": 83.9
+                    },
+                    "uuid": "370eb81f-441f-4c1d-923f-77f25ad13bdc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U3",
+                    "pos": {
+                        "x": 144.828999,
+                        "y": 124.099999
+                    },
+                    "uuid": "f98b57fc-eb51-4dc3-9129-b1af18b57bc6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of X2 on B.Silkscreen",
+                    "pos": {
+                        "x": 112.6,
+                        "y": 85.0
+                    },
+                    "uuid": "0c99d065-ed22-4ea7-ad01-46f2b74633ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R73",
+                    "pos": {
+                        "x": 98.33,
+                        "y": 105.5
+                    },
+                    "uuid": "97abda77-0ac6-4ee5-bc15-5060067b59ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R24",
+                    "pos": {
+                        "x": 150.875,
+                        "y": 116.87
+                    },
+                    "uuid": "d66de926-3d67-4e35-bae9-a1136067b348"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C59",
+                    "pos": {
+                        "x": 121.83,
+                        "y": 84.625
+                    },
+                    "uuid": "873639b7-62b2-4878-a65d-600a30a18acd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C58",
+                    "pos": {
+                        "x": 116.38,
+                        "y": 81.6
+                    },
+                    "uuid": "f722000e-7ff0-4870-8f77-d28f54bf9053"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 135.75,
+                        "y": 130.13
+                    },
+                    "uuid": "376f2f1d-7f50-4f88-bb45-bbd62c318cd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R55",
+                    "pos": {
+                        "x": 166.48,
+                        "y": 129.1
+                    },
+                    "uuid": "6deab9f1-0a2c-46d8-b14a-abf90f9da4dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 150.9,
+                        "y": 118.42
+                    },
+                    "uuid": "39cc26f8-5264-48e1-bd4a-9619d1f6dca7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of U2 (*)",
+                    "pos": {
+                        "x": 122.627001,
+                        "y": 115.346
+                    },
+                    "uuid": "2ac22ef4-0d46-4b90-8c6a-38c7e52bee75"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Footprint text of U2 (*)",
+                    "pos": {
+                        "x": 122.627001,
+                        "y": 115.346
+                    },
+                    "uuid": "efb3fc02-d7ad-4121-8758-edc582e97ed2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C90",
+                    "pos": {
+                        "x": 118.2,
+                        "y": 87.35
+                    },
+                    "uuid": "d6c59b63-0f53-4909-a1db-8d7b8e8672c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Circle of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 88.15
+                    },
+                    "uuid": "4d8c5f2a-ff56-4d41-a33f-161698ce1a3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of R39",
+                    "pos": {
+                        "x": 149.95,
+                        "y": 127.97
+                    },
+                    "uuid": "845994c7-4d98-4b93-9053-305afb97cff1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of U18 (*)",
+                    "pos": {
+                        "x": 97.5,
+                        "y": 84.6394
+                    },
+                    "uuid": "1fd0b170-427d-4ef8-a257-91b11affa958"
+                },
+                {
+                    "description": "Footprint text of U18 (*)",
+                    "pos": {
+                        "x": 97.5,
+                        "y": 84.6394
+                    },
+                    "uuid": "1fe7a503-473b-4b23-a584-c554a5d43e38"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of L3 on F.Silkscreen",
+                    "pos": {
+                        "x": 120.22,
+                        "y": 86.82
+                    },
+                    "uuid": "76e6c946-7126-456c-ad9a-78537e452cbc"
+                },
+                {
+                    "description": "Reference field of C46",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 86.337201
+                    },
+                    "uuid": "7dee7204-379b-4a95-ad57-63f23158c331"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of L3 on F.Silkscreen",
+                    "pos": {
+                        "x": 120.22,
+                        "y": 86.82
+                    },
+                    "uuid": "76e6c946-7126-456c-ad9a-78537e452cbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of L3 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.78,
+                        "y": 93.18
+                    },
+                    "uuid": "37a27b99-c3f8-4bb4-b05a-2b3ac897a077"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C48 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.89,
+                        "y": 82.866621
+                    },
+                    "uuid": "45797a82-3455-48dd-8bd0-291b81f6e65b"
+                },
+                {
+                    "description": "Reference field of C50",
+                    "pos": {
+                        "x": 126.52,
+                        "y": 83.207201
+                    },
+                    "uuid": "a29f3492-5452-4494-b6e6-c8dabe886c21"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Reference field of C46",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 86.337201
+                    },
+                    "uuid": "7dee7204-379b-4a95-ad57-63f23158c331"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of C46 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.14058,
+                        "y": 84.397201
+                    },
+                    "uuid": "f063d7a5-fbaf-4716-b843-e28f00843838"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of C46 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.14058,
+                        "y": 85.417201
+                    },
+                    "uuid": "3644cdc7-79c4-4610-80f6-35957a508066"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of C48",
+                    "pos": {
+                        "x": 127.83,
+                        "y": 83.007201
+                    },
+                    "uuid": "378f1687-5a6a-44f7-bd3c-96debf0618c7"
+                },
+                {
+                    "description": "Segment of C50 on F.Silkscreen",
+                    "pos": {
+                        "x": 127.465,
+                        "y": 83.468453
+                    },
+                    "uuid": "426bfab8-70cf-4cb6-bb3c-8d1f947e426f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C48 on F.Silkscreen",
+                    "pos": {
+                        "x": 126.91,
+                        "y": 82.866621
+                    },
+                    "uuid": "03c172fe-259d-4ced-84a5-1e274ea4d220"
+                },
+                {
+                    "description": "Reference field of C50",
+                    "pos": {
+                        "x": 126.52,
+                        "y": 83.207201
+                    },
+                    "uuid": "a29f3492-5452-4494-b6e6-c8dabe886c21"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C49 on F.Silkscreen",
+                    "pos": {
+                        "x": 127.465,
+                        "y": 79.545949
+                    },
+                    "uuid": "a940e891-81eb-4230-bd3f-ee9dce6cd233"
+                },
+                {
+                    "description": "Reference field of C49",
+                    "pos": {
+                        "x": 127.880001,
+                        "y": 79.707202
+                    },
+                    "uuid": "ae69affa-24ff-43f1-bb7f-c8e5804166c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Reference field of L3",
+                    "pos": {
+                        "x": 123.5,
+                        "y": 90.0
+                    },
+                    "uuid": "2c7c2d38-620b-40c8-a610-3b1d5baaf355"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Reference field of U8",
+                    "pos": {
+                        "x": 123.005,
+                        "y": 81.45
+                    },
+                    "uuid": "7bf83f6d-8dfe-40ea-bc0f-8a88df6cb9bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of D7 on F.Silkscreen",
+                    "pos": {
+                        "x": 121.6,
+                        "y": 100.26
+                    },
+                    "uuid": "a0bb063a-2bb6-40ed-ab77-deab0b1b5ef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of L1 on F.Silkscreen",
+                    "pos": {
+                        "x": 120.42,
+                        "y": 120.12
+                    },
+                    "uuid": "915f6552-2cc8-4593-b0a8-1f3f87dc491d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of C11 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.19058,
+                        "y": 117.6472
+                    },
+                    "uuid": "c0cc401c-78a9-424f-b0a3-721e2a94ac83"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 80.85
+                    },
+                    "uuid": "22d3e081-cf92-43cc-956c-a8813995afb7"
+                },
+                {
+                    "description": "Segment of C11 on F.Silkscreen",
+                    "pos": {
+                        "x": 123.19058,
+                        "y": 118.6672
+                    },
+                    "uuid": "a4a96905-593f-496b-a9ae-eca0ef592ba1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C44 on F.Silkscreen",
+                    "pos": {
+                        "x": 110.745563,
+                        "y": 87.09
+                    },
+                    "uuid": "522d8b09-9618-4bb2-a36f-91a1b34c2561"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C44 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.81,
+                        "y": 93.91
+                    },
+                    "uuid": "11adf88e-50e7-4250-b637-9d5693f2ccd6"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                },
+                {
+                    "description": "Segment of FB3 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.584252,
+                        "y": 84.61
+                    },
+                    "uuid": "d6ac6403-b9c9-44c0-ac9f-e07e7f6c8d59"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.02,
+                        "y": 102.87
+                    },
+                    "uuid": "66a2fdaf-7b89-4058-84c9-bb5959285d22"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.02,
+                        "y": 108.06
+                    },
+                    "uuid": "063d0e7e-c380-4ea7-9e4a-a40cd173a001"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 111.0,
+                        "y": 83.0
+                    },
+                    "uuid": "8fc76ea5-a47a-4aba-a894-b7e06d47320b"
+                },
+                {
+                    "description": "Segment of FB1 on F.Silkscreen",
+                    "pos": {
+                        "x": 109.084252,
+                        "y": 125.29
+                    },
+                    "uuid": "91d91def-0877-4fc3-a435-468bd589e4d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.39,
+                        "y": 101.56
+                    },
+                    "uuid": "609ee696-abb5-40eb-87d3-a136da6597ae"
+                },
+                {
+                    "description": "Segment of R63 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.25,
+                        "y": 103.63
+                    },
+                    "uuid": "e9b87a1b-714e-4ab1-a99c-2f91a6d00a75"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 128.56,
+                        "y": 98.58
+                    },
+                    "uuid": "186cb3ef-2f3d-49bf-a01a-ee272f6a8e17"
+                },
+                {
+                    "description": "Reference field of D9",
+                    "pos": {
+                        "x": 129.2,
+                        "y": 99.1
+                    },
+                    "uuid": "5897d7a2-5c0e-40dc-80c9-98d5688f8bb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 128.69,
+                        "y": 98.58
+                    },
+                    "uuid": "1394f181-cfac-49b4-8946-90db05d956d7"
+                },
+                {
+                    "description": "Reference field of D9",
+                    "pos": {
+                        "x": 129.2,
+                        "y": 99.1
+                    },
+                    "uuid": "5897d7a2-5c0e-40dc-80c9-98d5688f8bb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of D9",
+                    "pos": {
+                        "x": 129.2,
+                        "y": 99.1
+                    },
+                    "uuid": "5897d7a2-5c0e-40dc-80c9-98d5688f8bb5"
+                },
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 128.69,
+                        "y": 99.94
+                    },
+                    "uuid": "e040c1ab-c99e-450f-becd-385c8ab6c568"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R63 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.25,
+                        "y": 102.46
+                    },
+                    "uuid": "5e0aa9c8-c3d3-42e7-b30d-e634c842c6b6"
+                },
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.39,
+                        "y": 101.56
+                    },
+                    "uuid": "609ee696-abb5-40eb-87d3-a136da6597ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R63 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.25,
+                        "y": 103.17
+                    },
+                    "uuid": "04a60275-81a4-45ff-91d8-e4b81c2fbd8b"
+                },
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.39,
+                        "y": 101.56
+                    },
+                    "uuid": "609ee696-abb5-40eb-87d3-a136da6597ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.39,
+                        "y": 101.56
+                    },
+                    "uuid": "609ee696-abb5-40eb-87d3-a136da6597ae"
+                },
+                {
+                    "description": "Segment of R63 on F.Silkscreen",
+                    "pos": {
+                        "x": 125.25,
+                        "y": 104.34
+                    },
+                    "uuid": "f068c598-00e3-42dc-9acc-6a6a2933e5a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of D9",
+                    "pos": {
+                        "x": 129.2,
+                        "y": 99.1
+                    },
+                    "uuid": "5897d7a2-5c0e-40dc-80c9-98d5688f8bb5"
+                },
+                {
+                    "description": "Circle of USB2 on F.Silkscreen",
+                    "pos": {
+                        "x": 129.34,
+                        "y": 98.68
+                    },
+                    "uuid": "63339832-0e2a-4467-97b8-98bf5181cf04"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of D9 on F.Silkscreen",
+                    "pos": {
+                        "x": 130.2,
+                        "y": 101.46
+                    },
+                    "uuid": "af672645-a736-4079-87ad-1d359748c27a"
+                },
+                {
+                    "description": "Reference field of R61",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 98.15
+                    },
+                    "uuid": "afac151d-e9a4-4b1f-b355-cae01fd5f65a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of Q2",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 93.275
+                    },
+                    "uuid": "1ceadd81-c178-4f8e-ba79-729f88ed6f32"
+                },
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 94.3
+                    },
+                    "uuid": "f33dc320-dd2b-489c-be72-f432f31dbf38"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of Q2",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 93.275
+                    },
+                    "uuid": "1ceadd81-c178-4f8e-ba79-729f88ed6f32"
+                },
+                {
+                    "description": "Arc of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 94.25
+                    },
+                    "uuid": "8a0afe3d-898c-46e6-b3c1-3627f1eb1510"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of Q2",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 93.275
+                    },
+                    "uuid": "1ceadd81-c178-4f8e-ba79-729f88ed6f32"
+                },
+                {
+                    "description": "Arc of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 94.25
+                    },
+                    "uuid": "e003f7d8-87e3-4c86-b989-5c3ca77d7395"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of Q2",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 93.275
+                    },
+                    "uuid": "1ceadd81-c178-4f8e-ba79-729f88ed6f32"
+                },
+                {
+                    "description": "Segment of Q2 on F.Silkscreen",
+                    "pos": {
+                        "x": 118.765,
+                        "y": 94.2
+                    },
+                    "uuid": "a01f9e71-d7c6-4530-91f7-666253082a48"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of U8 (*)",
+                    "pos": {
+                        "x": 121.755,
+                        "y": 84.5361
+                    },
+                    "uuid": "183e6c88-4543-49cc-a15b-5f3673d6fa3b"
+                },
+                {
+                    "description": "Footprint text of U8 (*)",
+                    "pos": {
+                        "x": 121.755,
+                        "y": 84.5361
+                    },
+                    "uuid": "b4d40869-0623-4e8e-ae7b-810f5f3f6788"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Polygon of U8 on F.Silkscreen",
+                    "pos": {
+                        "x": 120.4523,
+                        "y": 80.890499
+                    },
+                    "uuid": "cd67f90d-2b22-4cb3-8a6e-6725c59ab5a7"
+                },
+                {
+                    "description": "Reference field of C42",
+                    "pos": {
+                        "x": 120.83,
+                        "y": 79.907201
+                    },
+                    "uuid": "d0b0aed4-9be4-48ef-b510-71518012677b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of C45",
+                    "pos": {
+                        "x": 117.58,
+                        "y": 81.2
+                    },
+                    "uuid": "3561fa7d-e5be-48f1-8e1e-f23391b5e72a"
+                },
+                {
+                    "description": "Segment of C43 on F.Silkscreen",
+                    "pos": {
+                        "x": 117.29,
+                        "y": 81.25942
+                    },
+                    "uuid": "7fe3c82a-e627-4816-8d9e-98529e146e5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of U19 (*)",
+                    "pos": {
+                        "x": 97.6,
+                        "y": 130.8305
+                    },
+                    "uuid": "1b8d44a6-9c0b-4bc5-bca2-60a088615752"
+                },
+                {
+                    "description": "Footprint text of U19 (*)",
+                    "pos": {
+                        "x": 97.6,
+                        "y": 130.8305
+                    },
+                    "uuid": "ffc7339c-5c77-4b63-a21c-dfd0ff9eedf6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of U6 (*)",
+                    "pos": {
+                        "x": 121.755,
+                        "y": 117.8361
+                    },
+                    "uuid": "832aaeb6-ab7a-49b6-b23e-222abcd5bf7a"
+                },
+                {
+                    "description": "Footprint text of U6 (*)",
+                    "pos": {
+                        "x": 121.755,
+                        "y": 117.8361
+                    },
+                    "uuid": "c82fe475-7ce6-4b10-8015-3bf3dcb7a933"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of U13",
+                    "pos": {
+                        "x": 142.775,
+                        "y": 77.925
+                    },
+                    "uuid": "1c2926dc-590e-46f8-8bda-e98065cf32a5"
+                },
+                {
+                    "description": "Segment of C74 on F.Silkscreen",
+                    "pos": {
+                        "x": 141.74058,
+                        "y": 77.39
+                    },
+                    "uuid": "ccbfd06a-5863-433e-b55d-27db8e1f6a49"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of U13",
+                    "pos": {
+                        "x": 142.775,
+                        "y": 77.925
+                    },
+                    "uuid": "1c2926dc-590e-46f8-8bda-e98065cf32a5"
+                },
+                {
+                    "description": "Segment of C74 on F.Silkscreen",
+                    "pos": {
+                        "x": 141.74058,
+                        "y": 78.41
+                    },
+                    "uuid": "24a71a89-7337-48ef-b478-eb38e275f98e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of U13",
+                    "pos": {
+                        "x": 142.775,
+                        "y": 77.925
+                    },
+                    "uuid": "1c2926dc-590e-46f8-8bda-e98065cf32a5"
+                },
+                {
+                    "description": "Reference field of R45",
+                    "pos": {
+                        "x": 144.57,
+                        "y": 79.1
+                    },
+                    "uuid": "de9f6a94-6cb5-4093-9e0e-2f31c06f1e78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R46",
+                    "pos": {
+                        "x": 138.3,
+                        "y": 86.23
+                    },
+                    "uuid": "96eabfd5-fb91-435b-82eb-f46ff6c6081b"
+                },
+                {
+                    "description": "Segment of C76 on F.Silkscreen",
+                    "pos": {
+                        "x": 138.44058,
+                        "y": 85.89
+                    },
+                    "uuid": "d86d56cb-e53e-45fa-b35c-53a4ec906407"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of C76",
+                    "pos": {
+                        "x": 138.3,
+                        "y": 87.83
+                    },
+                    "uuid": "693546a9-d85b-4dd7-9e5d-c1c3013f18d2"
+                },
+                {
+                    "description": "Segment of D12 on F.Silkscreen",
+                    "pos": {
+                        "x": 139.91,
+                        "y": 87.6
+                    },
+                    "uuid": "d544130f-a680-4763-ae42-7b35c059e7f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R8",
+                    "pos": {
+                        "x": 151.5,
+                        "y": 124.37
+                    },
+                    "uuid": "23acd16a-ecde-41d8-86ec-efd76b36b4ca"
+                },
+                {
+                    "description": "Reference field of R7",
+                    "pos": {
+                        "x": 152.9,
+                        "y": 124.93
+                    },
+                    "uuid": "f44fdc68-4200-4f55-b68d-96a146b1768b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R62 on F.Silkscreen",
+                    "pos": {
+                        "x": 163.627064,
+                        "y": 118.99
+                    },
+                    "uuid": "199ffd76-2ea8-4115-8302-e6fd56f37c20"
+                },
+                {
+                    "description": "Reference field of J1",
+                    "pos": {
+                        "x": 162.125,
+                        "y": 118.49
+                    },
+                    "uuid": "69a3eec1-f237-40b8-b5f6-bbd37bb50b15"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R61",
+                    "pos": {
+                        "x": 131.2,
+                        "y": 98.15
+                    },
+                    "uuid": "afac151d-e9a4-4b1f-b355-cae01fd5f65a"
+                },
+                {
+                    "description": "Segment of D9 on F.Silkscreen",
+                    "pos": {
+                        "x": 132.2,
+                        "y": 101.46
+                    },
+                    "uuid": "c8998efd-1102-4751-9e95-5e508a1f4d2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of U2 (*)",
+                    "pos": {
+                        "x": 122.627001,
+                        "y": 115.346
+                    },
+                    "uuid": "2ac22ef4-0d46-4b90-8c6a-38c7e52bee75"
+                },
+                {
+                    "description": "Footprint text of U2 (*)",
+                    "pos": {
+                        "x": 122.627001,
+                        "y": 115.346
+                    },
+                    "uuid": "efb3fc02-d7ad-4121-8758-edc582e97ed2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R12 on B.Silkscreen",
+                    "pos": {
+                        "x": 135.512742,
+                        "y": 129.9775
+                    },
+                    "uuid": "29b7e19f-8462-4b65-bf88-f3d49b41ac8e"
+                },
+                {
+                    "description": "Reference field of R11",
+                    "pos": {
+                        "x": 135.75,
+                        "y": 130.13
+                    },
+                    "uuid": "376f2f1d-7f50-4f88-bb45-bbd62c318cd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R10",
+                    "pos": {
+                        "x": 153.4,
+                        "y": 115.7
+                    },
+                    "uuid": "23fb2819-3238-4e58-8ff1-a3d0bf6983bd"
+                },
+                {
+                    "description": "Reference field of R32",
+                    "pos": {
+                        "x": 153.27,
+                        "y": 117.8
+                    },
+                    "uuid": "b9bfda87-a676-433c-aae0-31748145744a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 150.9,
+                        "y": 118.42
+                    },
+                    "uuid": "39cc26f8-5264-48e1-bd4a-9619d1f6dca7"
+                },
+                {
+                    "description": "Segment of R24 on B.Silkscreen",
+                    "pos": {
+                        "x": 151.112258,
+                        "y": 117.7775
+                    },
+                    "uuid": "b93062ae-13b1-4be8-83b7-865778633286"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 150.9,
+                        "y": 118.42
+                    },
+                    "uuid": "39cc26f8-5264-48e1-bd4a-9619d1f6dca7"
+                },
+                {
+                    "description": "Segment of R24 on B.Silkscreen",
+                    "pos": {
+                        "x": 151.112258,
+                        "y": 118.8225
+                    },
+                    "uuid": "a4994eb6-d62d-4e96-8c1a-524956b64a4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Circle of X2 on B.Silkscreen",
+                    "pos": {
+                        "x": 110.58,
+                        "y": 84.31
+                    },
+                    "uuid": "c70673bb-b331-4030-aa86-0bc6e21ab62e"
+                },
+                {
+                    "description": "Reference field of C91",
+                    "pos": {
+                        "x": 110.15,
+                        "y": 84.55
+                    },
+                    "uuid": "ecf2f764-1bf6-4eaa-a24a-4b2135413d1a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.55,
+                        "y": 85.63
+                    },
+                    "uuid": "7dabc0d4-6090-4b37-8baa-2d455ed76f70"
+                },
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 85.96
+                    },
+                    "uuid": "69aea0bb-8bcb-4fa1-b2aa-f95dc81e7d78"
+                },
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.55,
+                        "y": 85.63
+                    },
+                    "uuid": "7dabc0d4-6090-4b37-8baa-2d455ed76f70"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.55,
+                        "y": 85.63
+                    },
+                    "uuid": "7dabc0d4-6090-4b37-8baa-2d455ed76f70"
+                },
+                {
+                    "description": "Arc of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 86.27
+                    },
+                    "uuid": "bb9557bf-b173-4136-bb52-c8ad34392131"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                },
+                {
+                    "description": "Segment of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.94
+                    },
+                    "uuid": "db8c547f-9550-40a3-9ba0-506563212e7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 85.96
+                    },
+                    "uuid": "69aea0bb-8bcb-4fa1-b2aa-f95dc81e7d78"
+                },
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                },
+                {
+                    "description": "Arc of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 86.27
+                    },
+                    "uuid": "bb9557bf-b173-4136-bb52-c8ad34392131"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.44,
+                        "y": 84.83
+                    },
+                    "uuid": "16c50ecf-f157-412c-aac2-8ac455d7fff7"
+                },
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 85.96
+                    },
+                    "uuid": "69aea0bb-8bcb-4fa1-b2aa-f95dc81e7d78"
+                },
+                {
+                    "description": "Segment of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.94
+                    },
+                    "uuid": "db8c547f-9550-40a3-9ba0-506563212e7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 86.27
+                    },
+                    "uuid": "841e070c-a407-44d6-be06-074f2e472ae9"
+                },
+                {
+                    "description": "Segment of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.94
+                    },
+                    "uuid": "db8c547f-9550-40a3-9ba0-506563212e7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 86.27
+                    },
+                    "uuid": "bb9557bf-b173-4136-bb52-c8ad34392131"
+                },
+                {
+                    "description": "Segment of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.94
+                    },
+                    "uuid": "db8c547f-9550-40a3-9ba0-506563212e7d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.63
+                    },
+                    "uuid": "70b1a029-f48d-480f-a237-e19167a2a0b8"
+                },
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.6,
+                        "y": 85.96
+                    },
+                    "uuid": "69aea0bb-8bcb-4fa1-b2aa-f95dc81e7d78"
+                },
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.63
+                    },
+                    "uuid": "70b1a029-f48d-480f-a237-e19167a2a0b8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.75,
+                        "y": 85.63
+                    },
+                    "uuid": "70b1a029-f48d-480f-a237-e19167a2a0b8"
+                },
+                {
+                    "description": "Arc of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 86.27
+                    },
+                    "uuid": "841e070c-a407-44d6-be06-074f2e472ae9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R71 on B.Silkscreen",
+                    "pos": {
+                        "x": 97.9775,
+                        "y": 105.736369
+                    },
+                    "uuid": "0cec7810-60b9-401a-99e9-fa22f9f49ae4"
+                },
+                {
+                    "description": "Reference field of R73",
+                    "pos": {
+                        "x": 98.33,
+                        "y": 105.5
+                    },
+                    "uuid": "97abda77-0ac6-4ee5-bc15-5060067b59ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Polygon of U9 on B.Silkscreen",
+                    "pos": {
+                        "x": 115.24,
+                        "y": 83.64
+                    },
+                    "uuid": "0d075c3f-cb0a-4904-b617-5878d0cf089d"
+                },
+                {
+                    "description": "Segment of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.86,
+                        "y": 84.27
+                    },
+                    "uuid": "75e40110-b964-4cd2-9de5-153397bed1ad"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Polygon of U9 on B.Silkscreen",
+                    "pos": {
+                        "x": 115.24,
+                        "y": 83.64
+                    },
+                    "uuid": "0d075c3f-cb0a-4904-b617-5878d0cf089d"
+                },
+                {
+                    "description": "Arc of C91 on B.Silkscreen",
+                    "pos": {
+                        "x": 114.55,
+                        "y": 83.47
+                    },
+                    "uuid": "d8152cb2-9975-4ca4-8d45-16400613f7c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                },
+                {
+                    "description": "Segment of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.49,
+                        "y": 87.07
+                    },
+                    "uuid": "8ddb349c-b37b-442f-a41f-969d589275c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Arc of C90 on B.Silkscreen",
+                    "pos": {
+                        "x": 113.8,
+                        "y": 86.27
+                    },
+                    "uuid": "841e070c-a407-44d6-be06-074f2e472ae9"
+                },
+                {
+                    "description": "Reference field of U9",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 86.35
+                    },
+                    "uuid": "878ecd58-c642-414b-93e7-a65f8f28a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of J13",
+                    "pos": {
+                        "x": 183.4,
+                        "y": 83.9
+                    },
+                    "uuid": "370eb81f-441f-4c1d-923f-77f25ad13bdc"
+                },
+                {
+                    "description": "Segment of R26 on B.Silkscreen",
+                    "pos": {
+                        "x": 183.5225,
+                        "y": 83.912742
+                    },
+                    "uuid": "ad076678-4413-4081-b8fb-488b04a56a3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of JP2",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 87.95
+                    },
+                    "uuid": "298bb409-648f-409f-bd4b-64d231b22949"
+                },
+                {
+                    "description": "Segment of U9 on B.Silkscreen",
+                    "pos": {
+                        "x": 119.26,
+                        "y": 89.06
+                    },
+                    "uuid": "4e49a8b8-6060-421e-a93f-05684551c063"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of JP2",
+                    "pos": {
+                        "x": 119.7,
+                        "y": 87.95
+                    },
+                    "uuid": "298bb409-648f-409f-bd4b-64d231b22949"
+                },
+                {
+                    "description": "Segment of U9 on B.Silkscreen",
+                    "pos": {
+                        "x": 119.26,
+                        "y": 89.06
+                    },
+                    "uuid": "f9ecde74-b97d-4bd0-8c60-bd943829287f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of R55",
+                    "pos": {
+                        "x": 166.48,
+                        "y": 129.1
+                    },
+                    "uuid": "6deab9f1-0a2c-46d8-b14a-abf90f9da4dc"
+                },
+                {
+                    "description": "Segment of R54 on B.Silkscreen",
+                    "pos": {
+                        "x": 166.0775,
+                        "y": 129.337258
+                    },
+                    "uuid": "7d23c404-c93a-43b8-8008-d65eb63ce7dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Footprint text of U7 (*)",
+                    "pos": {
+                        "x": 122.527,
+                        "y": 82.120201
+                    },
+                    "uuid": "c15458ac-b98c-4e80-90f6-a728d13b4e51"
+                },
+                {
+                    "description": "Footprint text of U7 (*)",
+                    "pos": {
+                        "x": 122.527,
+                        "y": 82.120201
+                    },
+                    "uuid": "c57650f4-29f2-422f-a66d-4327528fa0a7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Segment of R22 on B.Silkscreen",
+                    "pos": {
+                        "x": 121.4775,
+                        "y": 84.837258
+                    },
+                    "uuid": "62b333f2-4d0d-4646-824f-2cc874b8119b"
+                },
+                {
+                    "description": "Reference field of C59",
+                    "pos": {
+                        "x": 121.83,
+                        "y": 84.625
+                    },
+                    "uuid": "873639b7-62b2-4878-a65d-600a30a18acd"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen overlap",
+            "items": [
+                {
+                    "description": "Reference field of C57",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 81.12
+                    },
+                    "uuid": "79bb5468-8b6a-4f1f-9928-4d02bd20d17c"
+                },
+                {
+                    "description": "Reference field of C58",
+                    "pos": {
+                        "x": 116.38,
+                        "y": 81.6
+                    },
+                    "uuid": "f722000e-7ff0-4870-8f77-d28f54bf9053"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}
