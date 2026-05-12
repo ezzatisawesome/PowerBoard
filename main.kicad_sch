@@ -239,7 +239,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -251,8 +251,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -260,8 +260,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -277,7 +277,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -286,7 +286,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
 				(effects
 					(font
@@ -295,7 +295,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -304,46 +304,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
 					(at 0 0 90)
 					(length 0)
 					(name "~"
@@ -359,6 +321,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -394,12 +370,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2d52c4b-b637-4f20-8879-92f0ba93e434")
-	)
-	(junction
-		(at 231.14 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae517d91-5181-42e0-adc2-6d2b42c883a0")
 	)
 	(junction
 		(at 271.78 144.78)
@@ -627,7 +597,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 100.33) (xy 271.78 100.33)
+			(xy 194.31 100.33) (xy 271.78 100.33)
 		)
 		(stroke
 			(width 0)
@@ -885,16 +855,6 @@
 			(type default)
 		)
 		(uuid "d92d88ac-522b-4d0f-9df8-9e2d904c952c")
-	)
-	(wire
-		(pts
-			(xy 194.31 100.33) (xy 231.14 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e259a536-3f52-433a-9c45-3833e5887624")
 	)
 	(wire
 		(pts
@@ -1449,6 +1409,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 271.78 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17314397-8bb7-4209-9de4-a0f1b24a4a14")
+		(property "Reference" "#FLG02"
+			(at 271.78 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 271.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 271.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f512c0-81cb-4fbe-ba13-89148d9f6352")
+		)
+		(instances
+			(project ""
+				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 115.57 104.14 270)
 		(unit 1)
@@ -1576,72 +1602,6 @@
 			(project ""
 				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
 					(reference "#PWR0153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 231.14 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b6d8b9-e28e-4a73-a33b-584499853967")
-		(property "Reference" "#PWR03"
-			(at 231.14 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 231.14 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 231.14 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "197c58cb-345e-4d9c-82e8-9cba41100e16")
-		)
-		(instances
-			(project ""
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2066,36 +2026,6 @@
 				(justify left top)
 			)
 		)
-		(pin "{I2C}" bidirectional
-			(at 185.42 147.32 0)
-			(uuid "53890bb0-9741-4213-bbb0-6c69371a808b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "D+" bidirectional
-			(at 185.42 149.86 0)
-			(uuid "fd91e5c1-00d7-4ef0-9567-45c45e3095be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "D-" bidirectional
-			(at 185.42 152.4 0)
-			(uuid "1afeb15c-9825-45e3-80bb-bc9c6595d66a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{SERIAL}" bidirectional
 			(at 185.42 160.02 0)
 			(uuid "7f5e137e-c4e2-421b-bc56-039e5fd0ff49")
@@ -2119,6 +2049,46 @@
 		(pin "RUN" output
 			(at 185.42 157.48 0)
 			(uuid "a8e42aac-b171-42d8-b4b9-98f4bafb76cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT{I2C}" bidirectional
+			(at 185.42 147.32 0)
+			(uuid "8da7ad44-48f0-4b1f-a36b-c8ec3f6acadb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT{I2C}" bidirectional
+			(at 185.42 144.78 0)
+			(uuid "d3dff611-5c04-4262-a15a-7a849732f61f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 185.42 152.4 0)
+			(uuid "8e3a3283-926d-4aaf-85c1-270bc4dae9d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 185.42 149.86 0)
+			(uuid "8fd68887-97b5-41b5-8fc7-a3cc4330ebc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,6 +2354,16 @@
 		(pin "{I2C}" bidirectional
 			(at 228.6 124.46 0)
 			(uuid "44c8f120-f2a2-4e41-a876-ba383df52e16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRESET" input
+			(at 228.6 127 0)
+			(uuid "7c6b98cb-0f0d-469c-99dc-e563bce24e9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,26 +2770,6 @@
 				(justify left)
 			)
 		)
-		(pin "USB_D+" bidirectional
-			(at 196.85 149.86 180)
-			(uuid "b22f128d-2744-4180-8d5a-1025126b41b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_D-" bidirectional
-			(at 196.85 152.4 180)
-			(uuid "a2d733a7-4c95-43a5-904b-60b97a6fed44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{SERIAL}" bidirectional
 			(at 196.85 160.02 180)
 			(uuid "595314c7-a063-456d-b763-466f37b2bf9c")
@@ -2858,6 +2818,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 196.85 152.4 180)
+			(uuid "a6237d5d-7819-4dd1-98ed-b128534a50bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 196.85 149.86 180)
+			(uuid "3d7c5c61-2130-455e-97c9-e015dfefc863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

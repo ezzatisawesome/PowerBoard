@@ -4490,6 +4490,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "370a7d46-6b5f-4146-8af6-0822327c9ed2")
 		)
@@ -6707,6 +6725,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82b0cdde-9175-405f-b68c-229acfe3d447")
 		)
@@ -8671,6 +8707,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3636ea13-9dd7-48dd-aa09-01899b51496c")
 		)
@@ -8788,7 +8842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178083586392065"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -8797,7 +8851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "18.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
+		(property "Description" "100mW 18.2kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -8806,7 +8860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic Electronic Components"
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -8815,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "ERA-3AEB1822V"
+		(property "Mfr P/N" "0603WAF1822T5E"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -8833,7 +8887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C22793"
+		(property "Supplier_1 P/N" "C22892"
 			(at 95.25 95.25 0)
 			(effects
 				(font

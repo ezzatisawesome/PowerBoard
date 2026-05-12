@@ -2578,12 +2578,6 @@
 		(uuid "720feaf2-c658-414e-aba9-4a628c03e9d0")
 	)
 	(junction
-		(at 124.46 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7459bc44-b7c9-4721-bc0e-07c7a85983b8")
-	)
-	(junction
 		(at 255.27 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2666,6 +2660,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe01c909-f664-4fdf-a902-710e103f3b32")
+	)
+	(no_connect
+		(at 132.08 86.36)
+		(uuid "ef49325f-6f61-44ce-b7fa-8415c7ee6e8b")
 	)
 	(bus_entry
 		(at 57.15 135.89)
@@ -2786,7 +2784,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 132.08 83.82)
+			(xy 123.19 83.82) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2906,16 +2904,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "339b8a22-78d3-479b-884b-9055231c7531")
-	)
-	(wire
-		(pts
 			(xy 204.47 104.14) (xy 204.47 99.06)
 		)
 		(stroke
@@ -3023,16 +3011,6 @@
 			(type default)
 		)
 		(uuid "576d3cfc-40ad-4cde-b90c-da2eb156a469")
-	)
-	(wire
-		(pts
-			(xy 123.19 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d275b5e-fe00-4cac-bb5b-b5c4cba20cdb")
 	)
 	(wire
 		(pts
@@ -3636,16 +3614,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1568959-a2b3-4a71-9081-2e0e2faa378e")
-	)
-	(wire
-		(pts
 			(xy 251.46 77.47) (xy 251.46 86.36)
 		)
 		(stroke
@@ -3723,16 +3691,6 @@
 			(type default)
 		)
 		(uuid "f09d709a-af36-4cb8-b40b-c9e2b6790511")
-	)
-	(wire
-		(pts
-			(xy 124.46 83.82) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e23533-f004-4af0-ab66-75cbd0758a3b")
 	)
 	(wire
 		(pts
@@ -5194,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Value" "NVTFS5C453NLWFTAG"
+		(property "Value" "NVTFS003N04CTAG"
 			(at 137.16 139.7 0)
 			(effects
 				(font
@@ -5212,7 +5170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NVTFS5C453NL-D.PDF"
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588949554503307264-C604632.pdf?response-content-disposition=attachment%3B%20filename%3DC604632.pdf%3B%20filename%2A%3DUTF-8%27%27C604632.pdf&x-oss-date=20260510T040252Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vYDovb24l0wZaROxOIlXEnZLh%2Bq6rShzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qfdy12NI4J7b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWmrOH8lfltHD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIglzk4qKWD5sagAGRWNaAxl4a2rNQjvBW6AmkltAlFgevhJHIuJPJWlIVJSYA4QW11enahpwxGph4PFcBHL8KkfAEyMI7%2FmQfgll2GHuT1IZYAbmxSlNW8%2FDCoqKTs8DiWWXBHOJfWasGC4tEK76PtGjyMI91vAX8Folh5wB1KAkyZKkDhjjEwA8RmCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXmE1o6VUvTz959qqrh7RDoye%2F20260510%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=4e78add4246cb6386929ac86118606f6cfdaa701c583431267dae9f8176dd16b"
 			(at 128.27 -60.3 0)
 			(effects
 				(font
@@ -5222,7 +5180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AECQ101 Qualified and PPAP Capable; NVTFS5C453NLWF  Wettable Flanks Product; Low Capacitance; Low On-Resistance; RoHS Compliant; Small Footprint (3x3 mm)"
+		(property "Description" "N-channel 103A 2.9mΩ@10V 23nC@10V 28pF 3.5V 40V 69W WDFN-8(3.3x3.3)"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -5231,57 +5189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 128.27 -260.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-NVTFS5C453NLWFTA"
-			(at 128.27 -360.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NVTFS5C453NLWFTAG?qs=HXFqYaX1Q2wA6NwAKxCPbg%3D%3D"
-			(at 128.27 -460.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 128.27 -560.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NVTFS5C453NLWFTAG"
-			(at 128.27 -660.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mfr" ""
+		(property "Mfr" "onsemi"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -5290,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "NVTFS003N04CTAG"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -5308,7 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C145551"
+		(property "Supplier_1 P/N" "C604632"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -5434,7 +5342,7 @@
 				)
 			)
 		)
-		(property "Value" "33.6k"
+		(property "Value" "31.6k"
 			(at 67.31 53.34 90)
 			(effects
 				(font
@@ -5460,7 +5368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33.6K OHM 0.1% 1/10W 0603"
+		(property "Description" "100mW 31.6kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603"
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -5469,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "YAGEO"
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -5478,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RN73R1JTTD3362B25"
+		(property "Mfr P/N" "RT0603BRD0731K6L"
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -5496,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C22800"
+		(property "Supplier_1 P/N" "C705766"
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -5514,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -5621,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1885C1H332FA16-01A.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588929618572660736"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5630,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 3300PF 50V C0G/NP0 0603"
+		(property "Description" "3.3nF 50V C0G ±5% 0603"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5639,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "TDK"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5648,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "CL10B333KB8NNNC"
+		(property "Mfr P/N" "C1608C0G1H332JT000N"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5666,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C21117"
+		(property "Supplier_1 P/N" "C342849"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -5684,7 +5592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -6430,7 +6338,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 85.09 270)
+		(at 123.19 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6439,7 +6347,7 @@
 		(fields_autoplaced yes)
 		(uuid "44c8003e-42d3-448e-9fdc-aebaf532d13a")
 		(property "Reference" "#PWR010"
-			(at 116.84 85.09 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 85.09 0)
+			(at 118.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 85.09 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 85.09 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 85.09 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RN73H.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178157058015232"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -6680,7 +6588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 60.4K OHM 0.1% 1/10W 0603"
+		(property "Description" "100mW 60.4kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -6689,7 +6597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KOA Speer Electronics, Inc."
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -6698,7 +6606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "RN73H1JTTD6042B25"
+		(property "Mfr P/N" "0603WAF6042T5E"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -6716,7 +6624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C23228"
+		(property "Supplier_1 P/N" "C23089"
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -6734,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 74.93 66.04 0)
 			(effects
 				(font
@@ -6853,7 +6761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode: 771-BAS716-T/R"
+		(property "Description" "1.02V@150mA 200mA 300pA@100V 4A 85V"
 			(at 154.94 127 0)
 			(effects
 				(font
@@ -6880,7 +6788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" "LCSC"
+		(property "JLCPCB Status" "JLC in-stock package match"
 			(at 154.94 127 270)
 			(effects
 				(font
@@ -6889,8 +6797,17 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C5292819"
-			(at 154.94 127 270)
+		(property "SNAPEDA_PN" ""
+			(at 154.94 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Nexperia"
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6824,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Status" "JLC in-stock package match"
+		(property "Supplier_1" "LCSC"
 			(at 154.94 127 270)
 			(effects
 				(font
@@ -6916,8 +6833,62 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" ""
-			(at 154.94 127 90)
+		(property "Supplier_1 P/N" "C282366"
+			(at 154.94 127 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Unit Price" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 P/N" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Unit Price" ""
+			(at 154.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 67.31 86.36 0)
 			(effects
 				(font
@@ -7651,7 +7622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Murata Electronics"
+		(property "Mfr" "Samsung Electro-Mechanics"
 			(at 43.18 107.95 0)
 			(effects
 				(font
@@ -8646,7 +8617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/995/1/xal50xx.pdf"
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/3feebf07-b61a-4be7-8a8e-6fbe8520efb4/xel6060.pdf"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8655,7 +8626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power Inductors - SMD 1uH Shld 20% 11.1A 9.4mOhms"
+		(property "Description" "13.8A 17A 2.7uH 6.94mΩ ±20% SMD2525"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8673,7 +8644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" "SER2918H-333KL"
+		(property "Mfr P/N" "XEL6060-272MEC"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8691,7 +8662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" "C3911813"
+		(property "Supplier_1 P/N" "C19191641"
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8709,7 +8680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8718,7 +8689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" "JLCPCB"
+		(property "Supplier_2" ""
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8727,7 +8698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" "C19191693"
+		(property "Supplier_2 P/N" ""
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8736,7 +8707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" "1.5264"
+		(property "Supplier_2 Unit Price" ""
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8745,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" "1"
+		(property "Supplier_2 Price @ Qty" ""
 			(at 179.07 132.08 0)
 			(effects
 				(font
@@ -8817,7 +8788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCC.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8667086713681608704"
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -8835,7 +8806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "KYOCERA AVX"
+		(property "Mfr" "YAGEO"
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -8880,7 +8851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 67.31 76.2 0)
 			(effects
 				(font
@@ -9385,76 +9356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 227.33 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b815bbff-44f7-4109-a4fa-7dfbe3da029a")
-		(property "Reference" "#FLG05"
-			(at 227.33 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 227.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1921f0f4-b5d4-4126-af57-6be0052057ae")
-		)
-		(instances
-			(project ""
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/0cef1f69-ed1d-4f02-ab28-a001d17f862e"
-					(reference "#FLG05")
-					(unit 1)
-				)
-				(path "/99785679-20de-4827-b4cc-bc3c187068c9/9564929a-642e-4163-88c2-45054b63a5ed/136865b6-9226-4363-90e9-85327831a678"
-					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 260.35 90.17 180)
 		(unit 1)
@@ -9679,7 +9580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 33.6K OHM 0.1% 1/10W 0603"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -9733,7 +9634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 96.52 55.88 0)
 			(effects
 				(font

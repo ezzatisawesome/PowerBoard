@@ -5769,7 +5769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" ""
+		(property "Mfr" "Texas Instruments"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5778,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr P/N" ""
+		(property "Mfr P/N" "INA745BIRELR"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5787,7 +5787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1" ""
+		(property "Supplier_1" "JLCPCB"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5796,7 +5796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 P/N" ""
+		(property "Supplier_1 P/N" "C35213810"
 			(at 170.18 76.2 0)
 			(effects
 				(font

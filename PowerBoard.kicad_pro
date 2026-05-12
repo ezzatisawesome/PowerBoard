@@ -582,6 +582,9 @@
       "+5V": [
         "cls_5V"
       ],
+      "/Main/LV_BUS/HV_BUS": [
+        "cls_HPWR"
+      ],
       "/Main/backup_batt_load_sw/IN": [
         "cls_HPBUS"
       ],

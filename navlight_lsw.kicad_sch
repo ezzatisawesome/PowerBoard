@@ -660,42 +660,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 40.64 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin open_collector line
 					(at 40.64 -10.16 180)
 					(length 5.08)
@@ -887,6 +851,44 @@
 						)
 					)
 					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS26400RHFR_1_1"
+				(pin passive line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1171,12 +1173,6 @@
 		(color 0 0 0 0)
 		(uuid "9bb3d0fc-5e15-4d87-b9e8-9b6dab6b5314")
 	)
-	(junction
-		(at 173.99 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd4e9d23-c798-4a49-9c8a-b47476cf092b")
-	)
 	(no_connect
 		(at 130.81 125.73)
 		(uuid "575ffd1d-752a-4d5b-b971-33729b8f9d32")
@@ -1306,23 +1302,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 97.79) (xy 173.99 97.79)
+			(xy 171.45 97.79) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36fc53d8-fe4d-4459-856d-c58d44b1f484")
-	)
-	(wire
-		(pts
-			(xy 173.99 93.98) (xy 173.99 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a47353-e5f3-4bd0-86ed-ec886366139e")
 	)
 	(wire
 		(pts
@@ -1343,16 +1329,6 @@
 			(type default)
 		)
 		(uuid "473ce0c8-b6cb-4977-94b9-03974a35644f")
-	)
-	(wire
-		(pts
-			(xy 177.8 97.79) (xy 173.99 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5d5f1b-23ef-49eb-a51e-bfc043fe2958")
 	)
 	(wire
 		(pts
@@ -1513,16 +1489,6 @@
 			(type default)
 		)
 		(uuid "ac193d24-5a11-4c49-b833-af8fccee7a4b")
-	)
-	(wire
-		(pts
-			(xy 173.99 93.98) (xy 175.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad95bb81-4cea-409c-be10-131f101dfef9")
 	)
 	(wire
 		(pts
@@ -1715,7 +1681,7 @@
 		(uuid "cdd6138f-b83e-4193-9f85-d0b9a2981230")
 	)
 	(label "nFLT"
-		(at 175.26 93.98 0)
+		(at 173.99 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,7 +1785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "YAGEO"
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 181.61 113.03 0)
 			(effects
 				(font
@@ -2777,6 +2743,24 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier_1 Price @ Qty" ""
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier_2 Price @ Qty" ""
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d1997cd-8b39-4230-8a2f-6f67e0a09577")
 		)
@@ -2822,7 +2806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_PowerBoard:RHF0024A-MFG"
+		(property "Footprint" "RHF0024A-IPC_A"
 			(at 130.81 87.63 0)
 			(effects
 				(font
@@ -3099,7 +3083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "YAGEO"
+		(property "Mfr" "UNI-ROYAL(Uniroyal Elec)"
 			(at 181.61 107.95 0)
 			(effects
 				(font

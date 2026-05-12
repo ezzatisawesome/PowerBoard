@@ -1867,7 +1867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_1 Price @ Qty" "1"
+		(property "Supplier_1 Price @ Qty" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1876,7 +1876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2" "Analog Devices"
+		(property "Supplier_2" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 P/N" "C141953"
+		(property "Supplier_2 P/N" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Unit Price" "3.2689"
+		(property "Supplier_2 Unit Price" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -1903,7 +1903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier_2 Price @ Qty" "1"
+		(property "Supplier_2 Price @ Qty" ""
 			(at 118.11 93.98 0)
 			(effects
 				(font
